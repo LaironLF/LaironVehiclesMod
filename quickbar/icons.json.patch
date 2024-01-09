@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/normal/-",
+    "value": { "label" : "^#ff76a3;Lairon Vehicles", "pane" : "/interface/dropvehicle/deploypane.json", "icon" : "/baseicons/icon.png" }
+  }
+]

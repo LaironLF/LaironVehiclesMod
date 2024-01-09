@@ -1,0 +1,7 @@
+{
+  "name": "Alvarado", // Also like a ShapeShips name must be without Spaces
+  "subName": "Villefort",
+  "previewScale": 2,
+  "colorCanChanging": false,
+  "vehiclePath": "/vehicles/cars/Alvarado/Cybertruck.json"
+}

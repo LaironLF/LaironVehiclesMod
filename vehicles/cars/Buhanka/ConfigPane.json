@@ -1,0 +1,8 @@
+{
+  "name": "Buhanka", // Also like a ShapeShips name must be without Spaces
+  "subName": "UAZ",
+  "previewScale": 2,
+  "icon": "/baseicons/car.png",
+  "colorCanChanging": true,
+  "vehiclePath": "/vehicles/cars/Buhanka/Buhanka.json"
+}

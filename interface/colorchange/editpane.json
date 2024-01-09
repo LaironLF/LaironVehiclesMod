@@ -1,0 +1,108 @@
+{
+  "shipConfig": {},
+  "gui": {
+    "panefeature": {
+      "type": "panefeature"
+    },
+    "background": {
+      "type": "background",
+      "fileHeader": "/interface/colorchange/header.png",
+      "fileBody": "/interface/colorchange/body.png",
+      "fileFooter": "/interface/colorchange/footer.png"
+    },
+    "shipName": {
+      "type": "label",
+      "position": [
+        32,
+        128
+      ],
+      "hAnchor": "left",
+      "width": 120,
+      "value": "Body Color Editor",
+      "color": [
+        255,
+        255,
+        255
+      ],
+      "mouseTransparent": true
+    },
+    "btnApply": {
+      "type": "button",
+      "callback": "apply",
+      "size": [
+        88,
+        18
+      ],
+      "position": [
+        20,
+        21
+      ],
+      "pressedOffset": [
+        0,
+        0
+      ],
+      "fontColorDisabled": [
+        107,
+        107,
+        107
+      ],
+      "fontColor": [
+        178,
+        178,
+        178
+      ],
+      "disabled": false,
+      "caption": "A P P L Y",
+      "base": "/interface/colorchange/btnapplyunselected.png",
+      "hover": "/interface/colorchange/btnapplyselected.png",
+      "pressed": "/interface/colorchange/btnapplyselected.png",
+      "inactive": "/interface/colorchange/btnapplyunselected.png",
+      "zlevel": -1
+    },
+    "textboxImg": {
+      "type": "image",
+      "file": "/interface/colorchange/colorfield.png",
+      "position": [
+        16,
+        60
+      ],
+      "zlevel": 5
+    },
+    "bodyColor1": {
+      "type": "textbox",
+      "position": [
+        46,
+        62
+      ],
+      "enterKey": "apply",
+      "hint": "C0L0RB",
+      "regex": "[a-fA-F0-9]{0,6}",
+      "maxWidth": 80,
+      "fontSize": 10,
+      "color": [
+        178,
+        178,
+        178
+      ],
+      "zlevel": 6,
+      "callback": "setColor"
+    },
+    "palette": {
+      "type": "image",
+      "file": "/interface/colorchange/palette.png",
+      "position": [
+        32,
+        96
+      ],
+      "scale": 1,
+      "zlevel": 3
+    }
+  },
+  "scriptWidgetCallbacks": [
+    "apply",
+    "setColor"
+  ],
+  "scripts": [
+    "/interface/colorchange/editpane.lua"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "list": [
+    "/vehicles/cars/TOYOTA_CV001/ConfigPane.json",
+    "/vehicles/moto/Dientes/ConfigPane.json",
+    "/vehicles/moto/Carbon/ConfigPane.json",
+    "/vehicles/cars/LADA_2107/ConfigPane.json",
+    "/vehicles/cars/Buhanka/ConfigPane.json",
+    "/vehicles/cars/Alvarado/ConfigPane.json"
+    //other paths
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "gui": {
+    "panefeature": {
+      "type": "panefeature"
+    },
+    "background": {
+      "type": "background",
+      "fileHeader": "/interface/dropvehicle/header.png",
+      "fileBody": "/interface/dropvehicle/body.png",
+      "fileFooter": "/interface/dropvehicle/footer.png"
+    },
+    "windowtitle": {
+      "type": "title",
+      "title": "Vehicle spawn interface",
+      "subtitle": "Drop a vehicle on your face",
+      "position": [
+        47.5,
+        27
+      ],
+      "icon": {
+        "type": "image",
+        "file": "/assetmissing.png",
+        "zlevel": -1
+      }
+    },
+    "vehiclePreview": {
+      "zlevel": -3.5,
+      "type": "canvas",
+      "rect": [
+        193,
+        40,
+        490,
+        220
+      ],
+      "captureMouseEvents": false,
+      "captureKeyboardEvents": false
+    },
+    "vehicleListBack": {
+      "type": "image",
+      "file": "/interface/dropvehicle/selectBack.png",
+      "position": [
+        0,
+        11
+      ],
+      "zlevel": -3
+    },
+    "vehicles": {
+      "type": "scrollArea",
+      "rect": [
+        8,
+        67,
+        189,
+        213
+      ],
+      "children": {
+        "vehicleItemList": {
+          "type": "list",
+          "schema": {
+            "selectedBG": "/interface/dropvehicle/itemselected.png",
+            "unselectedBG": "/interface/dropvehicle/itemunselected.png",
+            "spacing": [
+              0,
+              2
+            ],
+            "memberSize": [
+              170,
+              22
+            ],
+            "listTemplate": {
+              "background": {
+                "type": "image",
+                "file": "/interface/dropvehicle/itemunselected.png",
+                "position": [
+                  0,
+                  0
+                ],
+                "zlevel": -1
+              },
+              "icon": {
+                "type": "image",
+                "position": [
+                  2,
+                  1
+                ],
+                "file": "/baseicons/icon.png",
+                "mouseTransparent": true
+              },
+              "shipName": {
+                "type": "label",
+                "position": [
+                  23,
+                  10
+                ],
+                "hAnchor": "left",
+                "width": 120,
+                "value": "Ship name",
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "mouseTransparent": true
+              },
+              "shipId": {
+                "type": "label",
+                "position": [
+                  23,
+                  2
+                ],
+                "hAnchor": "left",
+                "width": 120,
+                "value": "",
+                "color": [
+                  180,
+                  180,
+                  180
+                ],
+                "mouseTransparent": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "btnDeploy": {
+      "type": "button",
+      "callback": "deploy",
+      "size": [
+        135,
+        25
+      ],
+      "position": [
+        18,
+        11
+      ],
+      "pressedOffset": [
+        0,
+        0
+      ],
+      "fontColorDisabled": [
+        107,
+        107,
+        107
+      ],
+      "fontColor": [
+        178,
+        178,
+        178
+      ],
+      "disabled": true,
+      "base": "/interface/dropvehicle/btndropunselected.png",
+      "hover": "/interface/dropvehicle/btndropselected.png",
+      "pressed": "/interface/dropvehicle/btndropselected.png",
+      "inactive": "/interface/dropvehicle/btndropunselected.png",
+      "zlevel": 1
+    },
+    "btnEdit": {
+      "type": "button",
+      "callback": "edit",
+      "position": [
+        156,
+        10
+      ],
+      "pressedOffset": [
+        0,
+        0
+      ],
+      "fontColorDisabled": [
+        107,
+        107,
+        107
+      ],
+      "fontColor": [
+        178,
+        178,
+        178
+      ],
+      "disabled": true,
+      "caption": "",
+      "base": "/interface/dropvehicle/btncolorunselected.png",
+      "hover": "/interface/dropvehicle/btncolorselected.png",
+      "pressed": "/interface/dropvehicle/btncolorselected.png",
+      "zlevel": 2
+    }
+  },
+  "scriptWidgetCallbacks": [
+    "itemSelected",
+    "deploy",
+    "edit"
+  ],
+  "scripts": [
+    "/interface/dropvehicle/deploypane.lua"
+  ]
+}

@@ -1,0 +1,1371 @@
+{
+    "materialKind": "robotic",
+    "occupiedMovementSettings": {
+        "mass": 4,
+        "collisionPoly": [
+            [
+                -5,
+                0.5
+            ],
+            [
+                -5,
+                -0.625
+            ],
+            [
+                -4,
+                -1.625
+            ],
+            [
+                4,
+                -1.625
+            ],
+            [
+                5,
+                -0.625
+            ],
+            [
+                5,
+                0.5
+            ]
+        ],
+        "gravityEnabled": true,
+        "collisionEnabled": true
+    },
+    "particleEmitters": {
+        "wreckage": {
+            "active": false,
+            "transformationGroups": [
+                "flip",
+                "rotation"
+            ],
+            "emissionRate": 0,
+            "particles": [
+                {
+                    "particle": "hoverbikekhakiwreck1"
+                },
+                {
+                    "particle": "hoverbikekhakiwreck2"
+                },
+                {
+                    "particle": "hoverbikewreck3"
+                },
+                {
+                    "particle": "hoverbikekhakiwreck4"
+                },
+                {
+                    "particle": "hoverbikewreck5"
+                },
+                {
+                    "particle": "hoverbikekhakiwreck6"
+                }
+            ]
+        },
+        "damageShards": {
+            "transformationGroups": [
+                "flip",
+                "rotation"
+            ],
+            "offsetRegion": [
+                -3,
+                -1.5,
+                3,
+                1
+            ],
+            "particles": [
+                {
+                    "particle": "hoverbikekhakishard"
+                },
+                {
+                    "particle": "fireshard"
+                }
+            ],
+            "emissionRate": 0,
+            "burstCount": 8
+        }
+    },
+    "loungePositions": {
+        "drivingSeat": {
+            "dance": "warmhands",
+            "statusEffects": [
+                "highprotection",
+                "intents"
+            ],
+            "cameraFocus": true,
+            "part": "foreground",
+            "orientation": "sit",
+            "emote": "idle",
+            "partAnchor": "drivingSeatPosition"
+        },
+        "passengerSeat3": {
+            "dance": "typing",
+            "statusEffects": [
+                "highprotection",
+                "intents"
+            ],
+            "cameraFocus": true,
+            "part": "foreground",
+            "orientation": "sit",
+            "emote": "idle",
+            "partAnchor": "passengerSeatPosition3"
+        },
+        "passengerSeat4": {
+            "dance": "typing",
+            "statusEffects": [
+                "highprotection",
+                "intents"
+            ],
+            "cameraFocus": true,
+            "part": "foreground",
+            "orientation": "sit",
+            "emote": "idle",
+            "partAnchor": "passengerSeatPosition4"
+        },
+        "passengerSeat": {
+            "dance": "typing",
+            "statusEffects": [
+                "highprotection",
+                "intents"
+            ],
+            "cameraFocus": true,
+            "part": "foreground",
+            "orientation": "sit",
+            "emote": "idle",
+            "partAnchor": "passengerSeatPosition"
+        },
+        "passengerSeat1": {
+            "dance": "typing",
+            "statusEffects": [
+                "highprotection",
+                "intents"
+            ],
+            "cameraFocus": true,
+            "part": "foreground",
+            "orientation": "sit",
+            "emote": "idle",
+            "partAnchor": "passengerSeatPosition1"
+        },
+        "passengerSeat2": {
+            "dance": "typing",
+            "statusEffects": [
+                "highprotection",
+                "intents"
+            ],
+            "cameraFocus": true,
+            "part": "foreground",
+            "orientation": "sit",
+            "emote": "idle",
+            "partAnchor": "passengerSeatPosition2"
+        }
+    },
+    "horizontalControlForce": 80,
+    "engineIdleVolume": 1,
+    "fireRateAtZeroHealth": 120,
+    "hoverVelocityFactor": 18,
+    "jumpVelocity": 12,
+    "accelerationTrackingCount": 1,
+    "damagePerSecondWhenOnFire": 1,
+    "zeroGTargetVelocity": 40,
+    "lightsInDamageState": [
+        [
+            "headlightBeam",
+            "dashboardGlow"
+        ],
+        [
+            "headlightBeam",
+            "dashboardGlow"
+        ],
+        [
+            "headlightBeam",
+            "dashboardGlow"
+        ],
+        [
+            "headlightBeam"
+        ]
+    ],
+    "explosionConfig": "/projectiles/explosions/regularexplosion2/regularexplosionknockback.config",
+    "terrainCollisionDamage": 0,
+    "script": "/vehicles/cars/lfmain.lua",
+    "wheelTitles": [
+        "bottomEngine_1",
+        "bottomEngine_2",
+        "bottomEngine_3",
+        "bottomEngine_4"
+    ],
+    "protection": 50,
+    "engineRevPitch": 1.5,
+    "smokeRateAtZeroHealth": 500,
+    "wheelTiltFactor": 0.023,
+    "smokeParticleHealthThreshold": 0.5,
+    "hoverTargetDistance": 3,
+    "backSpringPositions": [
+        [
+            -2.8,
+            0
+        ],
+        [
+            -4.8,
+            0
+        ]
+    ],
+    "maxAngle": 60,
+    "frontSpringPositions": [
+        [
+            2.8,
+            0
+        ],
+        [
+            4.8,
+            0
+        ]
+    ],
+    "targetHorizontalVelocity": 70,
+    "terrainCollisionDamageSourceKind": "falling",
+    "spinFriction": 0.1,
+    "levelApproachFactor": 0.01,
+    "fireParticleHealthThreshold": 0.25,
+    "minDamageCollisionAccel": 45,
+    "engineIdlePitch": 0.75,
+    "movementSettings": {
+        "collisionPoly": [
+            [
+                -5,
+                0.5
+            ],
+            [
+                -5,
+                -0.625
+            ],
+            [
+                -4,
+                -1.625
+            ],
+            [
+                4,
+                -1.625
+            ],
+            [
+                5,
+                -0.625
+            ],
+            [
+                5,
+                0.5
+            ]
+        ],
+        "mass": 4,
+        "gravityEnabled": true,
+        "airFriction": 2,
+        "ignorePlatformCollision": true,
+        "collisionEnabled": true
+    },
+    "angleApproachFactor": 0.04,
+    "damageStatePassengerEmotes": [
+        "idle",
+        "idle",
+        "idle",
+        "annoyed"
+    ],
+    "damageTakenEmote": "oooh",
+    "zeroGSpinRate": 4,
+    "minNotificationCollisionAccel": 15,
+    "animation": {
+        "sounds": {
+            "explode": [
+                "/sfx/gun/grenadeblast_small_fire1.ogg",
+                "/sfx/gun/grenadeblast_small_fire2.ogg",
+                "/sfx/gun/grenadeblast_small_fire3.ogg"
+            ],
+            "engineStartDamaged": [
+                "/sfx/cinematics/ship_upgrade/ftl_repair.ogg"
+            ],
+            "hornLoop": [
+                "/sfx/tech/mech_horn_lacucha.ogg"
+            ],
+            "damageIntermittent": [
+                "/sfx/gun/grenadeblast_small_fire1.ogg",
+                "/sfx/gun/grenadeblast_small_fire2.ogg",
+                "/sfx/gun/grenadeblast_small_fire3.ogg"
+            ],
+            "collisionDamage": [
+                "/sfx/melee/bite_robotic1.ogg"
+            ],
+            "music": [
+                "/assetmissing.wav"
+            ],
+            "engineLoopDamaged": [
+                "/sfx/tech/hoverbike_idle_loop.ogg"
+            ],
+            "collisionNotification": [
+                "/sfx/tech/hoverbike_bump1.ogg",
+                "/sfx/tech/hoverbike_bump2.ogg",
+                "/sfx/tech/hoverbike_bump3.ogg"
+            ],
+            "returnvehicle": [
+                "/sfx/tech/vehicle_disappear1.ogg"
+            ],
+            "headlightSwitchOn": [
+                "/sfx/objects/floodlights_on.ogg"
+            ],
+            "startingEngine": [
+                "/sfx/tech/mech_activate2.ogg"
+            ],
+            "turnOffEngine": [
+                "/sfx/tech/mech_activate2.ogg"
+            ],
+            "headlightSwitchOff": [
+                "/sfx/objects/floodlights_off.ogg"
+            ],
+            "engineStart": [
+                "/sfx/melee/mech_drill_windup1.ogg"
+            ],
+            "changeDamageState": [
+                "/sfx/gun/grenadeblast_small_fire1.ogg",
+                "/sfx/gun/grenadeblast_small_fire2.ogg",
+                "/sfx/gun/grenadeblast_small_fire3.ogg"
+            ],
+            "engineLoop": [
+                "/sfx/tech/hoverbike_drive_loop.ogg"
+            ]
+        },
+        "animatedParts": {
+            "stateTypes": {
+                "rearThruster": {
+                    "states": {
+                        "on": {
+                            "mode": "loop",
+                            "cycle": 0.3,
+                            "frames": 2
+                        },
+                        "off": {}
+                    },
+                    "default": "off"
+                },
+                "bottomThruster": {
+                    "states": {
+                        "on": {
+                            "mode": "loop",
+                            "cycle": 0.3,
+                            "frames": 3
+                        },
+                        "off": {}
+                    },
+                    "default": "off"
+                },
+                "movement": {
+                    "states": {
+                        "warpInPart1": {
+                            "mode": "transition",
+                            "cycle": 0.33,
+                            "frames": 4,
+                            "transition": "warpInPart2"
+                        },
+                        "warpInPart2": {
+                            "mode": "transition",
+                            "cycle": 0.33,
+                            "frames": 4,
+                            "transition": "idle"
+                        },
+                        "warpOutPart1": {
+                            "mode": "transition",
+                            "cycle": 0.33,
+                            "frames": 4,
+                            "transition": "warpOutPart2"
+                        },
+                        "warpOutPart2": {
+                            "mode": "transition",
+                            "cycle": 0.33,
+                            "frames": 4,
+                            "transition": "invisible"
+                        },
+                        "idle": {},
+                        "invisible": {}
+                    },
+                    "default": "idle"
+                },
+                "hazardlights": {
+                    "default": "off",
+                    "states": {
+                        "off": {},
+                        "on": {
+                            "cycle": 1,
+                            "frames": 2,
+                            "mode": "loop"
+                        }
+                    }
+                },
+                "stopsignals": {
+                    "default": "off",
+                    "states": {
+                        "off": {},
+                        "on": {
+                            "cycle": 1,
+                            "frames": 1,
+                            "mode": "loop"
+                        }
+                    }
+                },
+                "headlights": {
+                    "states": {
+                        "on": {},
+                        "off": {}
+                    },
+                    "default": "off"
+                },
+                "onfire": {
+                    "states": {
+                        "on": {
+                            "mode": "loop",
+                            "cycle": 0.5,
+                            "frames": 6
+                        },
+                        "off": {}
+                    },
+                    "default": "off"
+                }
+            },
+            "parts": {
+                "bottomEngine_1": {
+                    "properties": {
+                        "parkTransition": [
+                            0,
+                            0.5
+                        ],
+                        "offset": [
+                            -3.5,
+                            -1.5
+                        ],
+                        "zLevel": 5,
+                        "transformationGroups": [
+                            "rotation",
+                            "bottomEngine_1"
+                        ],
+                        "rotationCenter": [
+                            0,
+                            0.5
+                        ],
+                        "image": "<bottomEngine>",
+                        "centered": true
+                    }
+                },
+                "bottomEngine_2": {
+                    "properties": {
+                        "parkTransition": [
+                            0,
+                            0.5
+                        ],
+                        "offset": [
+                            0.75,
+                            -1.5
+                        ],
+                        "zLevel": 5,
+                        "transformationGroups": [
+                            "rotation",
+                            "bottomEngine_2"
+                        ],
+                        "rotationCenter": [
+                            0,
+                            0.5
+                        ],
+                        "image": "<bottomEngine>",
+                        "centered": true
+                    }
+                },
+                "bottomEngine_3": {
+                    "properties": {
+                        "parkTransition": [
+                            0,
+                            0.5
+                        ],
+                        "offset": [
+                            4,
+                            -1.5
+                        ],
+                        "zLevel": -1,
+                        "transformationGroups": [
+                            "rotation",
+                            "bottomEngine_3"
+                        ],
+                        "rotationCenter": [
+                            0,
+                            0.5
+                        ],
+                        "image": "<bottomEngine>",
+                        "centered": true
+                    }
+                },
+                "bottomEngine_4": {
+                    "properties": {
+                        "parkTransition": [
+                            0,
+                            0.5
+                        ],
+                        "offset": [
+                            -0.25,
+                            -1.5
+                        ],
+                        "zLevel": -1,
+                        "transformationGroups": [
+                            "rotation",
+                            "bottomEngine_4"
+                        ],
+                        "rotationCenter": [
+                            0,
+                            0.5
+                        ],
+                        "image": "<bottomEngine>",
+                        "centered": true
+                    }
+                },
+                "bottomEngine_1_C": {
+                    "properties": {
+                        "parkTransition": [
+                            0,
+                            0.5
+                        ],
+                        "offset": [
+                            -3.5,
+                            -1.5
+                        ],
+                        "zLevel": 5,
+                        "transformationGroups": [
+                            "rotation",
+                            "bottomEngine_1"
+                        ],
+                        "rotationCenter": [
+                            0,
+                            0.5
+                        ],
+                        "image": "<bottomEngineCustom><bodyColor1>",
+                        "centered": true
+                    }
+                },
+                "bottomEngine_2_C": {
+                    "properties": {
+                        "parkTransition": [
+                            0,
+                            0.5
+                        ],
+                        "offset": [
+                            0.75,
+                            -1.5
+                        ],
+                        "zLevel": 5,
+                        "transformationGroups": [
+                            "rotation",
+                            "bottomEngine_2"
+                        ],
+                        "rotationCenter": [
+                            0,
+                            0.5
+                        ],
+                        "image": "<bottomEngineCustom><bodyColor1>",
+                        "centered": true
+                    }
+                },
+                "bottomEngine_3_C": {
+                    "properties": {
+                        "parkTransition": [
+                            0,
+                            0.5
+                        ],
+                        "offset": [
+                            4,
+                            -1.5
+                        ],
+                        "zLevel": -1,
+                        "transformationGroups": [
+                            "rotation",
+                            "bottomEngine_3"
+                        ],
+                        "rotationCenter": [
+                            0,
+                            0.5
+                        ],
+                        "image": "<bottomEngineCustom><bodyColor1>",
+                        "centered": true
+                    }
+                },
+                "bottomEngine_4_C": {
+                    "properties": {
+                        "parkTransition": [
+                            0,
+                            0.5
+                        ],
+                        "offset": [
+                            -0.25,
+                            -1.5
+                        ],
+                        "zLevel": -1,
+                        "transformationGroups": [
+                            "rotation",
+                            "bottomEngine_4"
+                        ],
+                        "rotationCenter": [
+                            0,
+                            0.5
+                        ],
+                        "image": "<bottomEngineCustom><bodyColor1>",
+                        "centered": true
+                    }
+                },
+                "bottomThrust1": {
+                    "properties": {
+                        "offset": [
+                            -3.5,
+                            -1.5
+                        ],
+                        "fullbright": true,
+                        "zLevel": 2,
+                        "transformationGroups": [
+                            "flip",
+                            "rotation",
+                            "bottomEngine_1"
+                        ],
+                        "light": [
+                            87,
+                            148,
+                            150
+                        ],
+                        "centered": true
+                    },
+                    "partStates": {
+                        "bottomThruster": {
+                            "on": {
+                                "frameProperties": {
+                                    "image": [
+                                        "<bottomThruster1>",
+                                        "<bottomThruster2>",
+                                        "<bottomThruster3>"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "bottomThrust2": {
+                    "properties": {
+                        "offset": [
+                            0.75,
+                            -1.5
+                        ],
+                        "fullbright": true,
+                        "zLevel": 2,
+                        "transformationGroups": [
+                            "flip",
+                            "rotation",
+                            "bottomEngine_2"
+                        ],
+                        "light": [
+                            87,
+                            148,
+                            150
+                        ],
+                        "centered": true
+                    },
+                    "partStates": {
+                        "bottomThruster": {
+                            "on": {
+                                "frameProperties": {
+                                    "image": [
+                                        "<bottomThruster1>",
+                                        "<bottomThruster2>",
+                                        "<bottomThruster3>"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "bottomThrust3": {
+                    "properties": {
+                        "offset": [
+                            4,
+                            -1.5
+                        ],
+                        "fullbright": true,
+                        "zLevel": -2,
+                        "transformationGroups": [
+                            "flip",
+                            "rotation",
+                            "bottomEngine_3"
+                        ],
+                        "light": [
+                            87,
+                            148,
+                            150
+                        ],
+                        "centered": true
+                    },
+                    "partStates": {
+                        "bottomThruster": {
+                            "on": {
+                                "frameProperties": {
+                                    "image": [
+                                        "<bottomThruster1>",
+                                        "<bottomThruster2>",
+                                        "<bottomThruster3>"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "bottomThrust4": {
+                    "properties": {
+                        "offset": [
+                            -0.25,
+                            -1.5
+                        ],
+                        "fullbright": true,
+                        "zLevel": -2,
+                        "transformationGroups": [
+                            "flip",
+                            "rotation",
+                            "bottomEngine_4"
+                        ],
+                        "light": [
+                            87,
+                            148,
+                            150
+                        ],
+                        "centered": true
+                    },
+                    "partStates": {
+                        "bottomThruster": {
+                            "on": {
+                                "frameProperties": {
+                                    "image": [
+                                        "<bottomThruster1>",
+                                        "<bottomThruster2>",
+                                        "<bottomThruster3>"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "rearThrust": {
+                    "properties": {
+                        "zLevel": -1,
+                        "transformationGroups": [
+                            "flip",
+                            "rotation"
+                        ],
+                        "light": [
+                            87,
+                            148,
+                            150
+                        ],
+                        "centered": true,
+                        "fullbright": true
+                    },
+                    "partStates": {
+                        "rearThruster": {
+                            "on": {
+                                "frameProperties": {
+                                    "image": [
+                                        "<rearThruster1>",
+                                        "<rearThruster2>",
+                                        "<rearThruster3>"
+                                    ],
+                                    "offset": [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ]
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "background": {
+                    "properties": {
+                        "zLevel": -1,
+                        "transformationGroups": [
+                            "flip",
+                            "rotation"
+                        ],
+                        "centered": true,
+                        "image": "<idleBackground>",
+                        "offset": [
+                            0,
+                            0
+                        ]
+                    }
+                },
+                "foregroundCustom": {
+                    "properties": {
+                        "zLevel": 1,
+                        "transformationGroups": [
+                            "flip",
+                            "rotation"
+                        ],
+                        "centered": true,
+                        "image": "<idleForegroundCustom><bodyColor1>",
+                        "offset": [
+                            0,
+                            0
+                        ]
+                    }
+                },
+                "stop": {
+                    "partStates": {
+                        "stopsignals": {
+                            "on": {
+                                "frameProperties": {
+                                    "image": [
+                                        "<stopOn>",
+                                        "/assetmissing.png"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "properties": {
+                        "offset": [
+                            0,
+                            0
+                        ],
+                        "centered": true,
+                        "fullbright": true,
+                        "transformationGroups": [
+                            "flip",
+                            "rotation"
+                        ],
+                        "zLevel": 2
+                    }
+                },
+                "hazard": {
+                    "partStates": {
+                        "hazardlights": {
+                            "on": {
+                                "frameProperties": {
+                                    "image": [
+                                        "<hazardOn>",
+                                        "/assetmissing.png"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "properties": {
+                        "offset": [
+                            0,
+                            0
+                        ],
+                        "centered": true,
+                        "fullbright": true,
+                        "transformationGroups": [
+                            "flip",
+                            "rotation"
+                        ],
+                        "zLevel": 2
+                    }
+                },
+                "fire": {
+                    "properties": {
+                        "zLevel": 2,
+                        "transformationGroups": [
+                            "flip",
+                            "rotation"
+                        ],
+                        "centered": true,
+                        "fullbright": true
+                    },
+                    "partStates": {
+                        "onfire": {
+                            "on": {
+                                "properties": {
+                                    "image": "<fire>"
+                                }
+                            }
+                        }
+                    }
+                },
+                "foreground": {
+                    "properties": {
+                        "passengerSeatPosition2": [
+                            -1,
+                            1.6
+                        ],
+                        "passengerSeatPosition3": [
+                            0,
+                            1.6
+                        ],
+                        "passengerSeatPosition4": [
+                            0.5,
+                            1.6
+                        ],
+                        "passengerSeatPosition": [
+                            -0.5,
+                            1.6
+                        ],
+                        "offset": [
+                            0,
+                            0
+                        ],
+                        "zLevel": 1,
+                        "transformationGroups": [
+                            "flip",
+                            "rotation"
+                        ],
+                        "drivingSeatPosition": [
+                            0.9,
+                            1.6
+                        ],
+                        "centered": true,
+                        "passengerSeatPosition1": [
+                            0.3,
+                            1.6
+                        ],
+                        "image": "<idleForeground>"
+                    }
+                },
+                "bottomThrust": {
+                    "properties": {
+                        "zLevel": -1,
+                        "transformationGroups": [
+                            "flip",
+                            "rotation",
+                            "bottomEngine_1"
+                        ],
+                        "light": [
+                            87,
+                            148,
+                            150
+                        ],
+                        "centered": true,
+                        "fullbright": true
+                    },
+                    "partStates": {
+                        "bottomThruster": {
+                            "on": {
+                                "frameProperties": {
+                                    "image": [
+                                        "/assetMissing.png",
+                                        "/assetMissing.png",
+                                        "/assetMissint.png"
+                                    ],
+                                    "offset": [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ]
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "warp": {
+                    "properties": {
+                        "zLevel": 3,
+                        "transformationGroups": [
+                            "flip",
+                            "rotation"
+                        ],
+                        "centered": true,
+                        "fullbright": true
+                    },
+                    "partStates": {
+                        "movement": {
+                            "warpInPart1": {
+                                "properties": {
+                                    "image": "<warpingIn1>"
+                                }
+                            },
+                            "warpInPart2": {
+                                "properties": {
+                                    "image": "<warpingIn2>"
+                                }
+                            },
+                            "warpOutPart1": {
+                                "properties": {
+                                    "image": "<warpingOut1>"
+                                }
+                            },
+                            "warpOutPart2": {
+                                "properties": {
+                                    "image": "<warpingOut2>"
+                                }
+                            },
+                            "idle": {
+                                "properties": {}
+                            },
+                            "invisible": {
+                                "properties": {}
+                            }
+                        }
+                    }
+                },
+                "lights": {
+                    "properties": {
+                        "zLevel": 2,
+                        "transformationGroups": [
+                            "flip",
+                            "rotation"
+                        ],
+                        "centered": true,
+                        "fullbright": false
+                    },
+                    "partStates": {
+                        "headlights": {
+                            "on": {
+                                "properties": {
+                                    "offset": [
+                                        0,
+                                        0
+                                    ],
+                                    "image": "<headlightsOn>",
+                                    "fullbright": true
+                                }
+                            },
+                            "off": {
+                                "properties": {
+                                    "image": "<headlightsOff>",
+                                    "offset": [
+                                        0,
+                                        0
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "globalTagDefaults": {
+            "bodyColor1": "",
+            "warpOutForeground1": "/assetmissing.png",
+            "bottomThruster1": "/assetmissing.png?crop;0;0;1;1?setcolor=fff?replace;fff0=fff?border=1;fff;000?scale=1.15;1.12?crop;1;1;3;3?replace;fbfbfb=0000;eaeaea=0d000000;e4e4e4=0010;6a6a6a=0d001100?scale=12.5;16.5?crop=0;0;13;17?replace;03000200=010;04000100=010;04000200=110;05000100=110;05000200=feffff;06000100=110;06000200=feffff;07000100=110;07000200=feffff;08000100=010;08000200=110;09000200=010?replace;010=028bda;110=5eb8ec",
+            "headlightsOff": "/assetmissing.png",
+            "bottomThruster2": "/assetmissing.png?crop;0;0;1;1?setcolor=fff?replace;fff0=fff?border=1;fff;000?scale=1.15;1.12?crop;1;1;3;3?replace;fbfbfb=0000;eaeaea=0d000000;e4e4e4=0010;6a6a6a=0d001100?scale=12.5;16.5?crop=0;0;13;17?replace;03000200=010;04000100=010;04000200=110;05000000=010;05000100=110;05000200=210;06000000=010;06000100=210;06000200=210;07000000=010;07000100=110;07000200=210;08000100=010;08000200=110;09000200=010?replace;010=028bda;110=5eb8ec;210=feffff",
+            "bottomThruster3": "/assetmissing.png?crop;0;0;1;1?setcolor=fff?replace;fff0=fff?border=1;fff;000?scale=1.15;1.12?crop;1;1;3;3?replace;fbfbfb=0000;eaeaea=0d000000;e4e4e4=0010;6a6a6a=0d001100?scale=12.5;16.5?crop=0;0;13;17?replace;03000100=110;03000200=010;04000000=110;04000100=010;04000200=210;05000000=110;05000100=210;05000200=210;06000000=110;06000100=210;06000200=210;07000000=110;07000100=210;07000200=210;08000000=110;08000100=010;08000200=210;09000100=110;09000200=010?replace;010=5eb8ec;110=028bda;210=feffff",
+            "warpingOut1": "/assetmissing.png",
+            "warpingOut2": "/assetmissing.png",
+            "warpInBackground2": "/assetmissing.png",
+            "customColor": "?multiply=d81e5b",
+            "stopOn": "/assetmissing.png",
+            "hazardOn": "/assetmissing.png?crop;0;0;1;1?setcolor=fff?replace;fff0=fff?border=1;fff;000?scale=1.15;1.12?crop;1;1;3;3?replace;fbfbfb=0000;eaeaea=59000000;e4e4e4=00001a00;6a6a6a=59001a00?scale=88.5;25.5?crop=0;0;89;26?replace;37000900=010;37000a00=110;37000b00=110;37000c00=010;38000800=010;38000900=210;38000a00=410;38000b00=310;38000c00=210;38000d00=010;39000800=110;39000900=410;39000a00=310;39000b00=310;39000c00=410;39000d00=110;3a000800=110;3a000900=410;3a000a00=310;3a000b00=310;3a000c00=410;3a000d00=110;3b000800=010;3b000900=210;3b000a00=410;3b000b00=410;3b000c00=210;3b000d00=010;3c000800=510;3c000900=ffb4155f;3c000a00=ffb4166a;3c000b00=ffb4166a;3c000c00=ffb61646;3d000700=510;3d000800=610;3d000900=710;3d000a00=710;3d000b00=710;3d000c00=610;3d000d00=510;3e000700=810;3e000800=710;3e000900=310;3e000a00=310;3e000b00=310;3e000c00=710;3e000d00=810;3f000700=810;3f000800=710;3f000900=310;3f000a00=310;3f000b00=310;3f000c00=710;3f000d00=810;40000700=510;40000800=610;40000900=710;40000a00=710;40000b00=710;40000c00=610;40000d00=510;41000800=510;41000900=810;41000a00=810;41000b00=810;41000c00=510;52000800=010;52000900=110;52000a00=110;52000b00=110;52000c00=010;53000700=010;53000800=210;53000900=410;53000a00=410;53000b00=410;53000c00=210;53000d00=010;54000700=110;54000800=410;54000900=310;54000a00=310;54000b00=310;54000c00=410;54000d00=110;55000700=110;55000800=410;55000900=310;55000a00=310;55000b00=310;55000c00=410;55000d00=110;56000700=010;56000800=210;56000900=410;56000a00=410;56000b00=410;56000c00=210;56000d00=010;57000800=010;57000900=110;57000a00=110;57000b00=110;57000c00=010?replace;010=ffb1141a;110=ffb6122a;210=ffb4153d;310=ffb515;410=ffb41555;510=ffb61531;610=ffb5156b;710=ffb5168e;810=ffb6144d",
+            "idleForegroundCustom": "/assetmissing.png?crop;0;0;1;1?setcolor=fff?replace;fff0=fff?border=1;fff;000?scale=1.15;1.12?crop;1;1;3;3?replace;fbfbfb=0000;eaeaea=59000000;e4e4e4=00001a00;6a6a6a=59001a00?scale=88.5;25.5?crop=0;0;89;26?replace;00000800=110;00000900=110;00000a00=110;00000b00=110;00000c00=110;00000d00=110;01000700=110;01000800=010;01000900=010;01000a00=010;01000b00=010;01000c00=010;01000d00=010;01000e00=110;02000700=010;02000800=010;02000900=010;02000a00=010;02000b00=010;02000c00=010;02000d00=010;02000e00=210;02000f00=110;03000700=010;03000800=010;03000900=010;03000a00=010;03000b00=010;03000c00=010;03000d00=010;03000e00=210;03000f00=110;04000700=010;04000800=010;04000900=010;04000a00=010;04000b00=010;04000c00=010;04000d00=010;04000e00=210;04000f00=110;05000700=010;05000800=010;05000900=010;05000a00=110;05000b00=110;05000c00=110;05000d00=110;05000e00=210;05000f00=110;06000700=010;06000800=010;06000900=010;06000a00=110;06000b00=010;06000c00=010;06000d00=010;06000e00=210;06000f00=110;07000100=110;07000200=010;07000600=010;07000700=010;07000800=010;07000900=010;07000a00=110;07000b00=110;07000c00=110;07000d00=110;07000e00=210;07000f00=110;08000100=110;08000200=010;08000300=010;08000400=010;08000500=010;08000600=010;08000700=010;08000800=010;08000900=010;08000a00=010;08000b00=110;08000c00=010;08000d00=110;08000e00=210;08000f00=110;09000000=110;09000100=110;09000200=010;09000300=010;09000400=010;09000500=010;09000600=010;09000700=010;09000800=010;09000900=010;09000a00=210;09000b00=210;09000c00=210;09000d00=210;09000e00=210;09000f00=110;0a000000=110;0a000100=110;0a000200=110;0a000300=110;0a000400=110;0a000500=110;0a000600=010;0a000700=010;0a000800=010;0a000900=010;0a000a00=010;0a000b00=010;0a000c00=010;0a000d00=010;0a000e00=210;0a000f00=110;0b000000=110;0b000600=110;0b000700=110;0b000800=010;0b000900=010;0b000a00=010;0b000b00=010;0b000c00=010;0b000d00=010;0b000e00=210;0b000f00=110;0c000800=110;0c000900=010;0c000a00=010;0c000b00=010;0c000c00=010;0c000d00=010;0c000e00=210;0c000f00=110;0d000900=110;0d000a00=010;0d000b00=010;0d000c00=010;0d000d00=010;0d000e00=210;0d000f00=110;0e000900=110;0e000a00=010;0e000b00=010;0e000c00=010;0e000d00=010;0e000e00=210;0e000f00=110;0f000900=110;0f000a00=010;0f000b00=010;0f000c00=010;0f000d00=010;0f000e00=210;0f000f00=110;0f001000=110;10000900=110;10000a00=010;10000b00=010;10000c00=010;10000d00=010;10000e00=210;10000f00=110;10001000=010;10001100=110;10001200=110;11000900=110;11000a00=010;11000b00=010;11000c00=010;11000d00=010;11000e00=210;11000f00=110;11001000=010;1010=010;11001200=010;11001300=110;11001400=110;12000900=110;12000a00=010;12000b00=010;12000c00=010;12000d00=010;12000e00=210;12000f00=110;12001000=010;12001100=010;12001200=010;12001300=010;12001400=010;12001500=110;12001600=110;13000900=110;13000a00=010;13000b00=110;13000c00=110;13000d00=110;13000e00=110;13000f00=110;13001000=010;13001100=010;13001200=010;13001300=010;13001400=010;13001500=010;13001600=010;13001700=110;14000900=110;14000a00=210;14000b00=010;14000c00=010;14000d00=010;14000e00=210;14000f00=110;14001000=110;14001100=110;14001200=110;14001300=110;14001400=010;14001500=010;14001600=010;14001700=010;14001800=110;15000900=010;15000a00=010;15000b00=210;15000c00=210;15000d00=010;15000e00=210;15000f00=110;15001400=110;15001500=110;15001600=010;15001700=010;15001800=210;15001900=010;16000800=110;16000900=210;16000a00=010;16000b00=110;16000c00=110;16000d00=010;16000e00=210;16000f00=110;16001600=110;16001700=010;16001800=210;16001900=010;17000600=110;17000700=110;17000800=010;17000900=010;17000a00=010;17000b00=110;17000c00=110;17000d00=010;17000e00=210;17000f00=110;17001700=110;17001800=210;17001900=010;18000100=110;18000200=110;18000300=110;18000400=110;18000500=010;18000600=210;18000700=010;18000800=010;18000900=010;18000a00=010;18000b00=010;18000c00=110;18000d00=010;18000e00=210;18000f00=110;18001700=110;18001800=210;18001900=010;19000000=110;19000100=010;19000200=210;19000300=210;19000400=210;19000500=010;19000600=010;19000700=010;19000800=010;19000900=010;19000a00=010;19000b00=010;19000c00=010;19000d00=010;19000e00=210;19000f00=110;19001700=110;19001800=210;19001900=010;1a000000=110;1a000100=110;1a000200=010;1a000300=010;1a000400=010;1a000500=010;1a000600=010;1a000700=010;1a000800=010;1a000900=010;1a000a00=010;1a000b00=010;1a000c00=010;1a000d00=010;1a000e00=210;1a000f00=110;1a001700=110;1a001800=210;1a001900=010;1b000000=110;1b000100=110;1b000200=010;1b000300=010;1b000400=010;1b000500=010;1b000600=010;1b000700=010;1b000800=010;1b000900=010;1b000a00=010;1b000b00=010;1b000c00=010;1b000d00=010;1b000e00=210;1b000f00=110;1b001700=110;1b001800=210;1b001900=010;1c000000=110;1c000100=110;1c000200=010;1c000300=010;1c000400=010;1c000500=010;1c000600=010;1c000700=010;1c000800=010;1c000900=010;1c000a00=010;1c000b00=010;1c000c00=010;1c000d00=010;1c000e00=210;1c000f00=110;1c001700=110;1c001800=210;1c001900=010;1d000000=110;1d000100=110;1d000200=010;1d000300=010;1d000400=010;1d000500=010;1d000600=010;1d000700=010;1d000800=010;1d000900=010;1d000a00=010;1d000b00=010;1d000c00=010;1d000d00=010;1d000e00=210;1d000f00=110;1d001700=110;1d001800=210;1d001900=010;1e000000=110;1e000100=110;1e000200=010;1e000300=010;1e000400=010;1e000500=010;1e000600=010;1e000700=010;1e000800=010;1e000900=010;1e000a00=010;1e000b00=010;1e000c00=010;1e000d00=010;1e000e00=210;1e000f00=110;1e001700=110;1e001800=210;1e001900=010;1f000000=110;1f000100=110;1f000200=010;1f000300=110;1f000400=110;1f000500=110;1f000600=110;1f000700=110;1f000800=110;1f000900=110;1f000a00=110;1f000b00=110;1f000c00=110;1f000d00=110;1f000e00=210;1f000f00=110;1f001000=110;1f001100=110;1f001200=110;1f001300=110;1f001400=110;1f001500=110;1f001600=110;1f001700=010;1f001800=210;1f001900=010;20000000=110;20000100=110;20000200=110;20000300=010;20000400=010;20000500=010;20000600=010;20000700=010;20000800=010;20000900=010;20000a00=010;20000b00=010;20000c00=010;20000d00=010;20000e00=110;20000f00=110;20001000=010;20001100=010;20001200=010;20001300=010;20001400=210;20001500=010;20001600=210;20001700=210;20001800=210;20001900=010;21000000=110;21000100=110;21000200=010;21000300=010;21000400=010;21000500=010;21000600=010;21000700=010;21000800=010;21000900=010;21000a00=010;21000b00=210;21000c00=210;21000d00=010;21000e00=210;21000f00=110;21001000=110;21001100=110;21001200=110;21001300=110;21001400=110;21001500=110;21001600=110;21001700=210;21001800=210;21001900=010;2000=110;22000100=110;22000200=010;22000300=010;22000400=010;22000500=010;22000600=010;22000700=010;22000800=010;22000900=010;22000a00=010;22000b00=110;22000c00=110;22000d00=010;22000e00=210;22000f00=110;22001700=110;22001800=210;22001900=010;23000000=110;23000100=110;23000200=010;23000300=010;23000400=010;23000500=010;23000600=010;23000700=010;23000800=010;23000900=010;23000a00=010;23000b00=110;23000c00=110;23000d00=010;23000e00=210;23000f00=110;23001700=110;23001800=210;23001900=010;24000000=110;24000100=110;24000200=010;24000300=010;24000400=010;24000500=010;24000600=010;24000700=010;24000800=010;24000900=010;24000a00=010;24000b00=010;24000c00=110;24000d00=010;24000e00=210;24000f00=110;24001700=110;24001800=210;24001900=010;25000000=110;25000100=110;25000200=010;25000300=010;25000400=010;25000500=010;25000600=010;25000700=010;25000800=010;25000900=010;25000a00=010;25000b00=010;25000c00=010;25000d00=010;25000e00=210;25000f00=110;25001700=110;25001800=210;25001900=010;26000000=110;26000100=110;26000200=010;26000300=010;26000400=010;26000500=010;26000600=010;26000700=010;26000800=010;26000900=010;26000a00=010;26000b00=010;26000c00=010;26000d00=010;26000e00=210;26000f00=110;26001700=110;26001800=210;26001900=010;27000000=110;27000100=110;27000200=010;27000300=010;27000400=010;27000500=010;27000600=010;27000700=010;27000800=010;27000900=010;27000a00=010;27000b00=010;27000c00=010;27000d00=010;27000e00=210;27000f00=110;27001700=110;27001800=210;27001900=010;28000000=110;28000100=110;28000200=010;28000300=010;28000400=010;28000500=010;28000600=010;28000700=010;28000800=010;28000900=010;28000a00=010;28000b00=010;28000c00=010;28000d00=010;28000e00=210;28000f00=110;28001700=110;28001800=210;28001900=010;29000000=110;29000100=110;29000200=010;29000300=010;29000400=010;29000500=010;29000600=010;29000700=010;29000800=010;29000900=010;29000a00=010;29000b00=010;29000c00=010;29000d00=010;29000e00=210;29000f00=110;29001700=110;29001800=210;29001900=010;2a000000=110;2a000100=110;2a000200=010;2a000300=110;2a000400=110;2a000500=110;2a000600=110;2a000700=110;2a000800=110;2a000900=110;2a000a00=110;2a000b00=110;2a000c00=110;2a000d00=110;2a000e00=210;2a000f00=110;2a001500=110;2a001600=110;2a001700=010;2a001800=210;2a001900=010;2b000000=110;2b000100=110;2b000200=110;2b000300=110;2b000400=110;2b000500=110;2b000600=110;2b000700=110;2b000800=110;2b000900=010;2b000a00=010;2b000b00=010;2b000c00=010;2b000d00=010;2b000e00=110;2b000f00=110;2b001200=110;2b001300=110;2b001400=110;2b001500=010;2b001600=010;2b001700=210;2b001800=210;2b001900=010;2c000000=110;2c000800=010;2c000900=110;2c000a00=010;2c000b00=010;2c000c00=010;2c000d00=010;2c000e00=210;2c000f00=110;2c001000=110;2c001100=110;2c001200=210;2c001300=210;2c001400=210;2c001500=210;2c001600=210;2c001700=210;2c001800=210;2c001900=010;2d000900=010;2d000a00=110;2d000b00=010;2d000c00=010;2d000d00=010;2d000e00=210;2d000f00=110;2d001000=210;2d001100=210;2d001200=110;2d001300=110;2d001400=110;2d001500=110;2d001600=110;2d001700=210;2d001800=210;2d001900=010;2e000a00=010;2e000b00=210;2e000c00=010;2e000d00=010;2e000e00=210;2e000f00=110;2e001000=110;2e001100=110;2e001700=110;2e001800=210;2e001900=010;2f000a00=010;2f000b00=210;2f000c00=010;2f000d00=010;2f000e00=210;2f000f00=110;2f001700=110;2f001800=210;2f001900=010;30000a00=010;30000b00=210;30000c00=010;30000d00=010;30000e00=210;30000f00=110;30001700=110;30001800=210;30001900=010;31000a00=010;31000b00=210;31000c00=010;31000d00=010;31000e00=210;31000f00=110;31001700=110;31001800=210;31001900=010;32000a00=010;32000b00=210;32000c00=010;32000d00=010;32000e00=210;32000f00=110;32001700=110;32001800=210;32001900=010;33000a00=010;33000b00=210;33000c00=010;33000d00=010;33000e00=210;33000f00=110;33001700=110;33001800=210;33001900=010;34000a00=010;34000b00=210;34000c00=010;34000d00=010;34000e00=210;34000f00=110;34001700=110;34001800=210;34001900=010;35000a00=010;35000b00=210;35000c00=010;35000d00=010;35000e00=210;35000f00=110;35001700=110;35001800=210;35001900=010;36000a00=010;36000b00=210;36000c00=010;36000d00=010;36000e00=210;36000f00=110;36001000=110;36001700=110;36001800=210;36001900=010;37000900=010;37000a00=210;37000b00=010;37000c00=010;37000d00=010;37000e00=210;37000f00=110;37001000=110;37001700=110;37001800=310;37001900=010;38000600=010;38000700=010;38000800=010;38000900=210;38000a00=010;38000c00=010;38000d00=010;38000e00=210;38000f00=110;38001000=110;38001700=110;38001800=210;38001900=010;39000600=210;39000700=210;39000800=210;39000900=010;39000c00=010;39000d00=010;39000e00=210;39000f00=110;39001000=110;39001700=110;39001800=210;39001900=010;3a000600=310;3a000700=310;3a000800=010;3a000900=010;3a000c00=010;3a000d00=010;3a000e00=210;3a000f00=110;3a001000=110;3a001700=110;3a001800=310;3a001900=010;3b000600=210;3b000700=210;3b000800=310;3b000900=310;3b000a00=310;3b000b00=010;3b000c00=010;3b000d00=010;3b000e00=310;3b000f00=010;3b001000=110;3b001700=110;3b001800=310;3b001900=010;3c000600=110;3c000700=110;3c000800=210;3c000900=210;3c000a00=210;3c000b00=310;3c000c00=310;3c000d00=310;3c000e00=210;3c000f00=010;3c001000=110;3c001700=110;3c001800=310;3c001900=010;3d000600=210;3d000700=210;3d000c00=210;3d000d00=310;3d000e00=110;3d000f00=010;3d001000=110;3d001700=110;3d001800=310;3d001900=010;3e000600=210;3e000700=210;3e000d00=010;3e000e00=210;3e000f00=010;3e001000=110;3e001700=110;3e001800=310;3e001900=010;3f000600=210;3f000700=210;3f000d00=310;3f000e00=210;3f000f00=010;3f001000=110;3f001700=110;3f001800=010;40000600=210;40000700=210;40000d00=310;40000e00=210;40000f00=010;40001000=110;40001700=110;40001800=010;41000600=210;41000700=210;41000d00=310;41000e00=210;41000f00=010;41001000=010;41001700=110;42000600=210;42000700=210;42000d00=310;42000e00=210;42000f00=010;42001600=110;43000600=110;43000700=210;43000d00=310;43000e00=210;43000f00=010;43001000=010;43001400=110;43001500=110;44000600=210;44000d00=310;44000e00=010;44000f00=210;44001000=010;4010=110;44001200=110;44001300=110;45000600=210;45000d00=010;45000e00=210;45000f00=210;45001000=010;46000600=210;46000e00=210;46000f00=210;46001000=010;47000600=210;47000e00=210;47000f00=210;47001000=010;48000600=210;48000e00=210;48000f00=210;48001000=010;49000600=210;49000e00=210;49000f00=210;49001000=010;4a000600=210;4a000e00=210;4a000f00=210;4a001000=010;4b000600=210;4b000e00=210;4b000f00=210;4b001000=010;4c000600=210;4c000e00=210;4c000f00=210;4c001000=010;4d000600=210;4d000e00=210;4d000f00=210;4d001000=010;4e000600=110;4e000e00=210;4e000f00=310;4e001000=010;4f000600=210;4f000e00=310;4f000f00=010;50000600=210;50000700=210;50000d00=310;50000e00=210;50000f00=010;51000600=210;51000700=210;51000d00=310;51000e00=210;51000f00=010;52000600=210;52000700=210;52000d00=310;52000e00=210;52000f00=010;53000600=210;53000700=210;53000d00=310;53000e00=210;53000f00=010;54000600=210;54000700=210;54000d00=310;54000e00=210;54000f00=010;55000600=110;55000700=110;55000d00=310;55000e00=010;55000f00=010;56000600=010;56000700=010;56000800=110;56000d00=110;56000e00=210;56000f00=010;57000800=010;57000900=010;57000a00=010;57000b00=210;57000c00=210;57000d00=310;57000e00=010;58000b00=010;58000c00=010;58000d00=010?replace;010=797988;110=35363e;210=ccc6d4;310=f5f1f7",
+            "idleForeground": "/assetmissing.png?crop;0;0;1;1?setcolor=fff?replace;fff0=fff?border=1;fff;000?scale=1.15;1.12?crop;1;1;3;3?replace;fbfbfb=0000;eaeaea=59000000;e4e4e4=00001a00;6a6a6a=59001a00?scale=88.5;25.5?crop=0;0;89;26?replace;01000300=310;01000400=310;01000500=310;02000200=310;02000300=310;02000400=310;02000500=410;02000600=310;03000200=310;03000300=310;03000400=310;03000500=510;03000600=310;04000200=310;04000300=310;04000400=410;04000500=510;04000600=310;05000200=310;05000300=410;05000400=610;05000500=610;05000600=310;06000200=310;06000300=510;06000400=610;06000500=610;06000600=410;06001000=310;07000300=310;07000400=310;07000500=410;07001000=410;07001100=310;08001000=410;08001100=510;08001200=310;09001000=310;09001100=510;09001200=310;0a001000=410;0a001100=310;0a001200=310;0b000100=010;0b000200=010;0b000300=010;0b000400=010;0b000500=010;0b001000=310;0b001100=410;0b001200=310;0c000000=010;0c000100=010;0c000200=110;0c000300=010;0c000400=110;0c000500=010;0c000600=110;0c000700=010;0c001000=310;0c001100=310;0c001200=310;0d000000=010;0d000100=010;0d000200=555;0d000300=010;0d000400=555;0d000500=010;0d000600=555;0d000700=010;0d000800=010;0d001000=410;0d001100=310;0d001200=310;0e000000=010;0e000100=010;0e000200=010;0e000300=010;0e000400=010;0e000500=010;0e000600=010;0e000700=010;0e000800=010;0e001000=410;0e001100=510;0e001200=310;0f000000=010;0f000100=010;0f000200=010;0f000300=110;0f000400=110;0f000500=110;0f000600=010;0f000700=010;0f000800=010;0f001100=510;0f001200=310;10000000=010;10000100=010;10000200=110;10000300=110;10000400=110;10000500=110;10000600=110;10000700=010;10000800=010;1000=010;11000100=010;11000200=110;11000300=110;11000400=110;11000500=555;11000600=110;11000700=010;11000800=010;12000000=010;12000100=010;12000200=110;12000300=110;12000400=555;12000500=555;12000600=110;12000700=010;12000800=010;13000000=010;13000100=010;13000200=010;13000300=110;13000400=110;13000500=110;13000600=010;13000700=010;13000800=010;14000000=010;14000100=010;14000200=010;14000300=010;14000400=010;14000500=010;14000600=010;14000700=010;14000800=010;15000000=010;15000100=010;15000200=110;15000300=010;15000400=110;15000500=010;15000600=110;15000700=010;15000800=010;15001000=210;15001100=710;15001200=710;15001300=710;16000000=010;16000100=010;16000200=555;16000300=010;16000400=555;16000500=010;16000600=010;16000700=010;16001000=210;16001100=210;16001200=710;16001300=710;16001400=710;16001500=710;17000000=010;17000100=010;17000200=010;17000300=010;17000400=010;17000500=010;17001000=210;17001100=210;17001200=210;17001300=710;17001400=710;17001500=710;17001600=710;18000000=010;18001000=710;18001100=210;18001200=210;18001300=210;18001400=710;18001500=710;18001600=710;19001000=710;19001100=710;19001200=210;19001300=210;19001400=210;19001500=710;19001600=710;1a001000=710;1a001100=710;1a001200=710;1a001300=210;1a001400=210;1a001500=210;1a001600=710;1b001000=210;1b001100=710;1b001200=710;1b001300=710;1b001400=210;1b001500=210;1b001600=210;1c001000=710;1c001100=210;1c001200=710;1c001300=710;1c001400=710;1c001500=210;1c001600=210;1d001000=710;1d001100=710;1d001200=210;1d001300=710;1d001400=710;1d001500=710;1d001600=210;1e001000=710;1e001100=710;1e001200=710;1e001300=210;1e001400=710;1e001500=710;1e001600=710;22001000=710;2010=210;22001200=210;22001300=710;22001400=210;22001500=710;22001600=710;23001000=710;23001100=710;23001200=210;23001300=210;23001400=710;23001500=210;23001600=710;24001000=710;24001100=710;24001200=710;24001300=210;24001400=210;24001500=710;24001600=210;25001000=710;25001100=710;25001200=710;25001300=710;25001400=210;25001500=210;25001600=710;26001000=710;26001100=710;26001200=710;26001300=710;26001400=710;26001500=210;26001600=210;27001000=710;27001100=710;27001200=710;27001300=710;27001400=710;27001500=710;27001600=210;28001000=210;28001100=710;28001200=710;28001300=710;28001400=710;28001500=710;28001600=710;29001000=710;29001100=210;29001200=710;29001300=710;29001400=710;29001500=710;29001600=710;2a001000=710;2a001100=710;2a001200=210;2a001300=710;2a001400=710;2b001000=710;2b001100=710;2c000100=010;2c000200=010;2c000300=010;2c000400=010;2c000500=010;2c000600=010;2c000700=010;2d000000=010;2d000100=010;2d000200=110;2d000300=010;2d000400=110;2d000500=010;2d000600=110;2d000700=010;2d000800=010;2e000000=010;2e000100=010;2e000200=555;2e000300=010;2e000400=555;2e000500=010;2e000600=555;2e000700=010;2e000800=110;2e000900=010;2e001200=710;2e001300=710;2e001400=710;2e001500=710;2e001600=710;2f000000=010;2f000100=010;2f000200=010;2f000300=010;2f000400=010;2f000500=010;2f000600=010;2f000700=010;2f000800=010;2f000900=010;2f001000=710;2f001100=710;2f001200=210;2f001300=710;2f001400=710;2f001500=710;2f001600=710;30000000=010;30000100=010;30000200=010;30000300=110;30000400=110;30000500=110;30000600=010;30000700=010;30000800=010;30000900=010;30001000=710;30001100=710;30001200=710;30001300=210;30001400=710;30001500=710;30001600=710;31000000=010;31000100=010;31000200=110;31000300=110;31000400=110;31000500=110;31000600=110;31000700=010;31000800=010;31000900=010;31001000=710;31001100=710;31001200=710;31001300=710;31001400=210;31001500=710;31001600=710;32000000=010;32000100=010;32000200=110;32000300=110;32000400=110;32000500=555;32000600=110;32000700=010;32000800=010;32000900=010;32001000=710;32001100=710;32001200=710;32001300=710;32001400=710;32001500=210;32001600=710;3000=010;33000100=010;33000200=110;33000300=110;33000400=555;33000500=555;33000600=110;33000700=010;33000800=010;33000900=010;33001000=210;3010=710;33001200=710;33001300=710;33001400=710;33001500=710;33001600=210;34000000=010;34000100=010;34000200=010;34000300=110;34000400=110;34000500=110;34000600=010;34000700=010;34000800=010;34000900=010;34001000=210;34001100=210;34001200=710;34001300=710;34001400=710;34001500=710;34001600=710;35000000=010;35000100=010;35000200=010;35000300=010;35000400=010;35000500=010;35000600=010;35000700=010;35000800=010;35000900=010;35001000=710;35001100=210;35001200=210;35001300=710;35001400=710;35001500=710;35001600=710;36000000=010;36000100=010;36000200=110;36000300=010;36000400=110;36000500=010;36000600=110;36000700=010;36000800=110;36000900=010;36001100=710;36001200=210;36001300=210;36001400=710;36001500=710;36001600=710;37000000=010;37000100=010;37000200=555;37000300=010;37000400=555;37000500=010;37000600=010;37000700=010;37000800=010;37001100=710;37001200=710;37001300=210;37001400=210;37001500=710;37001600=710;38000000=010;38000100=010;38000200=010;38000300=310;38000400=310;38000500=310;38000b00=810;38001100=210;38001200=710;38001300=710;38001400=210;38001500=210;38001600=710;39000000=010;39000100=010;39000200=310;39000300=310;39000400=410;39000500=310;39000a00=810;39000b00=910;39001100=210;39001200=210;39001300=710;39001400=710;39001500=210;39001600=210;3a000000=010;3a000100=a10;3a000200=310;3a000300=410;3a000400=510;3a000500=310;3a000a00=910;3a000b00=fecb02;3a001100=210;3a001200=210;3a001300=210;3a001400=710;3a001500=710;3a001600=210;3b000000=010;3b000100=a10;3b000200=310;3b000300=410;3b000400=510;3b000500=310;3b001100=210;3b001200=210;3b001300=210;3b001400=210;3b001500=710;3b001600=710;3c000100=a10;3c000200=410;3c000300=510;3c000400=610;3c000500=410;3c001100=710;3c001200=210;3c001300=210;3c001400=210;3c001500=210;3c001600=710;3d000100=a10;3d000200=410;3d000300=510;3d000400=610;3d000500=410;3d000800=a10;3d000900=310;3d000a00=310;3d000b00=310;3d001100=710;3d001200=710;3d001300=210;3d001400=210;3d001500=210;3d001600=210;3e000100=a10;3e000200=410;3e000300=510;3e000400=610;3e000500=410;3e000800=310;3e000900=810;3e000a00=810;3e000b00=910;3e000c00=310;3e001100=710;3e001200=710;3e001300=710;3e001400=210;3e001500=210;3e001600=210;3f000100=a10;3f000200=410;3f000300=510;3f000400=610;3f000500=410;3f000800=310;3f000900=910;3f000a00=910;3f000b00=fecb02;3f000c00=310;3f001100=210;3f001200=710;3f001300=710;3f001400=710;3f001500=210;3f001600=210;40000100=a10;40000200=410;40000300=510;40000400=610;40000500=410;40000800=310;40000900=b10;40000a00=b10;40000b00=fff;40000c00=310;40001100=710;40001200=210;40001300=710;40001400=710;40001500=710;40001600=210;41000100=a10;41000200=410;41000300=510;41000400=610;41000500=410;41000800=310;41000900=b10;41000a00=b10;41000b00=fff;41000c00=310;41001100=710;41001200=710;41001300=210;41001400=710;41001500=710;41001600=710;42000000=010;42000100=a10;42000200=410;42000300=510;42000400=610;42000500=410;42000800=310;42000900=b10;42000a00=fff;42000b00=fff;42000c00=310;42001000=a10;42001100=710;42001200=710;42001300=710;42001400=210;42001500=710;43000000=010;43000100=a10;43000200=410;43000300=510;43000400=610;43000500=410;43000800=310;43000900=fff;43000a00=fff;43000b00=fff;43000c00=310;43001100=710;43001200=710;43001300=710;4000=010;44000100=a10;44000200=410;44000300=510;44000400=610;44000500=410;44000700=310;44000800=310;44000900=310;44000a00=310;44000b00=310;44000c00=310;45000000=010;45000100=a10;45000200=410;45000300=510;45000400=610;45000500=410;45000700=410;45000800=410;45000900=310;45000a00=310;45000b00=310;45000c00=310;46000000=010;46000100=a10;46000200=410;46000300=510;46000400=610;46000500=410;46000700=410;46000800=310;46000900=410;46000a00=410;46000b00=410;46000c00=410;46000d00=310;47000000=010;47000100=a10;47000200=410;47000300=510;47000400=610;47000500=410;47000700=410;47000800=310;47000900=410;47000a00=310;47000b00=410;47000c00=310;47000d00=410;48000000=010;48000100=a10;48000200=410;48000300=510;48000400=610;48000500=410;48000700=410;48000800=310;48000900=410;48000a00=310;48000b00=410;48000c00=310;48000d00=410;49000000=010;49000100=a10;49000200=410;49000300=510;49000400=610;49000500=410;49000700=410;49000800=310;49000900=410;49000a00=310;49000b00=410;49000c00=310;49000d00=410;4a000000=010;4a000100=a10;4a000200=410;4a000300=510;4a000400=610;4a000500=410;4a000700=410;4a000800=310;4a000900=410;4a000a00=310;4a000b00=410;4a000c00=310;4a000d00=410;4b000000=010;4b000100=a10;4b000200=410;4b000300=510;4b000400=610;4b000500=410;4b000700=410;4b000800=310;4b000900=410;4b000a00=310;4b000b00=410;4b000c00=310;4b000d00=410;4c000000=010;4c000100=a10;4c000200=410;4c000300=510;4c000400=610;4c000500=410;4c000700=410;4c000800=310;4c000900=410;4c000a00=310;4c000b00=410;4c000c00=310;4c000d00=410;4d000000=010;4d000100=a10;4d000200=410;4d000300=510;4d000400=610;4d000500=410;4d000700=410;4d000800=310;4d000900=410;4d000a00=310;4d000b00=410;4d000c00=310;4d000d00=410;4e000000=010;4e000100=a10;4e000200=410;4e000300=510;4e000400=610;4e000500=410;4e000700=410;4e000800=310;4e000900=410;4e000a00=310;4e000b00=410;4e000c00=310;4e000d00=410;4f000000=010;4f000100=a10;4f000200=410;4f000300=510;4f000400=610;4f000500=410;4f000700=410;4f000800=410;4f000900=310;4f000a00=310;4f000b00=310;4f000c00=310;4f000d00=410;50000000=010;50000100=a10;50000200=410;50000300=510;50000400=610;50000500=410;50000800=310;50000900=410;50000a00=410;50000b00=410;50000c00=410;51000000=010;51000100=a10;51000200=410;51000300=510;51000400=610;51000500=410;51000800=310;51000900=b10;51000a00=b10;51000b00=fff;51000c00=310;52000000=010;52000100=a10;52000200=410;52000300=510;52000400=610;52000500=410;52000800=310;52000900=b10;52000a00=fff;52000b00=fff;52000c00=310;53000100=a10;53000200=410;53000300=510;53000400=610;53000500=410;53000800=310;53000900=fff;53000a00=fff;53000b00=fff;53000c00=310;54000100=a10;54000200=410;54000300=510;54000400=610;54000500=410;54000800=310;54000900=910;54000a00=910;54000b00=fecb02;54000c00=310;55000200=410;55000300=510;55000400=610;55000500=410;55000800=310;55000900=810;55000a00=810;55000b00=910;55000c00=310;56000200=410;56000300=510;56000400=610;56000500=410;56000900=310;56000a00=310;56000b00=310;56000c00=310;57000200=410;57000300=610;57000400=610;57000500=410;58000300=410;58000400=410?replace;010=151515;110=383838;210=425053;310=1e1f21;410=585a60;510=8f939e;610=b8c0db;710=1d282d;810=b36500;910=fb9100;a10=4f4f56;b10=b2a039",
+            "headlightsOn": "/assetmissing.png?crop;0;0;1;1?setcolor=fff?replace;fff0=fff?border=1;fff;000?scale=1.15;1.12?crop;1;1;3;3?replace;fbfbfb=0000;eaeaea=59000000;e4e4e4=00001a00;6a6a6a=59001a00?scale=88.5;25.5?crop=0;0;89;26?replace;40000900=110;40000a00=110;40000b00=010;41000800=210;41000900=110;41000a00=110;41000b00=010;41000c00=310;41000d00=210;42000800=210;42000900=110;42000a00=410;42000b00=410;42000c00=310;42000d00=210;43000800=210;43000900=f7f4e6;43000a00=f7f4e6;43000b00=f7f4e6;43000c00=310;43000d00=210;44000800=210;44000900=310;44000a00=510;44000b00=510;44000c00=310;44000d00=210;45000800=210;45000900=310;45000a00=310;45000b00=310;45000c00=610;45000d00=210;46000800=210;46000900=610;46000a00=610;46000b00=610;46000c00=210;46000d00=210;47000900=210;47000a00=210;47000b00=210;47000c00=210;48000900=710;48000a00=710;48000b00=710;48000c00=710;51000900=110;51000a00=110;51000b00=010;52000800=210;52000900=110;52000a00=010;52000b00=010;52000c00=310;52000d00=210;53000800=210;53000900=410;53000a00=410;53000b00=410;53000c00=310;53000d00=210;54000800=210;54000900=ebe3bd65;54000a00=ebe3bd65;54000b00=ebe3bd65;54000c00=310;54000d00=210;55000800=210;55000900=310;55000a00=510;55000b00=510;55000c00=310;55000d00=210;56000800=210;56000900=310;56000a00=310;56000b00=310;56000c00=610;56000d00=210;57000800=210;57000900=610;57000a00=610;57000b00=610;57000c00=210;57000d00=210;58000900=210;58000a00=210;58000b00=210;58000c00=210?replace;010=f4f1dd;110=eae3be;210=e8e0c121;310=e8e4be43;410=f6f3e1;510=eae4bf54;610=ebe5bd32;710=efdfbf10",
+            "fire": "/assetmissing.png",
+            "bottomEngineCustom": "/assetmissing.png?crop;0;0;1;1?setcolor=fff?replace;fff0=fff?border=1;fff;000?scale=1.15;1.12?crop;1;1;3;3?replace;fbfbfb=0000;eaeaea=0d000000;e4e4e4=0010;6a6a6a=0d001100?scale=12.5;16.5?crop=0;0;13;17?replace;00000b00=010;00000c00=010;00000d00=010;01000b00=010;01000c00=110;01000d00=110;01000e00=010;02000b00=010;02000c00=110;02000d00=110;02000e00=010;03000900=010;03000a00=010;03000b00=110;03000c00=210;03000d00=210;03000e00=010;04000800=010;04000900=110;04000a00=210;04000b00=210;04000c00=210;04000d00=210;04000e00=110;05000800=010;05000900=210;05000a00=210;05000b00=210;05000c00=210;05000d00=210;05000e00=110;06000800=010;06000900=210;06000a00=210;06000b00=210;06000c00=210;06000d00=210;06000e00=110;07000800=010;07000900=e9f7fc;07000a00=210;07000b00=210;07000c00=210;07000d00=210;07000e00=110;08000900=010;08000a00=010;08000b00=210;08000c00=e9f7fc;08000d00=e9f7fc;08000e00=110;09000b00=010;09000c00=210;09000d00=210;09000e00=110;0a000b00=010;0a000c00=210;0a000d00=210;0a000e00=110;0b000b00=010;0b000c00=210;0b000d00=210;0b000e00=110;0c000b00=010;0c000c00=110;0c000d00=110?replace;010=4f4f56;110=8c8c99;210=d5d3d8",
+            "bottomEngine": "/assetmissing.png?crop;0;0;1;1?setcolor=fff?replace;fff0=fff?border=1;fff;000?scale=1.15;1.12?crop;1;1;3;3?replace;fbfbfb=0000;eaeaea=0d000000;e4e4e4=0010;6a6a6a=0d001100?scale=12.5;16.5?crop=0;0;13;17?replace;00000700=210;00000800=210;00000900=210;01000500=010;01000600=210;01000700=310;01000800=310;01000900=210;01000a00=010;02000400=010;02000500=110;02000600=210;02000700=310;02000800=310;02000900=210;02000a00=010;02000f00=210;03000300=010;03000400=010;03000500=010;03000600=210;03000700=310;03000800=310;03000f00=310;03001000=210;04000300=010;04000400=010;04000500=110;04000600=310;04000700=410;04000f00=310;04001000=210;05000300=010;05000400=110;05000500=555;05000600=310;05000700=410;05000f00=410;05001000=310;06000300=010;06000400=010;06000500=110;06000600=310;06000700=410;06000f00=310;06001000=210;07000300=010;07000400=110;07000500=555;07000600=310;07000700=410;07000f00=410;07001000=310;08000300=110;08000400=555;08000500=838383;08000600=310;08000700=510;08000800=510;08000f00=510;08001000=310;09000300=110;09000400=555;09000500=838383;09000600=310;09000700=410;09000800=410;09000900=310;09000a00=010;09000f00=510;09001000=310;0a000400=110;0a000500=838383;0a000600=310;0a000700=410;0a000800=410;0a000900=310;0a000a00=555;0a000f00=310;0b000500=110;0b000600=310;0b000700=410;0b000800=410;0b000900=310;0b000a00=110;0c000700=310;0c000800=310;0c000900=310?replace;010=151515;110=383838;210=1e1f21;310=585a60;410=8f939e;510=b8c0db",
+            "warpInForeground2": "/assetmissing.png",
+            "warpOutBackground1": "/assetmissing.png",
+            "warpingIn1": "/assetmissing.png",
+            "warpingIn2": "/assetmissing.png",
+            "idleBackground": ""
+        },
+        "transformationGroups": {
+            "engineGroundDust": {
+                "interpolated": true
+            },
+            "bottomEngine_1": {
+                "interpolated": true
+            },
+            "bottomEngine_2": {
+                "interpolated": true
+            },
+            "rotation": {
+                "interpolated": true
+            },
+            "bottomEngine_3": {
+                "interpolated": true
+            },
+            "bottomEngine_4": {
+                "interpolated": true
+            },
+            "flip": {}
+        },
+        "particleEmitters": {
+            "smoke": {
+                "offsetRegion": [
+                    -1.5,
+                    -1.5,
+                    0.5,
+                    -1
+                ],
+                "transformationGroups": [
+                    "flip",
+                    "rotation"
+                ],
+                "emissionRate": 0,
+                "particles": [
+                    {
+                        "particle": "burningvehiclesmokefront"
+                    }
+                ]
+            },
+            "ventralThrusterJump": {
+                "transformationGroups": [
+                    "flip",
+                    "rotation"
+                ],
+                "offsetRegion": [
+                    -0.5,
+                    -1.5,
+                    0.5,
+                    -1.55
+                ],
+                "particles": [],
+                "emissionRate": 15,
+                "burstCount": 2
+            },
+            "thrusterDust": {
+                "active": false,
+                "transformationGroups": [
+                    "engineGroundDust"
+                ],
+                "emissionRate": 10,
+                "particles": [
+                    {
+                        "particle": {
+                            "fade": 0.9,
+                            "timeToLive": 0.4,
+                            "animation": "/animations/jumpsmoke/jumpsmoke.animation?scalenearest=2;1",
+                            "type": "animated",
+                            "position": [
+                                0,
+                                0
+                            ],
+                            "size": 1
+                        }
+                    }
+                ]
+            },
+            "damageIntermittent": {
+                "transformationGroups": [
+                    "flip",
+                    "rotation"
+                ],
+                "offsetRegion": [
+                    -3.25,
+                    -1.5,
+                    -3,
+                    -1.25
+                ],
+                "particles": [
+                    {
+                        "particle": "burningvehiclesmokefront"
+                    },
+                    {
+                        "particle": "fireshard"
+                    }
+                ],
+                "emissionRate": 0,
+                "burstCount": 5
+            },
+            "rearThrusterIdle": {
+                "offsetRegion": [
+                    -4.3,
+                    -0.6,
+                    -4.3,
+                    -0.6
+                ],
+                "transformationGroups": [
+                    "flip",
+                    "rotation"
+                ],
+                "emissionRate": 5,
+                "particles": []
+            },
+            "rearThrusterDrive": {
+                "offsetRegion": [
+                    -4.3,
+                    -0.6,
+                    -4.3,
+                    -0.6
+                ],
+                "transformationGroups": [
+                    "flip",
+                    "rotation"
+                ],
+                "emissionRate": 15,
+                "particles": []
+            },
+            "fire": {
+                "offsetRegion": [
+                    2,
+                    0,
+                    3,
+                    0.75
+                ],
+                "transformationGroups": [
+                    "flip",
+                    "rotation"
+                ],
+                "emissionRate": 0,
+                "particles": [
+                    {
+                        "particle": "burningdust"
+                    },
+                    {
+                        "particle": "campfireflames"
+                    },
+                    {
+                        "particle": "fireshard"
+                    },
+                    {
+                        "particle": "burningvehiclesmokeback"
+                    }
+                ]
+            },
+            "ventralThrusterIdle": {
+                "offsetRegion": [
+                    -0.5,
+                    -1.5,
+                    0.5,
+                    -1.55
+                ],
+                "transformationGroups": [
+                    "flip",
+                    "rotation"
+                ],
+                "emissionRate": 5,
+                "particles": []
+            }
+        },
+        "lights": {
+            "dashboardGlow": {
+                "active": false,
+                "pointLight": true,
+                "pointBeam": 5,
+                "transformationGroups": [
+                    "flip",
+                    "rotation"
+                ],
+                "pointAngle": 140,
+                "position": [
+                    2,
+                    0.5
+                ],
+                "color": [
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "headlightBeam": {
+                "active": false,
+                "pointLight": true,
+                "pointBeam": 5,
+                "transformationGroups": [
+                    "flip",
+                    "rotation"
+                ],
+                "pointAngle": -5,
+                "position": [
+                    2,
+                    0.5
+                ],
+                "color": [
+                    175,
+                    65,
+                    230
+                ]
+            }
+        }
+    },
+    "nearGroundDistance": 5,
+    "damageStateNames": [
+        "undamaged",
+        "scratched",
+        "dented",
+        "wrecked"
+    ],
+    "clientEntityMode": "ClientMasterAllowed",
+    "maxHealth": 1000,
+    "minDamageSoundInterval": 1,
+    "intermittentDamageSoundThreshold": 0.33,
+    "damageStateDriverEmotes": [
+        "idle",
+        "idle",
+        "idle",
+        "annoyed"
+    ],
+    "onFireHealthThreshold": 0.125,
+    "engineDamageSoundThreshold": 0.4,
+    "hoverControlForce": 650,
+    "explosionDamage": 10,
+    "damageStatePassengerDances": [
+        "",
+        "",
+        "",
+        "panic"
+    ],
+    "jumpTimeout": 10,
+    "damageEmoteTime": 2,
+    "zeroGMovementSettings": {
+        "collisionEnabled": true,
+        "collisionPoly": [
+            [
+                -5,
+                0.5
+            ],
+            [
+                -5,
+                -0.625
+            ],
+            [
+                -4,
+                -1.625
+            ],
+            [
+                4,
+                -1.625
+            ],
+            [
+                5,
+                -0.625
+            ],
+            [
+                5,
+                0.5
+            ]
+        ],
+        "mass": 4,
+        "gravityEnabled": false,
+        "airFriction": 0.1
+    },
+    "maxGroundSearchDistance": 6,
+    "engineRevVolume": 1.5,
+    "bodySpringPositions": [
+        [
+            -4,
+            0
+        ],
+        [
+            -2,
+            0
+        ],
+        [
+            0,
+            0
+        ],
+        [
+            2,
+            0
+        ],
+        [
+            4,
+            0
+        ]
+    ],
+    "maxDamageSoundInterval": 10
+}

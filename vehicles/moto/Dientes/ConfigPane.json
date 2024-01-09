@@ -1,0 +1,8 @@
+{
+  "name": "Dientes", // Also like a ShapeShips name must be without Spaces
+  "subName": "Lifar",
+  "icon": "/baseicons/moto.png",
+  "previewScale": 3,
+  "colorCanChanging": false,
+  "vehiclePath": "/vehicles/moto/Dientes/Dientes.json"
+}

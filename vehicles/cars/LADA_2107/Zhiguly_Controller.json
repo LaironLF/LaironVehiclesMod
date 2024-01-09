@@ -1,0 +1,1349 @@
+{
+    "parameters": {
+        "vehicleParams": {
+            "materialKind": "robotic",
+            "occupiedMovementSettings": {
+                "mass": 4,
+                "collisionPoly": [
+                    [
+                        -5,
+                        0.5
+                    ],
+                    [
+                        -5,
+                        -0.625
+                    ],
+                    [
+                        -4,
+                        -1.625
+                    ],
+                    [
+                        4,
+                        -1.625
+                    ],
+                    [
+                        5,
+                        -0.625
+                    ],
+                    [
+                        5,
+                        0.5
+                    ]
+                ],
+                "gravityEnabled": true,
+                "collisionEnabled": true
+            },
+            "particleEmitters": {
+                "wreckage": {
+                    "active": false,
+                    "transformationGroups": [
+                        "flip",
+                        "rotation"
+                    ],
+                    "emissionRate": 0,
+                    "particles": [
+                        {
+                            "particle": "hoverbikekhakiwreck1"
+                        },
+                        {
+                            "particle": "hoverbikekhakiwreck2"
+                        },
+                        {
+                            "particle": "hoverbikewreck3"
+                        },
+                        {
+                            "particle": "hoverbikekhakiwreck4"
+                        },
+                        {
+                            "particle": "hoverbikewreck5"
+                        },
+                        {
+                            "particle": "hoverbikekhakiwreck6"
+                        }
+                    ]
+                },
+                "damageShards": {
+                    "transformationGroups": [
+                        "flip",
+                        "rotation"
+                    ],
+                    "offsetRegion": [
+                        -3,
+                        -1.5,
+                        3,
+                        1
+                    ],
+                    "particles": [
+                        {
+                            "particle": "hoverbikekhakishard"
+                        },
+                        {
+                            "particle": "fireshard"
+                        }
+                    ],
+                    "emissionRate": 0,
+                    "burstCount": 8
+                }
+            },
+            "loungePositions": {
+                "drivingSeat": {
+                    "dance": "warmhands",
+                    "statusEffects": [
+                        "highprotection",
+                        "intents"
+                    ],
+                    "cameraFocus": true,
+                    "part": "foreground",
+                    "orientation": "sit",
+                    "emote": "idle",
+                    "partAnchor": "drivingSeatPosition"
+                },
+                "passengerSeat3": {
+                    "dance": "typing",
+                    "statusEffects": [
+                        "highprotection",
+                        "intents"
+                    ],
+                    "cameraFocus": true,
+                    "part": "foreground",
+                    "orientation": "sit",
+                    "emote": "idle",
+                    "partAnchor": "passengerSeatPosition3"
+                },
+                "passengerSeat4": {
+                    "dance": "typing",
+                    "statusEffects": [
+                        "highprotection",
+                        "intents"
+                    ],
+                    "cameraFocus": true,
+                    "part": "foreground",
+                    "orientation": "sit",
+                    "emote": "idle",
+                    "partAnchor": "passengerSeatPosition4"
+                },
+                "passengerSeat": {
+                    "dance": "typing",
+                    "statusEffects": [
+                        "highprotection",
+                        "intents"
+                    ],
+                    "cameraFocus": true,
+                    "part": "foreground",
+                    "orientation": "sit",
+                    "emote": "idle",
+                    "partAnchor": "passengerSeatPosition"
+                },
+                "passengerSeat1": {
+                    "dance": "typing",
+                    "statusEffects": [
+                        "highprotection",
+                        "intents"
+                    ],
+                    "cameraFocus": true,
+                    "part": "foreground",
+                    "orientation": "sit",
+                    "emote": "idle",
+                    "partAnchor": "passengerSeatPosition1"
+                },
+                "passengerSeat2": {
+                    "dance": "typing",
+                    "statusEffects": [
+                        "highprotection",
+                        "intents"
+                    ],
+                    "cameraFocus": true,
+                    "part": "foreground",
+                    "orientation": "sit",
+                    "emote": "idle",
+                    "partAnchor": "passengerSeatPosition2"
+                }
+            },
+            "horizontalControlForce": 80,
+            "engineIdleVolume": 1,
+            "fireRateAtZeroHealth": 120,
+            "hoverVelocityFactor": 18,
+            "jumpVelocity": 12,
+            "accelerationTrackingCount": 1,
+            "damagePerSecondWhenOnFire": 1,
+            "zeroGTargetVelocity": 40,
+            "lightsInDamageState": [
+                [
+                    "headlightBeam",
+                    "dashboardGlow"
+                ],
+                [
+                    "headlightBeam",
+                    "dashboardGlow"
+                ],
+                [
+                    "headlightBeam",
+                    "dashboardGlow"
+                ],
+                [
+                    "headlightBeam"
+                ]
+            ],
+            "explosionConfig": "/projectiles/explosions/regularexplosion2/regularexplosionknockback.config",
+            "terrainCollisionDamage": 0,
+            "script": "/vehicles/cars/myCars.lua",
+            "wheelTitles": [
+                "bottomEngine_1",
+                "bottomEngine_2",
+                "bottomEngine_3",
+                "bottomEngine_4"
+            ],
+            "protection": 50,
+            "engineRevPitch": 1.5,
+            "smokeRateAtZeroHealth": 500,
+            "wheelTiltFactor": 0.023,
+            "smokeParticleHealthThreshold": 0.5,
+            "hoverTargetDistance": 3,
+            "backSpringPositions": [
+                [
+                    -2.8,
+                    0
+                ],
+                [
+                    -4.8,
+                    0
+                ]
+            ],
+            "maxAngle": 60,
+            "frontSpringPositions": [
+                [
+                    2.8,
+                    0
+                ],
+                [
+                    4.8,
+                    0
+                ]
+            ],
+            "targetHorizontalVelocity": 70,
+            "terrainCollisionDamageSourceKind": "falling",
+            "spinFriction": 0.1,
+            "levelApproachFactor": 0.01,
+            "fireParticleHealthThreshold": 0.25,
+            "minDamageCollisionAccel": 45,
+            "engineIdlePitch": 0.75,
+            "movementSettings": {
+                "collisionPoly": [
+                    [
+                        -5,
+                        0.5
+                    ],
+                    [
+                        -5,
+                        -0.625
+                    ],
+                    [
+                        -4,
+                        -1.625
+                    ],
+                    [
+                        4,
+                        -1.625
+                    ],
+                    [
+                        5,
+                        -0.625
+                    ],
+                    [
+                        5,
+                        0.5
+                    ]
+                ],
+                "mass": 4,
+                "gravityEnabled": true,
+                "airFriction": 2,
+                "ignorePlatformCollision": true,
+                "collisionEnabled": true
+            },
+            "angleApproachFactor": 0.04,
+            "damageStatePassengerEmotes": [
+                "idle",
+                "idle",
+                "idle",
+                "annoyed"
+            ],
+            "damageTakenEmote": "oooh",
+            "zeroGSpinRate": 4,
+            "minNotificationCollisionAccel": 15,
+            "animationCustom": {
+                "sounds": {
+                    "explode": [
+                        "/sfx/gun/grenadeblast_small_fire1.ogg",
+                        "/sfx/gun/grenadeblast_small_fire2.ogg",
+                        "/sfx/gun/grenadeblast_small_fire3.ogg"
+                    ],
+                    "engineStartDamaged": [
+                        "/sfx/cinematics/ship_upgrade/ftl_repair.ogg"
+                    ],
+                    "hornLoop": [
+                        "/sfx/tech/mech_horn_lacucha.ogg"
+                    ],
+                    "damageIntermittent": [
+                        "/sfx/gun/grenadeblast_small_fire1.ogg",
+                        "/sfx/gun/grenadeblast_small_fire2.ogg",
+                        "/sfx/gun/grenadeblast_small_fire3.ogg"
+                    ],
+                    "collisionDamage": [
+                        "/sfx/melee/bite_robotic1.ogg"
+                    ],
+                    "music": [
+                        "/assetmissing.wav"
+                    ],
+                    "engineLoopDamaged": [
+                        "/sfx/tech/hoverbike_idle_loop.ogg"
+                    ],
+                    "collisionNotification": [
+                        "/sfx/tech/hoverbike_bump1.ogg",
+                        "/sfx/tech/hoverbike_bump2.ogg",
+                        "/sfx/tech/hoverbike_bump3.ogg"
+                    ],
+                    "returnvehicle": [
+                        "/sfx/tech/vehicle_disappear1.ogg"
+                    ],
+                    "headlightSwitchOn": [
+                        "/sfx/objects/floodlights_on.ogg"
+                    ],
+                    "startingEngine": [
+                        "/sfx/tech/mech_activate2.ogg"
+                    ],
+                    "turnOffEngine": [
+                        "/sfx/tech/mech_activate2.ogg"
+                    ],
+                    "headlightSwitchOff": [
+                        "/sfx/objects/floodlights_off.ogg"
+                    ],
+                    "engineStart": [
+                        "/sfx/melee/mech_drill_windup1.ogg"
+                    ],
+                    "changeDamageState": [
+                        "/sfx/gun/grenadeblast_small_fire1.ogg",
+                        "/sfx/gun/grenadeblast_small_fire2.ogg",
+                        "/sfx/gun/grenadeblast_small_fire3.ogg"
+                    ],
+                    "engineLoop": [
+                        "/sfx/tech/hoverbike_drive_loop.ogg"
+                    ]
+                },
+                "animatedParts": {
+                    "stateTypes": {
+                        "rearThruster": {
+                            "states": {
+                                "on": {
+                                    "mode": "loop",
+                                    "cycle": 0.3,
+                                    "frames": 2
+                                },
+                                "off": {}
+                            },
+                            "default": "off"
+                        },
+                        "bottomThruster": {
+                            "states": {
+                                "on": {
+                                    "mode": "loop",
+                                    "cycle": 0.3,
+                                    "frames": 3
+                                },
+                                "off": {}
+                            },
+                            "default": "off"
+                        },
+                        "movement": {
+                            "states": {
+                                "warpInPart1": {
+                                    "mode": "transition",
+                                    "cycle": 0.33,
+                                    "frames": 4,
+                                    "transition": "warpInPart2"
+                                },
+                                "warpInPart2": {
+                                    "mode": "transition",
+                                    "cycle": 0.33,
+                                    "frames": 4,
+                                    "transition": "idle"
+                                },
+                                "warpOutPart1": {
+                                    "mode": "transition",
+                                    "cycle": 0.33,
+                                    "frames": 4,
+                                    "transition": "warpOutPart2"
+                                },
+                                "warpOutPart2": {
+                                    "mode": "transition",
+                                    "cycle": 0.33,
+                                    "frames": 4,
+                                    "transition": "invisible"
+                                },
+                                "idle": {},
+                                "invisible": {}
+                            },
+                            "default": "idle"
+                        },
+                        "headlights": {
+                            "states": {
+                                "on": {},
+                                "off": {}
+                            },
+                            "default": "off"
+                        },
+                        "onfire": {
+                            "states": {
+                                "on": {
+                                    "mode": "loop",
+                                    "cycle": 0.5,
+                                    "frames": 6
+                                },
+                                "off": {}
+                            },
+                            "default": "off"
+                        }
+                    },
+                    "parts": {
+                        "bottomEngine_1": {
+                            "properties": {
+                                "parkTransition": [
+                                    0,
+                                    0.5
+                                ],
+                                "offset": [
+                                    -3.5,
+                                    -1.5
+                                ],
+                                "zLevel": 5,
+                                "transformationGroups": [
+                                    "rotation",
+                                    "bottomEngine_1"
+                                ],
+                                "rotationCenter": [
+                                    0,
+                                    0.5
+                                ],
+                                "centered": true
+                            },
+                            "partStates": {
+                                "movement": {
+                                    "warpInPart1": {
+                                        "properties": {}
+                                    },
+                                    "warpInPart2": {
+                                        "properties": {}
+                                    },
+                                    "warpOutPart1": {
+                                        "properties": {}
+                                    },
+                                    "warpOutPart2": {
+                                        "properties": {}
+                                    },
+                                    "idle": {
+                                        "properties": {
+                                            "image": "<bottomEngine>"
+                                        }
+                                    },
+                                    "invisible": {
+                                        "properties": {}
+                                    }
+                                }
+                            }
+                        },
+                        "bottomThrust1": {
+                            "properties": {
+                                "offset": [
+                                    -3.5,
+                                    -1.5
+                                ],
+                                "fullbright": true,
+                                "zLevel": 2,
+                                "transformationGroups": [
+                                    "flip",
+                                    "rotation",
+                                    "bottomEngine_1"
+                                ],
+                                "light": [
+                                    87,
+                                    148,
+                                    150
+                                ],
+                                "centered": true
+                            },
+                            "partStates": {
+                                "bottomThruster": {
+                                    "on": {
+                                        "frameProperties": {
+                                            "image": [
+                                                "<bottomThruster1>",
+                                                "<bottomThruster2>",
+                                                "<bottomThruster3>"
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "rearThrust": {
+                            "properties": {
+                                "zLevel": -1,
+                                "transformationGroups": [
+                                    "flip",
+                                    "rotation"
+                                ],
+                                "light": [
+                                    87,
+                                    148,
+                                    150
+                                ],
+                                "centered": true,
+                                "fullbright": true
+                            },
+                            "partStates": {
+                                "rearThruster": {
+                                    "on": {
+                                        "frameProperties": {
+                                            "image": [
+                                                "<rearThruster1>",
+                                                "<rearThruster2>",
+                                                "<rearThruster3>"
+                                            ],
+                                            "offset": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    0,
+                                                    0
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "background": {
+                            "properties": {
+                                "zLevel": -1,
+                                "transformationGroups": [
+                                    "flip",
+                                    "rotation"
+                                ],
+                                "centered": true,
+                                "offset": [
+                                    0,
+                                    0
+                                ]
+                            },
+                            "partStates": {
+                                "movement": {
+                                    "warpInPart1": {
+                                        "properties": {}
+                                    },
+                                    "warpInPart2": {
+                                        "properties": {
+                                            "image": "<warpInBackground2>"
+                                        }
+                                    },
+                                    "warpOutPart1": {
+                                        "properties": {
+                                            "image": "<warpOutBackground1>"
+                                        }
+                                    },
+                                    "warpOutPart2": {
+                                        "properties": {}
+                                    },
+                                    "idle": {
+                                        "properties": {
+                                            "image": "<idleBackground>"
+                                        }
+                                    },
+                                    "invisible": {
+                                        "properties": {}
+                                    }
+                                }
+                            }
+                        },
+                        "bottomEngine_2": {
+                            "properties": {
+                                "parkTransition": [
+                                    0,
+                                    0.5
+                                ],
+                                "offset": [
+                                    0.75,
+                                    -1.5
+                                ],
+                                "zLevel": 5,
+                                "transformationGroups": [
+                                    "rotation",
+                                    "bottomEngine_2"
+                                ],
+                                "rotationCenter": [
+                                    0,
+                                    0.5
+                                ],
+                                "centered": true
+                            },
+                            "partStates": {
+                                "movement": {
+                                    "warpInPart1": {
+                                        "properties": {}
+                                    },
+                                    "warpInPart2": {
+                                        "properties": {}
+                                    },
+                                    "warpOutPart1": {
+                                        "properties": {}
+                                    },
+                                    "warpOutPart2": {
+                                        "properties": {}
+                                    },
+                                    "idle": {
+                                        "properties": {
+                                            "image": "<bottomEngine>"
+                                        }
+                                    },
+                                    "invisible": {
+                                        "properties": {}
+                                    }
+                                }
+                            }
+                        },
+                        "bottomEngine_3": {
+                            "properties": {
+                                "parkTransition": [
+                                    0,
+                                    0.5
+                                ],
+                                "offset": [
+                                    4,
+                                    -1.5
+                                ],
+                                "zLevel": -1,
+                                "transformationGroups": [
+                                    "rotation",
+                                    "bottomEngine_3"
+                                ],
+                                "rotationCenter": [
+                                    0,
+                                    0.5
+                                ],
+                                "centered": true
+                            },
+                            "partStates": {
+                                "movement": {
+                                    "warpInPart1": {
+                                        "properties": {}
+                                    },
+                                    "warpInPart2": {
+                                        "properties": {}
+                                    },
+                                    "warpOutPart1": {
+                                        "properties": {}
+                                    },
+                                    "warpOutPart2": {
+                                        "properties": {}
+                                    },
+                                    "idle": {
+                                        "properties": {
+                                            "image": "<bottomEngine>"
+                                        }
+                                    },
+                                    "invisible": {
+                                        "properties": {}
+                                    }
+                                }
+                            }
+                        },
+                        "bottomThrust2": {
+                            "properties": {
+                                "offset": [
+                                    0.75,
+                                    -1.5
+                                ],
+                                "fullbright": true,
+                                "zLevel": 2,
+                                "transformationGroups": [
+                                    "flip",
+                                    "rotation",
+                                    "bottomEngine_2"
+                                ],
+                                "light": [
+                                    87,
+                                    148,
+                                    150
+                                ],
+                                "centered": true
+                            },
+                            "partStates": {
+                                "bottomThruster": {
+                                    "on": {
+                                        "frameProperties": {
+                                            "image": [
+                                                "<bottomThruster1>",
+                                                "<bottomThruster2>",
+                                                "<bottomThruster3>"
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "bottomThrust3": {
+                            "properties": {
+                                "offset": [
+                                    4,
+                                    -1.5
+                                ],
+                                "fullbright": true,
+                                "zLevel": -2,
+                                "transformationGroups": [
+                                    "flip",
+                                    "rotation",
+                                    "bottomEngine_3"
+                                ],
+                                "light": [
+                                    87,
+                                    148,
+                                    150
+                                ],
+                                "centered": true
+                            },
+                            "partStates": {
+                                "bottomThruster": {
+                                    "on": {
+                                        "frameProperties": {
+                                            "image": [
+                                                "<bottomThruster1>",
+                                                "<bottomThruster2>",
+                                                "<bottomThruster3>"
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "bottomEngine_4": {
+                            "properties": {
+                                "parkTransition": [
+                                    0,
+                                    0.5
+                                ],
+                                "offset": [
+                                    -0.25,
+                                    -1.5
+                                ],
+                                "zLevel": -1,
+                                "transformationGroups": [
+                                    "rotation",
+                                    "bottomEngine_4"
+                                ],
+                                "rotationCenter": [
+                                    0,
+                                    0.5
+                                ],
+                                "centered": true
+                            },
+                            "partStates": {
+                                "movement": {
+                                    "warpInPart1": {
+                                        "properties": {}
+                                    },
+                                    "warpInPart2": {
+                                        "properties": {}
+                                    },
+                                    "warpOutPart1": {
+                                        "properties": {}
+                                    },
+                                    "warpOutPart2": {
+                                        "properties": {}
+                                    },
+                                    "idle": {
+                                        "properties": {
+                                            "image": "<bottomEngine>"
+                                        }
+                                    },
+                                    "invisible": {
+                                        "properties": {}
+                                    }
+                                }
+                            }
+                        },
+                        "bottomThrust4": {
+                            "properties": {
+                                "offset": [
+                                    -0.25,
+                                    -1.5
+                                ],
+                                "fullbright": true,
+                                "zLevel": -2,
+                                "transformationGroups": [
+                                    "flip",
+                                    "rotation",
+                                    "bottomEngine_4"
+                                ],
+                                "light": [
+                                    87,
+                                    148,
+                                    150
+                                ],
+                                "centered": true
+                            },
+                            "partStates": {
+                                "bottomThruster": {
+                                    "on": {
+                                        "frameProperties": {
+                                            "image": [
+                                                "<bottomThruster1>",
+                                                "<bottomThruster2>",
+                                                "<bottomThruster3>"
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "fire": {
+                            "properties": {
+                                "zLevel": 2,
+                                "transformationGroups": [
+                                    "flip",
+                                    "rotation"
+                                ],
+                                "centered": true,
+                                "fullbright": true
+                            },
+                            "partStates": {
+                                "onfire": {
+                                    "on": {
+                                        "properties": {
+                                            "image": "<fire>"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "foreground": {
+                            "properties": {
+                                "passengerSeatPosition2": [
+                                    -1,
+                                    1.6
+                                ],
+                                "passengerSeatPosition3": [
+                                    0,
+                                    1.6
+                                ],
+                                "passengerSeatPosition4": [
+                                    0.5,
+                                    1.6
+                                ],
+                                "passengerSeatPosition": [
+                                    -0.5,
+                                    1.6
+                                ],
+                                "offset": [
+                                    0,
+                                    0
+                                ],
+                                "zLevel": 1,
+                                "transformationGroups": [
+                                    "flip",
+                                    "rotation"
+                                ],
+                                "drivingSeatPosition": [
+                                    0.9,
+                                    1.6
+                                ],
+                                "centered": true,
+                                "passengerSeatPosition1": [
+                                    0.3,
+                                    1.6
+                                ]
+                            },
+                            "partStates": {
+                                "movement": {
+                                    "warpInPart1": {
+                                        "properties": {
+                                            "image": ""
+                                        }
+                                    },
+                                    "warpInPart2": {
+                                        "properties": {
+                                            "image": "<warpInForeground2>"
+                                        }
+                                    },
+                                    "warpOutPart1": {
+                                        "properties": {
+                                            "image": "<warpOutForeground1>"
+                                        }
+                                    },
+                                    "warpOutPart2": {
+                                        "properties": {}
+                                    },
+                                    "idle": {
+                                        "properties": {
+                                            "image": "<idleForeground>"
+                                        }
+                                    },
+                                    "invisible": {
+                                        "properties": {}
+                                    }
+                                }
+                            }
+                        },
+                        "bottomThrust": {
+                            "properties": {
+                                "zLevel": -1,
+                                "transformationGroups": [
+                                    "flip",
+                                    "rotation",
+                                    "bottomEngine_1"
+                                ],
+                                "light": [
+                                    87,
+                                    148,
+                                    150
+                                ],
+                                "centered": true,
+                                "fullbright": true
+                            },
+                            "partStates": {
+                                "bottomThruster": {
+                                    "on": {
+                                        "frameProperties": {
+                                            "image": [
+                                                "/assetMissing.png",
+                                                "/assetMissing.png",
+                                                "/assetMissint.png"
+                                            ],
+                                            "offset": [
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    0,
+                                                    0
+                                                ],
+                                                [
+                                                    0,
+                                                    0
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "warp": {
+                            "properties": {
+                                "zLevel": 3,
+                                "transformationGroups": [
+                                    "flip",
+                                    "rotation"
+                                ],
+                                "centered": true,
+                                "fullbright": true
+                            },
+                            "partStates": {
+                                "movement": {
+                                    "warpInPart1": {
+                                        "properties": {
+                                            "image": "<warpingIn1>"
+                                        }
+                                    },
+                                    "warpInPart2": {
+                                        "properties": {
+                                            "image": "<warpingIn2>"
+                                        }
+                                    },
+                                    "warpOutPart1": {
+                                        "properties": {
+                                            "image": "<warpingOut1>"
+                                        }
+                                    },
+                                    "warpOutPart2": {
+                                        "properties": {
+                                            "image": "<warpingOut2>"
+                                        }
+                                    },
+                                    "idle": {
+                                        "properties": {}
+                                    },
+                                    "invisible": {
+                                        "properties": {}
+                                    }
+                                }
+                            }
+                        },
+                        "lights": {
+                            "properties": {
+                                "zLevel": 2,
+                                "transformationGroups": [
+                                    "flip",
+                                    "rotation"
+                                ],
+                                "centered": true,
+                                "fullbright": false
+                            },
+                            "partStates": {
+                                "headlights": {
+                                    "on": {
+                                        "properties": {
+                                            "offset": [
+                                                0,
+                                                0
+                                            ],
+                                            "image": "<headlightsOn>",
+                                            "fullbright": true
+                                        }
+                                    },
+                                    "off": {
+                                        "properties": {
+                                            "image": "<headlightsOff>",
+                                            "offset": [
+                                                0,
+                                                0
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "globalTagDefaults": {
+                    "warpOutForeground1": "/assetmissing.png",
+                    "bottomThruster1": "/assetmissing.png?crop;0;0;1;1?setcolor=fff?replace;fff0=fff?border=1;fff;000?scale=1.15;1.12?crop;1;1;3;3?replace;fbfbfb=0000;eaeaea=0d000000;e4e4e4=0010;6a6a6a=0d001100?scale=12.5;16.5?crop=0;0;13;17?replace;03000200=010;04000100=010;04000200=110;05000100=110;05000200=feffff;06000100=110;06000200=feffff;07000100=110;07000200=feffff;08000100=010;08000200=110;09000200=010?replace;010=028bda;110=5eb8ec",
+                    "headlightsOff": "/assetmissing.png",
+                    "bottomThruster2": "/assetmissing.png?crop;0;0;1;1?setcolor=fff?replace;fff0=fff?border=1;fff;000?scale=1.15;1.12?crop;1;1;3;3?replace;fbfbfb=0000;eaeaea=0d000000;e4e4e4=0010;6a6a6a=0d001100?scale=12.5;16.5?crop=0;0;13;17?replace;03000200=010;04000100=010;04000200=110;05000000=010;05000100=110;05000200=210;06000000=010;06000100=210;06000200=210;07000000=010;07000100=110;07000200=210;08000100=010;08000200=110;09000200=010?replace;010=028bda;110=5eb8ec;210=feffff",
+                    "bottomThruster3": "/assetmissing.png?crop;0;0;1;1?setcolor=fff?replace;fff0=fff?border=1;fff;000?scale=1.15;1.12?crop;1;1;3;3?replace;fbfbfb=0000;eaeaea=0d000000;e4e4e4=0010;6a6a6a=0d001100?scale=12.5;16.5?crop=0;0;13;17?replace;03000100=110;03000200=010;04000000=110;04000100=010;04000200=210;05000000=110;05000100=210;05000200=210;06000000=110;06000100=210;06000200=210;07000000=110;07000100=210;07000200=210;08000000=110;08000100=010;08000200=210;09000100=110;09000200=010?replace;010=5eb8ec;110=028bda;210=feffff",
+                    "warpingOut1": "/assetmissing.png",
+                    "warpingOut2": "/assetmissing.png",
+                    "warpInBackground2": "/assetmissing.png",
+                    "idleForeground": "/assetmissing.png?crop;0;0;1;1?setcolor=fff?replace;fff0=fff?border=1;fff;000?scale=1.15;1.12?crop;1;1;3;3?replace;fbfbfb=0000;eaeaea=59000000;e4e4e4=00001a00;6a6a6a=59001a00?scale=88.5;25.5?crop=0;0;89;26?replace;00000800=310;00000900=310;00000a00=310;00000b00=310;00000c00=310;00000d00=310;01000300=510;01000400=510;01000500=510;01000700=310;01000800=410;01000900=410;01000a00=410;01000b00=410;01000c00=410;01000d00=410;01000e00=310;02000200=510;02000300=510;02000400=510;02000500=710;02000600=510;02000700=410;02000800=410;02000900=410;02000a00=410;02000b00=410;02000c00=410;02000d00=410;02000e00=610;02000f00=310;03000200=510;03000300=510;03000400=510;03000500=810;03000600=510;03000700=410;03000800=410;03000900=410;03000a00=410;03000b00=410;03000c00=410;03000d00=410;03000e00=610;03000f00=310;04000200=510;04000300=510;04000400=710;04000500=810;04000600=510;04000700=410;04000800=410;04000900=410;04000a00=410;04000b00=410;04000c00=410;04000d00=410;04000e00=610;04000f00=310;05000200=510;05000300=710;05000400=910;05000500=910;05000600=510;05000700=410;05000800=410;05000900=410;05000a00=310;05000b00=310;05000c00=310;05000d00=310;05000e00=610;05000f00=310;06000200=510;06000300=810;06000400=910;06000500=910;06000600=710;06000700=410;06000800=410;06000900=410;06000a00=310;06000b00=410;06000c00=410;06000d00=410;06000e00=610;06000f00=310;06001000=510;07000100=310;07000200=410;07000300=510;07000400=510;07000500=710;07000600=410;07000700=410;07000800=410;07000900=410;07000a00=310;07000b00=310;07000c00=310;07000d00=310;07000e00=610;07000f00=310;07001000=710;07001100=510;08000100=310;08000200=410;08000300=410;08000400=410;08000500=410;08000600=410;08000700=410;08000800=410;08000900=410;08000a00=410;08000b00=310;08000c00=410;08000d00=310;08000e00=610;08000f00=310;08001000=710;08001100=810;08001200=510;09000000=310;09000100=310;09000200=410;09000300=410;09000400=410;09000500=410;09000600=410;09000700=410;09000800=410;09000900=410;09000a00=610;09000b00=610;09000c00=610;09000d00=610;09000e00=610;09000f00=310;09001000=510;09001100=810;09001200=510;0a000000=310;0a000100=310;0a000200=310;0a000300=310;0a000400=310;0a000500=310;0a000600=410;0a000700=410;0a000800=410;0a000900=410;0a000a00=410;0a000b00=410;0a000c00=410;0a000d00=410;0a000e00=610;0a000f00=310;0a001000=710;0a001100=510;0a001200=510;0b000000=310;0b000100=010;0b000200=010;0b000300=010;0b000400=010;0b000500=010;0b000600=310;0b000700=310;0b000800=410;0b000900=410;0b000a00=410;0b000b00=410;0b000c00=410;0b000d00=410;0b000e00=610;0b000f00=310;0b001000=510;0b001100=710;0b001200=510;0c000000=010;0c000100=010;0c000200=110;0c000300=010;0c000400=110;0c000500=010;0c000600=110;0c000700=010;0c000800=310;0c000900=410;0c000a00=410;0c000b00=410;0c000c00=410;0c000d00=410;0c000e00=610;0c000f00=310;0c001000=510;0c001100=510;0c001200=510;0d000000=010;0d000100=010;0d000200=555;0d000300=010;0d000400=555;0d000500=010;0d000600=555;0d000700=010;0d000800=010;0d000900=310;0d000a00=410;0d000b00=410;0d000c00=410;0d000d00=410;0d000e00=610;0d000f00=310;0d001000=710;0d001100=510;0d001200=510;0e000000=010;0e000100=010;0e000200=010;0e000300=010;0e000400=010;0e000500=010;0e000600=010;0e000700=010;0e000800=010;0e000900=310;0e000a00=410;0e000b00=410;0e000c00=410;0e000d00=410;0e000e00=610;0e000f00=310;0e001000=710;0e001100=810;0e001200=510;0f000000=010;0f000100=010;0f000200=010;0f000300=110;0f000400=110;0f000500=110;0f000600=010;0f000700=010;0f000800=010;0f000900=310;0f000a00=410;0f000b00=410;0f000c00=410;0f000d00=410;0f000e00=610;0f000f00=310;0f001000=310;0f001100=810;0f001200=510;10000000=010;10000100=010;10000200=110;10000300=110;10000400=110;10000500=110;10000600=110;10000700=010;10000800=010;10000900=310;10000a00=410;10000b00=410;10000c00=410;10000d00=410;10000e00=610;10000f00=310;10001000=410;10001100=310;10001200=310;1000=010;11000100=010;11000200=110;11000300=110;11000400=110;11000500=555;11000600=110;11000700=010;11000800=010;11000900=310;11000a00=410;11000b00=410;11000c00=410;11000d00=410;11000e00=610;11000f00=310;11001000=410;1010=410;11001200=410;11001300=310;11001400=310;12000000=010;12000100=010;12000200=110;12000300=110;12000400=555;12000500=555;12000600=110;12000700=010;12000800=010;12000900=310;12000a00=410;12000b00=410;12000c00=410;12000d00=410;12000e00=610;12000f00=310;12001000=410;12001100=410;12001200=410;12001300=410;12001400=410;12001500=310;12001600=310;13000000=010;13000100=010;13000200=010;13000300=110;13000400=110;13000500=110;13000600=010;13000700=010;13000800=010;13000900=310;13000a00=410;13000b00=310;13000c00=310;13000d00=310;13000e00=310;13000f00=310;13001000=410;13001100=410;13001200=410;13001300=410;13001400=410;13001500=410;13001600=410;13001700=310;14000000=010;14000100=010;14000200=010;14000300=010;14000400=010;14000500=010;14000600=010;14000700=010;14000800=010;14000900=310;14000a00=610;14000b00=410;14000c00=410;14000d00=410;14000e00=610;14000f00=310;14001000=310;14001100=310;14001200=310;14001300=310;14001400=410;14001500=410;14001600=410;14001700=410;14001800=310;15000000=010;15000100=010;15000200=110;15000300=010;15000400=110;15000500=010;15000600=110;15000700=010;15000800=010;15000900=410;15000a00=410;15000b00=610;15000c00=610;15000d00=410;15000e00=610;15000f00=310;15001000=210;15001100=a10;15001200=a10;15001300=a10;15001400=310;15001500=310;15001600=410;15001700=410;15001800=610;15001900=410;16000000=010;16000100=010;16000200=555;16000300=010;16000400=555;16000500=010;16000600=010;16000700=010;16000800=310;16000900=610;16000a00=410;16000b00=310;16000c00=310;16000d00=410;16000e00=610;16000f00=310;16001000=210;16001100=210;16001200=a10;16001300=a10;16001400=a10;16001500=a10;16001600=310;16001700=410;16001800=610;16001900=410;17000000=010;17000100=010;17000200=010;17000300=010;17000400=010;17000500=010;17000600=310;17000700=310;17000800=410;17000900=410;17000a00=410;17000b00=310;17000c00=310;17000d00=410;17000e00=610;17000f00=310;17001000=210;17001100=210;17001200=210;17001300=a10;17001400=a10;17001500=a10;17001600=a10;17001700=310;17001800=610;17001900=410;18000000=010;18000100=310;18000200=310;18000300=310;18000400=310;18000500=410;18000600=610;18000700=410;18000800=410;18000900=410;18000a00=410;18000b00=410;18000c00=310;18000d00=410;18000e00=610;18000f00=310;18001000=a10;18001100=210;18001200=210;18001300=210;18001400=a10;18001500=a10;18001600=a10;18001700=310;18001800=610;18001900=410;19000000=310;19000100=410;19000200=610;19000300=610;19000400=610;19000500=410;19000600=410;19000700=410;19000800=410;19000900=410;19000a00=410;19000b00=410;19000c00=410;19000d00=410;19000e00=610;19000f00=310;19001000=a10;19001100=a10;19001200=210;19001300=210;19001400=210;19001500=a10;19001600=a10;19001700=310;19001800=610;19001900=410;1a000000=310;1a000100=310;1a000200=410;1a000300=410;1a000400=410;1a000500=410;1a000600=410;1a000700=410;1a000800=410;1a000900=410;1a000a00=410;1a000b00=410;1a000c00=410;1a000d00=410;1a000e00=610;1a000f00=310;1a001000=a10;1a001100=a10;1a001200=a10;1a001300=210;1a001400=210;1a001500=210;1a001600=a10;1a001700=310;1a001800=610;1a001900=410;1b000000=310;1b000100=310;1b000200=410;1b000300=410;1b000400=410;1b000500=410;1b000600=410;1b000700=410;1b000800=410;1b000900=410;1b000a00=410;1b000b00=410;1b000c00=410;1b000d00=410;1b000e00=610;1b000f00=310;1b001000=210;1b001100=a10;1b001200=a10;1b001300=a10;1b001400=210;1b001500=210;1b001600=210;1b001700=310;1b001800=610;1b001900=410;1c000000=310;1c000100=310;1c000200=410;1c000300=410;1c000400=410;1c000500=410;1c000600=410;1c000700=410;1c000800=410;1c000900=410;1c000a00=410;1c000b00=410;1c000c00=410;1c000d00=410;1c000e00=610;1c000f00=310;1c001000=a10;1c001100=210;1c001200=a10;1c001300=a10;1c001400=a10;1c001500=210;1c001600=210;1c001700=310;1c001800=610;1c001900=410;1d000000=310;1d000100=310;1d000200=410;1d000300=410;1d000400=410;1d000500=410;1d000600=410;1d000700=410;1d000800=410;1d000900=410;1d000a00=410;1d000b00=410;1d000c00=410;1d000d00=410;1d000e00=610;1d000f00=310;1d001000=a10;1d001100=a10;1d001200=210;1d001300=a10;1d001400=a10;1d001500=a10;1d001600=210;1d001700=310;1d001800=610;1d001900=410;1e000000=310;1e000100=310;1e000200=410;1e000300=410;1e000400=410;1e000500=410;1e000600=410;1e000700=410;1e000800=410;1e000900=410;1e000a00=410;1e000b00=410;1e000c00=410;1e000d00=410;1e000e00=610;1e000f00=310;1e001000=a10;1e001100=a10;1e001200=a10;1e001300=210;1e001400=a10;1e001500=a10;1e001600=a10;1e001700=310;1e001800=610;1e001900=410;1f000000=310;1f000100=310;1f000200=410;1f000300=310;1f000400=310;1f000500=310;1f000600=310;1f000700=310;1f000800=310;1f000900=310;1f000a00=310;1f000b00=310;1f000c00=310;1f000d00=310;1f000e00=610;1f000f00=310;1f001000=310;1f001100=310;1f001200=310;1f001300=310;1f001400=310;1f001500=310;1f001600=310;1f001700=410;1f001800=610;1f001900=410;20000000=310;20000100=310;20000200=310;20000300=410;20000400=410;20000500=410;20000600=410;20000700=410;20000800=410;20000900=410;20000a00=410;20000b00=410;20000c00=410;20000d00=410;20000e00=310;20000f00=310;20001000=410;20001100=410;20001200=410;20001300=410;20001400=610;20001500=410;20001600=610;20001700=610;20001800=610;20001900=410;21000000=310;21000100=310;21000200=410;21000300=410;21000400=410;21000500=410;21000600=410;21000700=410;21000800=410;21000900=410;21000a00=410;21000b00=610;21000c00=610;21000d00=410;21000e00=610;21000f00=310;21001000=310;21001100=310;21001200=310;21001300=310;21001400=310;21001500=310;21001600=310;21001700=610;21001800=610;21001900=410;2000=310;22000100=310;22000200=410;22000300=410;22000400=410;22000500=410;22000600=410;22000700=410;22000800=410;22000900=410;22000a00=410;22000b00=310;22000c00=310;22000d00=410;22000e00=610;22000f00=310;22001000=a10;2010=210;22001200=210;22001300=a10;22001400=210;22001500=a10;22001600=a10;22001700=310;22001800=610;22001900=410;23000000=310;23000100=310;23000200=410;23000300=410;23000400=410;23000500=410;23000600=410;23000700=410;23000800=410;23000900=410;23000a00=410;23000b00=310;23000c00=310;23000d00=410;23000e00=610;23000f00=310;23001000=a10;23001100=a10;23001200=210;23001300=210;23001400=a10;23001500=210;23001600=a10;23001700=310;23001800=610;23001900=410;24000000=310;24000100=310;24000200=410;24000300=410;24000400=410;24000500=410;24000600=410;24000700=410;24000800=410;24000900=410;24000a00=410;24000b00=410;24000c00=310;24000d00=410;24000e00=610;24000f00=310;24001000=a10;24001100=a10;24001200=a10;24001300=210;24001400=210;24001500=a10;24001600=210;24001700=310;24001800=610;24001900=410;25000000=310;25000100=310;25000200=410;25000300=410;25000400=410;25000500=410;25000600=410;25000700=410;25000800=410;25000900=410;25000a00=410;25000b00=410;25000c00=410;25000d00=410;25000e00=610;25000f00=310;25001000=a10;25001100=a10;25001200=a10;25001300=a10;25001400=210;25001500=210;25001600=a10;25001700=310;25001800=610;25001900=410;26000000=310;26000100=310;26000200=410;26000300=410;26000400=410;26000500=410;26000600=410;26000700=410;26000800=410;26000900=410;26000a00=410;26000b00=410;26000c00=410;26000d00=410;26000e00=610;26000f00=310;26001000=a10;26001100=a10;26001200=a10;26001300=a10;26001400=a10;26001500=210;26001600=210;26001700=310;26001800=610;26001900=410;27000000=310;27000100=310;27000200=410;27000300=410;27000400=410;27000500=410;27000600=410;27000700=410;27000800=410;27000900=410;27000a00=410;27000b00=410;27000c00=410;27000d00=410;27000e00=610;27000f00=310;27001000=a10;27001100=a10;27001200=a10;27001300=a10;27001400=a10;27001500=a10;27001600=210;27001700=310;27001800=610;27001900=410;28000000=310;28000100=310;28000200=410;28000300=410;28000400=410;28000500=410;28000600=410;28000700=410;28000800=410;28000900=410;28000a00=410;28000b00=410;28000c00=410;28000d00=410;28000e00=610;28000f00=310;28001000=210;28001100=a10;28001200=a10;28001300=a10;28001400=a10;28001500=a10;28001600=a10;28001700=310;28001800=610;28001900=410;29000000=310;29000100=310;29000200=410;29000300=410;29000400=410;29000500=410;29000600=410;29000700=410;29000800=410;29000900=410;29000a00=410;29000b00=410;29000c00=410;29000d00=410;29000e00=610;29000f00=310;29001000=a10;29001100=210;29001200=a10;29001300=a10;29001400=a10;29001500=a10;29001600=a10;29001700=310;29001800=610;29001900=410;2a000000=310;2a000100=310;2a000200=410;2a000300=310;2a000400=310;2a000500=310;2a000600=310;2a000700=310;2a000800=310;2a000900=310;2a000a00=310;2a000b00=310;2a000c00=310;2a000d00=310;2a000e00=610;2a000f00=310;2a001000=a10;2a001100=a10;2a001200=210;2a001300=a10;2a001400=a10;2a001500=310;2a001600=310;2a001700=410;2a001800=610;2a001900=410;2b000000=310;2b000100=310;2b000200=310;2b000300=310;2b000400=310;2b000500=310;2b000600=310;2b000700=310;2b000800=310;2b000900=410;2b000a00=410;2b000b00=410;2b000c00=410;2b000d00=410;2b000e00=310;2b000f00=310;2b001000=a10;2b001100=a10;2b001200=310;2b001300=310;2b001400=310;2b001500=410;2b001600=410;2b001700=610;2b001800=610;2b001900=410;2c000000=310;2c000100=010;2c000200=010;2c000300=010;2c000400=010;2c000500=010;2c000600=010;2c000700=010;2c000800=410;2c000900=310;2c000a00=410;2c000b00=410;2c000c00=410;2c000d00=410;2c000e00=610;2c000f00=310;2c001000=310;2c001100=310;2c001200=610;2c001300=610;2c001400=610;2c001500=610;2c001600=610;2c001700=610;2c001800=610;2c001900=410;2d000000=010;2d000100=010;2d000200=110;2d000300=010;2d000400=110;2d000500=010;2d000600=110;2d000700=010;2d000800=010;2d000900=410;2d000a00=310;2d000b00=410;2d000c00=410;2d000d00=410;2d000e00=610;2d000f00=310;2d001000=610;2d001100=610;2d001200=310;2d001300=310;2d001400=310;2d001500=310;2d001600=310;2d001700=610;2d001800=610;2d001900=410;2e000000=010;2e000100=010;2e000200=555;2e000300=010;2e000400=555;2e000500=010;2e000600=555;2e000700=010;2e000800=110;2e000900=010;2e000a00=410;2e000b00=610;2e000c00=410;2e000d00=410;2e000e00=610;2e000f00=310;2e001000=310;2e001100=310;2e001200=a10;2e001300=a10;2e001400=a10;2e001500=a10;2e001600=a10;2e001700=310;2e001800=610;2e001900=410;2f000000=010;2f000100=010;2f000200=010;2f000300=010;2f000400=010;2f000500=010;2f000600=010;2f000700=010;2f000800=010;2f000900=010;2f000a00=410;2f000b00=610;2f000c00=410;2f000d00=410;2f000e00=610;2f000f00=310;2f001000=a10;2f001100=a10;2f001200=210;2f001300=a10;2f001400=a10;2f001500=a10;2f001600=a10;2f001700=310;2f001800=610;2f001900=410;30000000=010;30000100=010;30000200=010;30000300=110;30000400=110;30000500=110;30000600=010;30000700=010;30000800=010;30000900=010;30000a00=410;30000b00=610;30000c00=410;30000d00=410;30000e00=610;30000f00=310;30001000=a10;30001100=a10;30001200=a10;30001300=210;30001400=a10;30001500=a10;30001600=a10;30001700=310;30001800=610;30001900=410;31000000=010;31000100=010;31000200=110;31000300=110;31000400=110;31000500=110;31000600=110;31000700=010;31000800=010;31000900=010;31000a00=410;31000b00=610;31000c00=410;31000d00=410;31000e00=610;31000f00=310;31001000=a10;31001100=a10;31001200=a10;31001300=a10;31001400=210;31001500=a10;31001600=a10;31001700=310;31001800=610;31001900=410;32000000=010;32000100=010;32000200=110;32000300=110;32000400=110;32000500=555;32000600=110;32000700=010;32000800=010;32000900=010;32000a00=410;32000b00=610;32000c00=410;32000d00=410;32000e00=610;32000f00=310;32001000=a10;32001100=a10;32001200=a10;32001300=a10;32001400=a10;32001500=210;32001600=a10;32001700=310;32001800=610;32001900=410;3000=010;33000100=010;33000200=110;33000300=110;33000400=555;33000500=555;33000600=110;33000700=010;33000800=010;33000900=010;33000a00=410;33000b00=610;33000c00=410;33000d00=410;33000e00=610;33000f00=310;33001000=210;3010=a10;33001200=a10;33001300=a10;33001400=a10;33001500=a10;33001600=210;33001700=310;33001800=610;33001900=410;34000000=010;34000100=010;34000200=010;34000300=110;34000400=110;34000500=110;34000600=010;34000700=010;34000800=010;34000900=010;34000a00=410;34000b00=610;34000c00=410;34000d00=410;34000e00=610;34000f00=310;34001000=210;34001100=210;34001200=a10;34001300=a10;34001400=a10;34001500=a10;34001600=a10;34001700=310;34001800=610;34001900=410;35000000=010;35000100=010;35000200=010;35000300=010;35000400=010;35000500=010;35000600=010;35000700=010;35000800=010;35000900=010;35000a00=410;35000b00=610;35000c00=410;35000d00=410;35000e00=610;35000f00=310;35001000=a10;35001100=210;35001200=210;35001300=a10;35001400=a10;35001500=a10;35001600=a10;35001700=310;35001800=610;35001900=410;36000000=010;36000100=010;36000200=110;36000300=010;36000400=110;36000500=010;36000600=110;36000700=010;36000800=110;36000900=010;36000a00=410;36000b00=610;36000c00=410;36000d00=410;36000e00=610;36000f00=310;36001000=310;36001100=a10;36001200=210;36001300=210;36001400=a10;36001500=a10;36001600=a10;36001700=310;36001800=610;36001900=410;37000000=010;37000100=010;37000200=555;37000300=010;37000400=555;37000500=010;37000600=010;37000700=010;37000800=010;37000900=410;37000a00=610;37000b00=410;37000c00=410;37000d00=410;37000e00=610;37000f00=310;37001000=310;37001100=a10;37001200=a10;37001300=210;37001400=210;37001500=a10;37001600=a10;37001700=310;37001800=b10;37001900=410;38000000=010;38000100=010;38000200=010;38000300=510;38000400=510;38000500=510;38000600=410;38000700=410;38000800=410;38000900=610;38000a00=410;38000b00=c10;38000c00=410;38000d00=410;38000e00=610;38000f00=310;38001000=310;38001100=210;38001200=a10;38001300=a10;38001400=210;38001500=210;38001600=a10;38001700=310;38001800=610;38001900=410;39000000=010;39000100=010;39000200=510;39000300=510;39000400=710;39000500=510;39000600=610;39000700=610;39000800=610;39000900=410;39000a00=c10;39000b00=d10;39000c00=410;39000d00=410;39000e00=610;39000f00=310;39001000=310;39001100=210;39001200=210;39001300=a10;39001400=a10;39001500=210;39001600=210;39001700=310;39001800=610;39001900=410;3a000000=010;3a000100=310;3a000200=510;3a000300=710;3a000400=810;3a000500=510;3a000600=b10;3a000700=b10;3a000800=410;3a000900=410;3a000a00=d10;3a000b00=fecb02;3a000c00=410;3a000d00=410;3a000e00=610;3a000f00=310;3a001000=310;3a001100=210;3a001200=210;3a001300=210;3a001400=a10;3a001500=a10;3a001600=210;3a001700=310;3a001800=b10;3a001900=410;3b000000=010;3b000100=310;3b000200=510;3b000300=710;3b000400=810;3b000500=510;3b000600=610;3b000700=610;3b000800=b10;3b000900=b10;3b000a00=b10;3b000b00=410;3b000c00=410;3b000d00=410;3b000e00=b10;3b000f00=410;3b001000=310;3b001100=210;3b001200=210;3b001300=210;3b001400=210;3b001500=a10;3b001600=a10;3b001700=310;3b001800=b10;3b001900=410;3c000100=310;3c000200=710;3c000300=810;3c000400=910;3c000500=710;3c000600=310;3c000700=310;3c000800=610;3c000900=610;3c000a00=610;3c000b00=b10;3c000c00=b10;3c000d00=b10;3c000e00=610;3c000f00=410;3c001000=310;3c001100=a10;3c001200=210;3c001300=210;3c001400=210;3c001500=210;3c001600=a10;3c001700=310;3c001800=b10;3c001900=410;3d000100=310;3d000200=710;3d000300=810;3d000400=910;3d000500=710;3d000600=610;3d000700=610;3d000800=310;3d000900=510;3d000a00=510;3d000b00=510;3d000c00=610;3d000d00=b10;3d000e00=310;3d000f00=410;3d001000=310;3d001100=a10;3d001200=a10;3d001300=210;3d001400=210;3d001500=210;3d001600=210;3d001700=310;3d001800=b10;3d001900=410;3e000100=310;3e000200=710;3e000300=810;3e000400=910;3e000500=710;3e000600=610;3e000700=610;3e000800=510;3e000900=c10;3e000a00=c10;3e000b00=d10;3e000c00=510;3e000d00=410;3e000e00=610;3e000f00=410;3e001000=310;3e001100=a10;3e001200=a10;3e001300=a10;3e001400=210;3e001500=210;3e001600=210;3e001700=310;3e001800=b10;3e001900=410;3f000100=310;3f000200=710;3f000300=810;3f000400=910;3f000500=710;3f000600=610;3f000700=610;3f000800=510;3f000900=d10;3f000a00=d10;3f000b00=fecb02;3f000c00=510;3f000d00=b10;3f000e00=610;3f000f00=410;3f001000=310;3f001100=210;3f001200=a10;3f001300=a10;3f001400=a10;3f001500=210;3f001600=210;3f001700=310;3f001800=410;40000100=310;40000200=710;40000300=810;40000400=910;40000500=710;40000600=610;40000700=610;40000800=510;40000900=e10;40000a00=e10;40000b00=fff;40000c00=510;40000d00=b10;40000e00=610;40000f00=410;40001000=310;40001100=a10;40001200=210;40001300=a10;40001400=a10;40001500=a10;40001600=210;40001700=310;40001800=410;41000100=310;41000200=710;41000300=810;41000400=910;41000500=710;41000600=610;41000700=610;41000800=510;41000900=e10;41000a00=e10;41000b00=fff;41000c00=510;41000d00=b10;41000e00=610;41000f00=410;41001000=410;41001100=a10;41001200=a10;41001300=210;41001400=a10;41001500=a10;41001600=a10;41001700=310;42000000=010;42000100=310;42000200=710;42000300=810;42000400=910;42000500=710;42000600=610;42000700=610;42000800=510;42000900=e10;42000a00=fff;42000b00=fff;42000c00=510;42000d00=b10;42000e00=610;42000f00=410;42001000=310;42001100=a10;42001200=a10;42001300=a10;42001400=210;42001500=a10;42001600=310;43000000=010;43000100=310;43000200=710;43000300=810;43000400=910;43000500=710;43000600=310;43000700=610;43000800=510;43000900=fff;43000a00=fff;43000b00=fff;43000c00=510;43000d00=b10;43000e00=610;43000f00=410;43001000=410;43001100=a10;43001200=a10;43001300=a10;43001400=310;43001500=310;4000=010;44000100=310;44000200=710;44000300=810;44000400=910;44000500=710;44000600=610;44000700=510;44000800=510;44000900=510;44000a00=510;44000b00=510;44000c00=510;44000d00=b10;44000e00=410;44000f00=610;44001000=410;4010=310;44001200=310;44001300=310;45000000=010;45000100=310;45000200=710;45000300=810;45000400=910;45000500=710;45000600=610;45000700=710;45000800=710;45000900=510;45000a00=510;45000b00=510;45000c00=510;45000d00=410;45000e00=610;45000f00=610;45001000=410;46000000=010;46000100=310;46000200=710;46000300=810;46000400=910;46000500=710;46000600=610;46000700=710;46000800=510;46000900=710;46000a00=710;46000b00=710;46000c00=710;46000d00=510;46000e00=610;46000f00=610;46001000=410;47000000=010;47000100=310;47000200=710;47000300=810;47000400=910;47000500=710;47000600=610;47000700=710;47000800=510;47000900=710;47000a00=510;47000b00=710;47000c00=510;47000d00=710;47000e00=610;47000f00=610;47001000=410;48000000=010;48000100=310;48000200=710;48000300=810;48000400=910;48000500=710;48000600=610;48000700=710;48000800=510;48000900=710;48000a00=510;48000b00=710;48000c00=510;48000d00=710;48000e00=610;48000f00=610;48001000=410;49000000=010;49000100=310;49000200=710;49000300=810;49000400=910;49000500=710;49000600=610;49000700=710;49000800=510;49000900=710;49000a00=510;49000b00=710;49000c00=510;49000d00=710;49000e00=610;49000f00=610;49001000=410;4a000000=010;4a000100=310;4a000200=710;4a000300=810;4a000400=910;4a000500=710;4a000600=610;4a000700=710;4a000800=510;4a000900=710;4a000a00=510;4a000b00=710;4a000c00=510;4a000d00=710;4a000e00=610;4a000f00=610;4a001000=410;4b000000=010;4b000100=310;4b000200=710;4b000300=810;4b000400=910;4b000500=710;4b000600=610;4b000700=710;4b000800=510;4b000900=710;4b000a00=510;4b000b00=710;4b000c00=510;4b000d00=710;4b000e00=610;4b000f00=610;4b001000=410;4c000000=010;4c000100=310;4c000200=710;4c000300=810;4c000400=910;4c000500=710;4c000600=610;4c000700=710;4c000800=510;4c000900=710;4c000a00=510;4c000b00=710;4c000c00=510;4c000d00=710;4c000e00=610;4c000f00=610;4c001000=410;4d000000=010;4d000100=310;4d000200=710;4d000300=810;4d000400=910;4d000500=710;4d000600=610;4d000700=710;4d000800=510;4d000900=710;4d000a00=510;4d000b00=710;4d000c00=510;4d000d00=710;4d000e00=610;4d000f00=610;4d001000=410;4e000000=010;4e000100=310;4e000200=710;4e000300=810;4e000400=910;4e000500=710;4e000600=310;4e000700=710;4e000800=510;4e000900=710;4e000a00=510;4e000b00=710;4e000c00=510;4e000d00=710;4e000e00=610;4e000f00=b10;4e001000=410;4f000000=010;4f000100=310;4f000200=710;4f000300=810;4f000400=910;4f000500=710;4f000600=610;4f000700=710;4f000800=710;4f000900=510;4f000a00=510;4f000b00=510;4f000c00=510;4f000d00=710;4f000e00=b10;4f000f00=410;50000000=010;50000100=310;50000200=710;50000300=810;50000400=910;50000500=710;50000600=610;50000700=610;50000800=510;50000900=710;50000a00=710;50000b00=710;50000c00=710;50000d00=b10;50000e00=610;50000f00=410;51000000=010;51000100=310;51000200=710;51000300=810;51000400=910;51000500=710;51000600=610;51000700=610;51000800=510;51000900=e10;51000a00=e10;51000b00=fff;51000c00=510;51000d00=b10;51000e00=610;51000f00=410;52000000=010;52000100=310;52000200=710;52000300=810;52000400=910;52000500=710;52000600=610;52000700=610;52000800=510;52000900=e10;52000a00=fff;52000b00=fff;52000c00=510;52000d00=b10;52000e00=610;52000f00=410;53000100=310;53000200=710;53000300=810;53000400=910;53000500=710;53000600=610;53000700=610;53000800=510;53000900=fff;53000a00=fff;53000b00=fff;53000c00=510;53000d00=b10;53000e00=610;53000f00=410;54000100=310;54000200=710;54000300=810;54000400=910;54000500=710;54000600=610;54000700=610;54000800=510;54000900=d10;54000a00=d10;54000b00=fecb02;54000c00=510;54000d00=b10;54000e00=610;54000f00=410;55000200=710;55000300=810;55000400=910;55000500=710;55000600=310;55000700=310;55000800=510;55000900=c10;55000a00=c10;55000b00=d10;55000c00=510;55000d00=b10;55000e00=410;55000f00=410;56000200=710;56000300=810;56000400=910;56000500=710;56000600=410;56000700=410;56000800=310;56000900=510;56000a00=510;56000b00=510;56000c00=510;56000d00=310;56000e00=610;56000f00=410;57000200=710;57000300=910;57000400=910;57000500=710;57000800=410;57000900=410;57000a00=410;57000b00=610;57000c00=610;57000d00=b10;57000e00=410;58000300=710;58000400=710;58000b00=410;58000c00=410;58000d00=410?replace;010=151515;110=383838;210=425053;310=4f4f56;410=8c8c99;510=1e1f21;610=d5d3d8;710=585a60;810=8f939e;910=b8c0db;a10=1d282d;b10=e9f7fc;c10=b36500;d10=fb9100;e10=b2a039",
+                    "headlightsOn": "/assetmissing.png?crop;0;0;1;1?setcolor=fff?replace;fff0=fff?border=1;fff;000?scale=1.15;1.12?crop;1;1;3;3?replace;fbfbfb=0000;eaeaea=59000000;e4e4e4=00001a00;6a6a6a=59001a00?scale=88.5;25.5?crop=0;0;89;26?replace;40000900=110;40000a00=110;40000b00=010;41000800=210;41000900=110;41000a00=110;41000b00=010;41000c00=310;41000d00=210;42000800=210;42000900=110;42000a00=410;42000b00=410;42000c00=310;42000d00=210;43000800=210;43000900=f7f4e6;43000a00=f7f4e6;43000b00=f7f4e6;43000c00=310;43000d00=210;44000800=210;44000900=310;44000a00=510;44000b00=510;44000c00=310;44000d00=210;45000800=210;45000900=310;45000a00=310;45000b00=310;45000c00=610;45000d00=210;46000800=210;46000900=610;46000a00=610;46000b00=610;46000c00=210;46000d00=210;47000900=210;47000a00=210;47000b00=210;47000c00=210;48000900=710;48000a00=710;48000b00=710;48000c00=710;51000900=110;51000a00=110;51000b00=010;52000800=210;52000900=110;52000a00=010;52000b00=010;52000c00=310;52000d00=210;53000800=210;53000900=410;53000a00=410;53000b00=410;53000c00=310;53000d00=210;54000800=210;54000900=ebe3bd65;54000a00=ebe3bd65;54000b00=ebe3bd65;54000c00=310;54000d00=210;55000800=210;55000900=310;55000a00=510;55000b00=510;55000c00=310;55000d00=210;56000800=210;56000900=310;56000a00=310;56000b00=310;56000c00=610;56000d00=210;57000800=210;57000900=610;57000a00=610;57000b00=610;57000c00=210;57000d00=210;58000900=210;58000a00=210;58000b00=210;58000c00=210?replace;010=f4f1dd;110=eae3be;210=e8e0c121;310=e8e4be43;410=f6f3e1;510=eae4bf54;610=ebe5bd32;710=efdfbf10",
+                    "fire": "/assetmissing.png",
+                    "bottomEngine": "/assetmissing.png?crop;0;0;1;1?setcolor=fff?replace;fff0=fff?border=1;fff;000?scale=1.15;1.12?crop;1;1;3;3?replace;fbfbfb=0000;eaeaea=0d000000;e4e4e4=0010;6a6a6a=0d001100?scale=12.5;16.5?crop=0;0;13;17?replace;00000700=310;00000800=310;00000900=310;00000b00=210;00000c00=210;00000d00=210;01000500=010;01000600=310;01000700=510;01000800=510;01000900=310;01000a00=010;01000b00=210;01000c00=410;01000d00=410;01000e00=210;02000400=010;02000500=110;02000600=310;02000700=510;02000800=510;02000900=310;02000a00=010;02000b00=210;02000c00=410;02000d00=410;02000e00=210;02000f00=310;03000300=010;03000400=010;03000500=010;03000600=310;03000700=510;03000800=510;03000900=210;03000a00=210;03000b00=410;03000c00=610;03000d00=610;03000e00=210;03000f00=510;03001000=310;04000300=010;04000400=010;04000500=110;04000600=510;04000700=710;04000800=210;04000900=410;04000a00=610;04000b00=610;04000c00=610;04000d00=610;04000e00=410;04000f00=510;04001000=310;05000300=010;05000400=110;05000500=555;05000600=510;05000700=710;05000800=210;05000900=610;05000a00=610;05000b00=610;05000c00=610;05000d00=610;05000e00=410;05000f00=710;05001000=510;06000300=010;06000400=010;06000500=110;06000600=510;06000700=710;06000800=210;06000900=610;06000a00=610;06000b00=610;06000c00=610;06000d00=610;06000e00=410;06000f00=510;06001000=310;07000300=010;07000400=110;07000500=555;07000600=510;07000700=710;07000800=210;07000900=e9f7fc;07000a00=610;07000b00=610;07000c00=610;07000d00=610;07000e00=410;07000f00=710;07001000=510;08000300=110;08000400=555;08000500=838383;08000600=510;08000700=810;08000800=810;08000900=210;08000a00=210;08000b00=610;08000c00=e9f7fc;08000d00=e9f7fc;08000e00=410;08000f00=810;08001000=510;09000300=110;09000400=555;09000500=838383;09000600=510;09000700=710;09000800=710;09000900=510;09000a00=010;09000b00=210;09000c00=610;09000d00=610;09000e00=410;09000f00=810;09001000=510;0a000400=110;0a000500=838383;0a000600=510;0a000700=710;0a000800=710;0a000900=510;0a000a00=555;0a000b00=210;0a000c00=610;0a000d00=610;0a000e00=410;0a000f00=510;0b000500=110;0b000600=510;0b000700=710;0b000800=710;0b000900=510;0b000a00=110;0b000b00=210;0b000c00=610;0b000d00=610;0b000e00=410;0c000700=510;0c000800=510;0c000900=510;0c000b00=210;0c000c00=410;0c000d00=410?replace;010=151515;110=383838;210=4f4f56;310=1e1f21;410=8c8c99;510=585a60;610=d5d3d8;710=8f939e;810=b8c0db",
+                    "warpInForeground2": "/assetmissing.png",
+                    "warpOutBackground1": "/assetmissing.png",
+                    "warpingIn1": "/assetmissing.png",
+                    "warpingIn2": "/assetmissing.png",
+                    "idleBackground": ""
+                },
+                "transformationGroups": {
+                    "engineGroundDust": {
+                        "interpolated": true
+                    },
+                    "bottomEngine_1": {
+                        "interpolated": true
+                    },
+                    "bottomEngine_2": {
+                        "interpolated": true
+                    },
+                    "rotation": {
+                        "interpolated": true
+                    },
+                    "bottomEngine_3": {
+                        "interpolated": true
+                    },
+                    "bottomEngine_4": {
+                        "interpolated": true
+                    },
+                    "flip": {}
+                },
+                "particleEmitters": {
+                    "smoke": {
+                        "offsetRegion": [
+                            -1.5,
+                            -1.5,
+                            0.5,
+                            -1
+                        ],
+                        "transformationGroups": [
+                            "flip",
+                            "rotation"
+                        ],
+                        "emissionRate": 0,
+                        "particles": [
+                            {
+                                "particle": "burningvehiclesmokefront"
+                            }
+                        ]
+                    },
+                    "ventralThrusterJump": {
+                        "transformationGroups": [
+                            "flip",
+                            "rotation"
+                        ],
+                        "offsetRegion": [
+                            -0.5,
+                            -1.5,
+                            0.5,
+                            -1.55
+                        ],
+                        "particles": [],
+                        "emissionRate": 15,
+                        "burstCount": 2
+                    },
+                    "thrusterDust": {
+                        "active": false,
+                        "transformationGroups": [
+                            "engineGroundDust"
+                        ],
+                        "emissionRate": 10,
+                        "particles": [
+                            {
+                                "particle": {
+                                    "fade": 0.9,
+                                    "timeToLive": 0.4,
+                                    "animation": "/animations/jumpsmoke/jumpsmoke.animation?scalenearest=2;1",
+                                    "type": "animated",
+                                    "position": [
+                                        0,
+                                        0
+                                    ],
+                                    "size": 1
+                                }
+                            }
+                        ]
+                    },
+                    "damageIntermittent": {
+                        "transformationGroups": [
+                            "flip",
+                            "rotation"
+                        ],
+                        "offsetRegion": [
+                            -3.25,
+                            -1.5,
+                            -3,
+                            -1.25
+                        ],
+                        "particles": [
+                            {
+                                "particle": "burningvehiclesmokefront"
+                            },
+                            {
+                                "particle": "fireshard"
+                            }
+                        ],
+                        "emissionRate": 0,
+                        "burstCount": 5
+                    },
+                    "rearThrusterIdle": {
+                        "offsetRegion": [
+                            -4.3,
+                            -0.6,
+                            -4.3,
+                            -0.6
+                        ],
+                        "transformationGroups": [
+                            "flip",
+                            "rotation"
+                        ],
+                        "emissionRate": 5,
+                        "particles": []
+                    },
+                    "rearThrusterDrive": {
+                        "offsetRegion": [
+                            -4.3,
+                            -0.6,
+                            -4.3,
+                            -0.6
+                        ],
+                        "transformationGroups": [
+                            "flip",
+                            "rotation"
+                        ],
+                        "emissionRate": 15,
+                        "particles": []
+                    },
+                    "fire": {
+                        "offsetRegion": [
+                            2,
+                            0,
+                            3,
+                            0.75
+                        ],
+                        "transformationGroups": [
+                            "flip",
+                            "rotation"
+                        ],
+                        "emissionRate": 0,
+                        "particles": [
+                            {
+                                "particle": "burningdust"
+                            },
+                            {
+                                "particle": "campfireflames"
+                            },
+                            {
+                                "particle": "fireshard"
+                            },
+                            {
+                                "particle": "burningvehiclesmokeback"
+                            }
+                        ]
+                    },
+                    "ventralThrusterIdle": {
+                        "offsetRegion": [
+                            -0.5,
+                            -1.5,
+                            0.5,
+                            -1.55
+                        ],
+                        "transformationGroups": [
+                            "flip",
+                            "rotation"
+                        ],
+                        "emissionRate": 5,
+                        "particles": []
+                    }
+                },
+                "lights": {
+                    "dashboardGlow": {
+                        "active": false,
+                        "pointLight": true,
+                        "pointBeam": 5,
+                        "transformationGroups": [
+                            "flip",
+                            "rotation"
+                        ],
+                        "pointAngle": 140,
+                        "position": [
+                            2,
+                            0.5
+                        ],
+                        "color": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "headlightBeam": {
+                        "active": false,
+                        "pointLight": true,
+                        "pointBeam": 5,
+                        "transformationGroups": [
+                            "flip",
+                            "rotation"
+                        ],
+                        "pointAngle": -5,
+                        "position": [
+                            2,
+                            0.5
+                        ],
+                        "color": [
+                            175,
+                            65,
+                            230
+                        ]
+                    }
+                }
+            },
+            "nearGroundDistance": 5,
+            "damageStateNames": [
+                "undamaged",
+                "scratched",
+                "dented",
+                "wrecked"
+            ],
+            "clientEntityMode": "ClientMasterAllowed",
+            "maxHealth": 1000,
+            "minDamageSoundInterval": 1,
+            "intermittentDamageSoundThreshold": 0.33,
+            "damageStateDriverEmotes": [
+                "idle",
+                "idle",
+                "idle",
+                "annoyed"
+            ],
+            "onFireHealthThreshold": 0.125,
+            "engineDamageSoundThreshold": 0.4,
+            "hoverControlForce": 650,
+            "explosionDamage": 10,
+            "damageStatePassengerDances": [
+                "",
+                "",
+                "",
+                "panic"
+            ],
+            "jumpTimeout": 1e-06,
+            "damageEmoteTime": 2,
+            "zeroGMovementSettings": {
+                "collisionEnabled": true,
+                "collisionPoly": [
+                    [
+                        -5,
+                        0.5
+                    ],
+                    [
+                        -5,
+                        -0.625
+                    ],
+                    [
+                        -4,
+                        -1.625
+                    ],
+                    [
+                        4,
+                        -1.625
+                    ],
+                    [
+                        5,
+                        -0.625
+                    ],
+                    [
+                        5,
+                        0.5
+                    ]
+                ],
+                "mass": 4,
+                "gravityEnabled": false,
+                "airFriction": 0.1
+            },
+            "maxGroundSearchDistance": 6,
+            "engineRevVolume": 1.5,
+            "bodySpringPositions": [
+                [
+                    -4,
+                    0
+                ],
+                [
+                    -2,
+                    0
+                ],
+                [
+                    0,
+                    0
+                ],
+                [
+                    2,
+                    0
+                ],
+                [
+                    4,
+                    0
+                ]
+            ],
+            "maxDamageSoundInterval": 10
+        },
+        "largeImage": "/assetmissing.png?crop;0;0;1;1?setcolor=fff?replace;fff0=fff?border=1;fff;000?scale=1.15;1.12?crop;1;1;3;3?replace;fbfbfb=0000;eaeaea=59000000;e4e4e4=00001a00;6a6a6a=59001a00?scale=88.5;25.5?crop=0;0;89;26?replace;00000800=310;00000900=310;00000a00=310;00000b00=310;00000c00=310;00000d00=310;01000300=510;01000400=510;01000500=510;01000700=310;01000800=410;01000900=410;01000a00=410;01000b00=410;01000c00=410;01000d00=410;01000e00=310;02000200=510;02000300=510;02000400=510;02000500=710;02000600=510;02000700=410;02000800=410;02000900=410;02000a00=410;02000b00=410;02000c00=410;02000d00=410;02000e00=610;02000f00=310;03000200=510;03000300=510;03000400=510;03000500=810;03000600=510;03000700=410;03000800=410;03000900=410;03000a00=410;03000b00=410;03000c00=410;03000d00=410;03000e00=610;03000f00=310;04000200=510;04000300=510;04000400=710;04000500=810;04000600=510;04000700=410;04000800=410;04000900=410;04000a00=410;04000b00=410;04000c00=410;04000d00=410;04000e00=610;04000f00=310;05000200=510;05000300=710;05000400=910;05000500=910;05000600=510;05000700=410;05000800=410;05000900=410;05000a00=310;05000b00=310;05000c00=310;05000d00=310;05000e00=610;05000f00=310;06000200=510;06000300=810;06000400=910;06000500=910;06000600=710;06000700=410;06000800=410;06000900=410;06000a00=310;06000b00=410;06000c00=410;06000d00=410;06000e00=610;06000f00=310;06001000=510;07000100=310;07000200=410;07000300=510;07000400=510;07000500=710;07000600=410;07000700=410;07000800=410;07000900=410;07000a00=310;07000b00=310;07000c00=310;07000d00=310;07000e00=610;07000f00=310;07001000=710;07001100=510;08000100=310;08000200=410;08000300=410;08000400=410;08000500=410;08000600=410;08000700=410;08000800=410;08000900=410;08000a00=410;08000b00=310;08000c00=410;08000d00=310;08000e00=610;08000f00=310;08001000=710;08001100=810;08001200=510;09000000=310;09000100=310;09000200=410;09000300=410;09000400=410;09000500=410;09000600=410;09000700=410;09000800=410;09000900=410;09000a00=610;09000b00=610;09000c00=610;09000d00=610;09000e00=610;09000f00=310;09001000=510;09001100=810;09001200=510;0a000000=310;0a000100=310;0a000200=310;0a000300=310;0a000400=310;0a000500=310;0a000600=410;0a000700=410;0a000800=410;0a000900=410;0a000a00=410;0a000b00=410;0a000c00=410;0a000d00=410;0a000e00=610;0a000f00=310;0a001000=710;0a001100=510;0a001200=510;0b000000=310;0b000100=010;0b000200=010;0b000300=010;0b000400=010;0b000500=010;0b000600=310;0b000700=310;0b000800=410;0b000900=410;0b000a00=410;0b000b00=410;0b000c00=410;0b000d00=410;0b000e00=610;0b000f00=310;0b001000=510;0b001100=710;0b001200=510;0c000000=010;0c000100=010;0c000200=110;0c000300=010;0c000400=110;0c000500=010;0c000600=110;0c000700=010;0c000800=310;0c000900=410;0c000a00=410;0c000b00=410;0c000c00=410;0c000d00=410;0c000e00=610;0c000f00=310;0c001000=510;0c001100=510;0c001200=510;0d000000=010;0d000100=010;0d000200=555;0d000300=010;0d000400=555;0d000500=010;0d000600=555;0d000700=010;0d000800=010;0d000900=310;0d000a00=410;0d000b00=410;0d000c00=410;0d000d00=410;0d000e00=610;0d000f00=310;0d001000=710;0d001100=510;0d001200=510;0e000000=010;0e000100=010;0e000200=010;0e000300=010;0e000400=010;0e000500=010;0e000600=010;0e000700=010;0e000800=010;0e000900=310;0e000a00=410;0e000b00=410;0e000c00=410;0e000d00=410;0e000e00=610;0e000f00=310;0e001000=710;0e001100=810;0e001200=510;0f000000=010;0f000100=010;0f000200=010;0f000300=110;0f000400=110;0f000500=110;0f000600=010;0f000700=010;0f000800=010;0f000900=310;0f000a00=410;0f000b00=410;0f000c00=410;0f000d00=410;0f000e00=610;0f000f00=310;0f001000=310;0f001100=810;0f001200=510;10000000=010;10000100=010;10000200=110;10000300=110;10000400=110;10000500=110;10000600=110;10000700=010;10000800=010;10000900=310;10000a00=410;10000b00=410;10000c00=410;10000d00=410;10000e00=610;10000f00=310;10001000=410;10001100=310;10001200=310;1000=010;11000100=010;11000200=110;11000300=110;11000400=110;11000500=555;11000600=110;11000700=010;11000800=010;11000900=310;11000a00=410;11000b00=410;11000c00=410;11000d00=410;11000e00=610;11000f00=310;11001000=410;1010=410;11001200=410;11001300=310;11001400=310;12000000=010;12000100=010;12000200=110;12000300=110;12000400=555;12000500=555;12000600=110;12000700=010;12000800=010;12000900=310;12000a00=410;12000b00=410;12000c00=410;12000d00=410;12000e00=610;12000f00=310;12001000=410;12001100=410;12001200=410;12001300=410;12001400=410;12001500=310;12001600=310;13000000=010;13000100=010;13000200=010;13000300=110;13000400=110;13000500=110;13000600=010;13000700=010;13000800=010;13000900=310;13000a00=410;13000b00=310;13000c00=310;13000d00=310;13000e00=310;13000f00=310;13001000=410;13001100=410;13001200=410;13001300=410;13001400=410;13001500=410;13001600=410;13001700=310;14000000=010;14000100=010;14000200=010;14000300=010;14000400=010;14000500=010;14000600=010;14000700=010;14000800=010;14000900=310;14000a00=610;14000b00=410;14000c00=410;14000d00=410;14000e00=610;14000f00=310;14001000=310;14001100=310;14001200=310;14001300=310;14001400=410;14001500=410;14001600=410;14001700=410;14001800=310;15000000=010;15000100=010;15000200=110;15000300=010;15000400=110;15000500=010;15000600=110;15000700=010;15000800=010;15000900=410;15000a00=410;15000b00=610;15000c00=610;15000d00=410;15000e00=610;15000f00=310;15001000=210;15001100=a10;15001200=a10;15001300=a10;15001400=310;15001500=310;15001600=410;15001700=410;15001800=610;15001900=410;16000000=010;16000100=010;16000200=555;16000300=010;16000400=555;16000500=010;16000600=010;16000700=010;16000800=310;16000900=610;16000a00=410;16000b00=310;16000c00=310;16000d00=410;16000e00=610;16000f00=310;16001000=210;16001100=210;16001200=a10;16001300=a10;16001400=a10;16001500=a10;16001600=310;16001700=410;16001800=610;16001900=410;17000000=010;17000100=010;17000200=010;17000300=010;17000400=010;17000500=010;17000600=310;17000700=310;17000800=410;17000900=410;17000a00=410;17000b00=310;17000c00=310;17000d00=410;17000e00=610;17000f00=310;17001000=210;17001100=210;17001200=210;17001300=a10;17001400=a10;17001500=a10;17001600=a10;17001700=310;17001800=610;17001900=410;18000000=010;18000100=310;18000200=310;18000300=310;18000400=310;18000500=410;18000600=610;18000700=410;18000800=410;18000900=410;18000a00=410;18000b00=410;18000c00=310;18000d00=410;18000e00=610;18000f00=310;18001000=a10;18001100=210;18001200=210;18001300=210;18001400=a10;18001500=a10;18001600=a10;18001700=310;18001800=610;18001900=410;19000000=310;19000100=410;19000200=610;19000300=610;19000400=610;19000500=410;19000600=410;19000700=410;19000800=410;19000900=410;19000a00=410;19000b00=410;19000c00=410;19000d00=410;19000e00=610;19000f00=310;19001000=a10;19001100=a10;19001200=210;19001300=210;19001400=210;19001500=a10;19001600=a10;19001700=310;19001800=610;19001900=410;1a000000=310;1a000100=310;1a000200=410;1a000300=410;1a000400=410;1a000500=410;1a000600=410;1a000700=410;1a000800=410;1a000900=410;1a000a00=410;1a000b00=410;1a000c00=410;1a000d00=410;1a000e00=610;1a000f00=310;1a001000=a10;1a001100=a10;1a001200=a10;1a001300=210;1a001400=210;1a001500=210;1a001600=a10;1a001700=310;1a001800=610;1a001900=410;1b000000=310;1b000100=310;1b000200=410;1b000300=410;1b000400=410;1b000500=410;1b000600=410;1b000700=410;1b000800=410;1b000900=410;1b000a00=410;1b000b00=410;1b000c00=410;1b000d00=410;1b000e00=610;1b000f00=310;1b001000=210;1b001100=a10;1b001200=a10;1b001300=a10;1b001400=210;1b001500=210;1b001600=210;1b001700=310;1b001800=610;1b001900=410;1c000000=310;1c000100=310;1c000200=410;1c000300=410;1c000400=410;1c000500=410;1c000600=410;1c000700=410;1c000800=410;1c000900=410;1c000a00=410;1c000b00=410;1c000c00=410;1c000d00=410;1c000e00=610;1c000f00=310;1c001000=a10;1c001100=210;1c001200=a10;1c001300=a10;1c001400=a10;1c001500=210;1c001600=210;1c001700=310;1c001800=610;1c001900=410;1d000000=310;1d000100=310;1d000200=410;1d000300=410;1d000400=410;1d000500=410;1d000600=410;1d000700=410;1d000800=410;1d000900=410;1d000a00=410;1d000b00=410;1d000c00=410;1d000d00=410;1d000e00=610;1d000f00=310;1d001000=a10;1d001100=a10;1d001200=210;1d001300=a10;1d001400=a10;1d001500=a10;1d001600=210;1d001700=310;1d001800=610;1d001900=410;1e000000=310;1e000100=310;1e000200=410;1e000300=410;1e000400=410;1e000500=410;1e000600=410;1e000700=410;1e000800=410;1e000900=410;1e000a00=410;1e000b00=410;1e000c00=410;1e000d00=410;1e000e00=610;1e000f00=310;1e001000=a10;1e001100=a10;1e001200=a10;1e001300=210;1e001400=a10;1e001500=a10;1e001600=a10;1e001700=310;1e001800=610;1e001900=410;1f000000=310;1f000100=310;1f000200=410;1f000300=310;1f000400=310;1f000500=310;1f000600=310;1f000700=310;1f000800=310;1f000900=310;1f000a00=310;1f000b00=310;1f000c00=310;1f000d00=310;1f000e00=610;1f000f00=310;1f001000=310;1f001100=310;1f001200=310;1f001300=310;1f001400=310;1f001500=310;1f001600=310;1f001700=410;1f001800=610;1f001900=410;20000000=310;20000100=310;20000200=310;20000300=410;20000400=410;20000500=410;20000600=410;20000700=410;20000800=410;20000900=410;20000a00=410;20000b00=410;20000c00=410;20000d00=410;20000e00=310;20000f00=310;20001000=410;20001100=410;20001200=410;20001300=410;20001400=610;20001500=410;20001600=610;20001700=610;20001800=610;20001900=410;21000000=310;21000100=310;21000200=410;21000300=410;21000400=410;21000500=410;21000600=410;21000700=410;21000800=410;21000900=410;21000a00=410;21000b00=610;21000c00=610;21000d00=410;21000e00=610;21000f00=310;21001000=310;21001100=310;21001200=310;21001300=310;21001400=310;21001500=310;21001600=310;21001700=610;21001800=610;21001900=410;2000=310;22000100=310;22000200=410;22000300=410;22000400=410;22000500=410;22000600=410;22000700=410;22000800=410;22000900=410;22000a00=410;22000b00=310;22000c00=310;22000d00=410;22000e00=610;22000f00=310;22001000=a10;2010=210;22001200=210;22001300=a10;22001400=210;22001500=a10;22001600=a10;22001700=310;22001800=610;22001900=410;23000000=310;23000100=310;23000200=410;23000300=410;23000400=410;23000500=410;23000600=410;23000700=410;23000800=410;23000900=410;23000a00=410;23000b00=310;23000c00=310;23000d00=410;23000e00=610;23000f00=310;23001000=a10;23001100=a10;23001200=210;23001300=210;23001400=a10;23001500=210;23001600=a10;23001700=310;23001800=610;23001900=410;24000000=310;24000100=310;24000200=410;24000300=410;24000400=410;24000500=410;24000600=410;24000700=410;24000800=410;24000900=410;24000a00=410;24000b00=410;24000c00=310;24000d00=410;24000e00=610;24000f00=310;24001000=a10;24001100=a10;24001200=a10;24001300=210;24001400=210;24001500=a10;24001600=210;24001700=310;24001800=610;24001900=410;25000000=310;25000100=310;25000200=410;25000300=410;25000400=410;25000500=410;25000600=410;25000700=410;25000800=410;25000900=410;25000a00=410;25000b00=410;25000c00=410;25000d00=410;25000e00=610;25000f00=310;25001000=a10;25001100=a10;25001200=a10;25001300=a10;25001400=210;25001500=210;25001600=a10;25001700=310;25001800=610;25001900=410;26000000=310;26000100=310;26000200=410;26000300=410;26000400=410;26000500=410;26000600=410;26000700=410;26000800=410;26000900=410;26000a00=410;26000b00=410;26000c00=410;26000d00=410;26000e00=610;26000f00=310;26001000=a10;26001100=a10;26001200=a10;26001300=a10;26001400=a10;26001500=210;26001600=210;26001700=310;26001800=610;26001900=410;27000000=310;27000100=310;27000200=410;27000300=410;27000400=410;27000500=410;27000600=410;27000700=410;27000800=410;27000900=410;27000a00=410;27000b00=410;27000c00=410;27000d00=410;27000e00=610;27000f00=310;27001000=a10;27001100=a10;27001200=a10;27001300=a10;27001400=a10;27001500=a10;27001600=210;27001700=310;27001800=610;27001900=410;28000000=310;28000100=310;28000200=410;28000300=410;28000400=410;28000500=410;28000600=410;28000700=410;28000800=410;28000900=410;28000a00=410;28000b00=410;28000c00=410;28000d00=410;28000e00=610;28000f00=310;28001000=210;28001100=a10;28001200=a10;28001300=a10;28001400=a10;28001500=a10;28001600=a10;28001700=310;28001800=610;28001900=410;29000000=310;29000100=310;29000200=410;29000300=410;29000400=410;29000500=410;29000600=410;29000700=410;29000800=410;29000900=410;29000a00=410;29000b00=410;29000c00=410;29000d00=410;29000e00=610;29000f00=310;29001000=a10;29001100=210;29001200=a10;29001300=a10;29001400=a10;29001500=a10;29001600=a10;29001700=310;29001800=610;29001900=410;2a000000=310;2a000100=310;2a000200=410;2a000300=310;2a000400=310;2a000500=310;2a000600=310;2a000700=310;2a000800=310;2a000900=310;2a000a00=310;2a000b00=310;2a000c00=310;2a000d00=310;2a000e00=610;2a000f00=310;2a001000=a10;2a001100=a10;2a001200=210;2a001300=a10;2a001400=a10;2a001500=310;2a001600=310;2a001700=410;2a001800=610;2a001900=410;2b000000=310;2b000100=310;2b000200=310;2b000300=310;2b000400=310;2b000500=310;2b000600=310;2b000700=310;2b000800=310;2b000900=410;2b000a00=410;2b000b00=410;2b000c00=410;2b000d00=410;2b000e00=310;2b000f00=310;2b001000=a10;2b001100=a10;2b001200=310;2b001300=310;2b001400=310;2b001500=410;2b001600=410;2b001700=610;2b001800=610;2b001900=410;2c000000=310;2c000100=010;2c000200=010;2c000300=010;2c000400=010;2c000500=010;2c000600=010;2c000700=010;2c000800=410;2c000900=310;2c000a00=410;2c000b00=410;2c000c00=410;2c000d00=410;2c000e00=610;2c000f00=310;2c001000=310;2c001100=310;2c001200=610;2c001300=610;2c001400=610;2c001500=610;2c001600=610;2c001700=610;2c001800=610;2c001900=410;2d000000=010;2d000100=010;2d000200=110;2d000300=010;2d000400=110;2d000500=010;2d000600=110;2d000700=010;2d000800=010;2d000900=410;2d000a00=310;2d000b00=410;2d000c00=410;2d000d00=410;2d000e00=610;2d000f00=310;2d001000=610;2d001100=610;2d001200=310;2d001300=310;2d001400=310;2d001500=310;2d001600=310;2d001700=610;2d001800=610;2d001900=410;2e000000=010;2e000100=010;2e000200=555;2e000300=010;2e000400=555;2e000500=010;2e000600=555;2e000700=010;2e000800=110;2e000900=010;2e000a00=410;2e000b00=610;2e000c00=410;2e000d00=410;2e000e00=610;2e000f00=310;2e001000=310;2e001100=310;2e001200=a10;2e001300=a10;2e001400=a10;2e001500=a10;2e001600=a10;2e001700=310;2e001800=610;2e001900=410;2f000000=010;2f000100=010;2f000200=010;2f000300=010;2f000400=010;2f000500=010;2f000600=010;2f000700=010;2f000800=010;2f000900=010;2f000a00=410;2f000b00=610;2f000c00=410;2f000d00=410;2f000e00=610;2f000f00=310;2f001000=a10;2f001100=a10;2f001200=210;2f001300=a10;2f001400=a10;2f001500=a10;2f001600=a10;2f001700=310;2f001800=610;2f001900=410;30000000=010;30000100=010;30000200=010;30000300=110;30000400=110;30000500=110;30000600=010;30000700=010;30000800=010;30000900=010;30000a00=410;30000b00=610;30000c00=410;30000d00=410;30000e00=610;30000f00=310;30001000=a10;30001100=a10;30001200=a10;30001300=210;30001400=a10;30001500=a10;30001600=a10;30001700=310;30001800=610;30001900=410;31000000=010;31000100=010;31000200=110;31000300=110;31000400=110;31000500=110;31000600=110;31000700=010;31000800=010;31000900=010;31000a00=410;31000b00=610;31000c00=410;31000d00=410;31000e00=610;31000f00=310;31001000=a10;31001100=a10;31001200=a10;31001300=a10;31001400=210;31001500=a10;31001600=a10;31001700=310;31001800=610;31001900=410;32000000=010;32000100=010;32000200=110;32000300=110;32000400=110;32000500=555;32000600=110;32000700=010;32000800=010;32000900=010;32000a00=410;32000b00=610;32000c00=410;32000d00=410;32000e00=610;32000f00=310;32001000=a10;32001100=a10;32001200=a10;32001300=a10;32001400=a10;32001500=210;32001600=a10;32001700=310;32001800=610;32001900=410;3000=010;33000100=010;33000200=110;33000300=110;33000400=555;33000500=555;33000600=110;33000700=010;33000800=010;33000900=010;33000a00=410;33000b00=610;33000c00=410;33000d00=410;33000e00=610;33000f00=310;33001000=210;3010=a10;33001200=a10;33001300=a10;33001400=a10;33001500=a10;33001600=210;33001700=310;33001800=610;33001900=410;34000000=010;34000100=010;34000200=010;34000300=110;34000400=110;34000500=110;34000600=010;34000700=010;34000800=010;34000900=010;34000a00=410;34000b00=610;34000c00=410;34000d00=410;34000e00=610;34000f00=310;34001000=210;34001100=210;34001200=a10;34001300=a10;34001400=a10;34001500=a10;34001600=a10;34001700=310;34001800=610;34001900=410;35000000=010;35000100=010;35000200=010;35000300=010;35000400=010;35000500=010;35000600=010;35000700=010;35000800=010;35000900=010;35000a00=410;35000b00=610;35000c00=410;35000d00=410;35000e00=610;35000f00=310;35001000=a10;35001100=210;35001200=210;35001300=a10;35001400=a10;35001500=a10;35001600=a10;35001700=310;35001800=610;35001900=410;36000000=010;36000100=010;36000200=110;36000300=010;36000400=110;36000500=010;36000600=110;36000700=010;36000800=110;36000900=010;36000a00=410;36000b00=610;36000c00=410;36000d00=410;36000e00=610;36000f00=310;36001000=310;36001100=a10;36001200=210;36001300=210;36001400=a10;36001500=a10;36001600=a10;36001700=310;36001800=610;36001900=410;37000000=010;37000100=010;37000200=555;37000300=010;37000400=555;37000500=010;37000600=010;37000700=010;37000800=010;37000900=410;37000a00=610;37000b00=410;37000c00=410;37000d00=410;37000e00=610;37000f00=310;37001000=310;37001100=a10;37001200=a10;37001300=210;37001400=210;37001500=a10;37001600=a10;37001700=310;37001800=b10;37001900=410;38000000=010;38000100=010;38000200=010;38000300=510;38000400=510;38000500=510;38000600=410;38000700=410;38000800=410;38000900=610;38000a00=410;38000b00=c10;38000c00=410;38000d00=410;38000e00=610;38000f00=310;38001000=310;38001100=210;38001200=a10;38001300=a10;38001400=210;38001500=210;38001600=a10;38001700=310;38001800=610;38001900=410;39000000=010;39000100=010;39000200=510;39000300=510;39000400=710;39000500=510;39000600=610;39000700=610;39000800=610;39000900=410;39000a00=c10;39000b00=d10;39000c00=410;39000d00=410;39000e00=610;39000f00=310;39001000=310;39001100=210;39001200=210;39001300=a10;39001400=a10;39001500=210;39001600=210;39001700=310;39001800=610;39001900=410;3a000000=010;3a000100=310;3a000200=510;3a000300=710;3a000400=810;3a000500=510;3a000600=b10;3a000700=b10;3a000800=410;3a000900=410;3a000a00=d10;3a000b00=fecb02;3a000c00=410;3a000d00=410;3a000e00=610;3a000f00=310;3a001000=310;3a001100=210;3a001200=210;3a001300=210;3a001400=a10;3a001500=a10;3a001600=210;3a001700=310;3a001800=b10;3a001900=410;3b000000=010;3b000100=310;3b000200=510;3b000300=710;3b000400=810;3b000500=510;3b000600=610;3b000700=610;3b000800=b10;3b000900=b10;3b000a00=b10;3b000b00=410;3b000c00=410;3b000d00=410;3b000e00=b10;3b000f00=410;3b001000=310;3b001100=210;3b001200=210;3b001300=210;3b001400=210;3b001500=a10;3b001600=a10;3b001700=310;3b001800=b10;3b001900=410;3c000100=310;3c000200=710;3c000300=810;3c000400=910;3c000500=710;3c000600=310;3c000700=310;3c000800=610;3c000900=610;3c000a00=610;3c000b00=b10;3c000c00=b10;3c000d00=b10;3c000e00=610;3c000f00=410;3c001000=310;3c001100=a10;3c001200=210;3c001300=210;3c001400=210;3c001500=210;3c001600=a10;3c001700=310;3c001800=b10;3c001900=410;3d000100=310;3d000200=710;3d000300=810;3d000400=910;3d000500=710;3d000600=610;3d000700=610;3d000800=310;3d000900=510;3d000a00=510;3d000b00=510;3d000c00=610;3d000d00=b10;3d000e00=310;3d000f00=410;3d001000=310;3d001100=a10;3d001200=a10;3d001300=210;3d001400=210;3d001500=210;3d001600=210;3d001700=310;3d001800=b10;3d001900=410;3e000100=310;3e000200=710;3e000300=810;3e000400=910;3e000500=710;3e000600=610;3e000700=610;3e000800=510;3e000900=c10;3e000a00=c10;3e000b00=d10;3e000c00=510;3e000d00=410;3e000e00=610;3e000f00=410;3e001000=310;3e001100=a10;3e001200=a10;3e001300=a10;3e001400=210;3e001500=210;3e001600=210;3e001700=310;3e001800=b10;3e001900=410;3f000100=310;3f000200=710;3f000300=810;3f000400=910;3f000500=710;3f000600=610;3f000700=610;3f000800=510;3f000900=d10;3f000a00=d10;3f000b00=fecb02;3f000c00=510;3f000d00=b10;3f000e00=610;3f000f00=410;3f001000=310;3f001100=210;3f001200=a10;3f001300=a10;3f001400=a10;3f001500=210;3f001600=210;3f001700=310;3f001800=410;40000100=310;40000200=710;40000300=810;40000400=910;40000500=710;40000600=610;40000700=610;40000800=510;40000900=e10;40000a00=e10;40000b00=fff;40000c00=510;40000d00=b10;40000e00=610;40000f00=410;40001000=310;40001100=a10;40001200=210;40001300=a10;40001400=a10;40001500=a10;40001600=210;40001700=310;40001800=410;41000100=310;41000200=710;41000300=810;41000400=910;41000500=710;41000600=610;41000700=610;41000800=510;41000900=e10;41000a00=e10;41000b00=fff;41000c00=510;41000d00=b10;41000e00=610;41000f00=410;41001000=410;41001100=a10;41001200=a10;41001300=210;41001400=a10;41001500=a10;41001600=a10;41001700=310;42000000=010;42000100=310;42000200=710;42000300=810;42000400=910;42000500=710;42000600=610;42000700=610;42000800=510;42000900=e10;42000a00=fff;42000b00=fff;42000c00=510;42000d00=b10;42000e00=610;42000f00=410;42001000=310;42001100=a10;42001200=a10;42001300=a10;42001400=210;42001500=a10;42001600=310;43000000=010;43000100=310;43000200=710;43000300=810;43000400=910;43000500=710;43000600=310;43000700=610;43000800=510;43000900=fff;43000a00=fff;43000b00=fff;43000c00=510;43000d00=b10;43000e00=610;43000f00=410;43001000=410;43001100=a10;43001200=a10;43001300=a10;43001400=310;43001500=310;4000=010;44000100=310;44000200=710;44000300=810;44000400=910;44000500=710;44000600=610;44000700=510;44000800=510;44000900=510;44000a00=510;44000b00=510;44000c00=510;44000d00=b10;44000e00=410;44000f00=610;44001000=410;4010=310;44001200=310;44001300=310;45000000=010;45000100=310;45000200=710;45000300=810;45000400=910;45000500=710;45000600=610;45000700=710;45000800=710;45000900=510;45000a00=510;45000b00=510;45000c00=510;45000d00=410;45000e00=610;45000f00=610;45001000=410;46000000=010;46000100=310;46000200=710;46000300=810;46000400=910;46000500=710;46000600=610;46000700=710;46000800=510;46000900=710;46000a00=710;46000b00=710;46000c00=710;46000d00=510;46000e00=610;46000f00=610;46001000=410;47000000=010;47000100=310;47000200=710;47000300=810;47000400=910;47000500=710;47000600=610;47000700=710;47000800=510;47000900=710;47000a00=510;47000b00=710;47000c00=510;47000d00=710;47000e00=610;47000f00=610;47001000=410;48000000=010;48000100=310;48000200=710;48000300=810;48000400=910;48000500=710;48000600=610;48000700=710;48000800=510;48000900=710;48000a00=510;48000b00=710;48000c00=510;48000d00=710;48000e00=610;48000f00=610;48001000=410;49000000=010;49000100=310;49000200=710;49000300=810;49000400=910;49000500=710;49000600=610;49000700=710;49000800=510;49000900=710;49000a00=510;49000b00=710;49000c00=510;49000d00=710;49000e00=610;49000f00=610;49001000=410;4a000000=010;4a000100=310;4a000200=710;4a000300=810;4a000400=910;4a000500=710;4a000600=610;4a000700=710;4a000800=510;4a000900=710;4a000a00=510;4a000b00=710;4a000c00=510;4a000d00=710;4a000e00=610;4a000f00=610;4a001000=410;4b000000=010;4b000100=310;4b000200=710;4b000300=810;4b000400=910;4b000500=710;4b000600=610;4b000700=710;4b000800=510;4b000900=710;4b000a00=510;4b000b00=710;4b000c00=510;4b000d00=710;4b000e00=610;4b000f00=610;4b001000=410;4c000000=010;4c000100=310;4c000200=710;4c000300=810;4c000400=910;4c000500=710;4c000600=610;4c000700=710;4c000800=510;4c000900=710;4c000a00=510;4c000b00=710;4c000c00=510;4c000d00=710;4c000e00=610;4c000f00=610;4c001000=410;4d000000=010;4d000100=310;4d000200=710;4d000300=810;4d000400=910;4d000500=710;4d000600=610;4d000700=710;4d000800=510;4d000900=710;4d000a00=510;4d000b00=710;4d000c00=510;4d000d00=710;4d000e00=610;4d000f00=610;4d001000=410;4e000000=010;4e000100=310;4e000200=710;4e000300=810;4e000400=910;4e000500=710;4e000600=310;4e000700=710;4e000800=510;4e000900=710;4e000a00=510;4e000b00=710;4e000c00=510;4e000d00=710;4e000e00=610;4e000f00=b10;4e001000=410;4f000000=010;4f000100=310;4f000200=710;4f000300=810;4f000400=910;4f000500=710;4f000600=610;4f000700=710;4f000800=710;4f000900=510;4f000a00=510;4f000b00=510;4f000c00=510;4f000d00=710;4f000e00=b10;4f000f00=410;50000000=010;50000100=310;50000200=710;50000300=810;50000400=910;50000500=710;50000600=610;50000700=610;50000800=510;50000900=710;50000a00=710;50000b00=710;50000c00=710;50000d00=b10;50000e00=610;50000f00=410;51000000=010;51000100=310;51000200=710;51000300=810;51000400=910;51000500=710;51000600=610;51000700=610;51000800=510;51000900=e10;51000a00=e10;51000b00=fff;51000c00=510;51000d00=b10;51000e00=610;51000f00=410;52000000=010;52000100=310;52000200=710;52000300=810;52000400=910;52000500=710;52000600=610;52000700=610;52000800=510;52000900=e10;52000a00=fff;52000b00=fff;52000c00=510;52000d00=b10;52000e00=610;52000f00=410;53000100=310;53000200=710;53000300=810;53000400=910;53000500=710;53000600=610;53000700=610;53000800=510;53000900=fff;53000a00=fff;53000b00=fff;53000c00=510;53000d00=b10;53000e00=610;53000f00=410;54000100=310;54000200=710;54000300=810;54000400=910;54000500=710;54000600=610;54000700=610;54000800=510;54000900=d10;54000a00=d10;54000b00=fecb02;54000c00=510;54000d00=b10;54000e00=610;54000f00=410;55000200=710;55000300=810;55000400=910;55000500=710;55000600=310;55000700=310;55000800=510;55000900=c10;55000a00=c10;55000b00=d10;55000c00=510;55000d00=b10;55000e00=410;55000f00=410;56000200=710;56000300=810;56000400=910;56000500=710;56000600=410;56000700=410;56000800=310;56000900=510;56000a00=510;56000b00=510;56000c00=510;56000d00=310;56000e00=610;56000f00=410;57000200=710;57000300=910;57000400=910;57000500=710;57000800=410;57000900=410;57000a00=410;57000b00=610;57000c00=610;57000d00=b10;57000e00=410;58000300=710;58000400=710;58000b00=410;58000c00=410;58000d00=410?replace;010=151515;110=383838;210=425053;310=4f4f56;410=8c8c99;510=1e1f21;610=d5d3d8;710=585a60;810=8f939e;910=b8c0db;a10=1d282d;b10=e9f7fc;c10=b36500;d10=fb9100;e10=b2a039",
+        "description": "Жигули, что с него взять. Сделано LiFar.car",
+        "maxStack": 1,
+        "key": "ae4a3c0d6bb9a6fdd5fc0e0ce4624735",
+        "ammoUsage": 0,
+        "level": 1,
+        "vehicleStartHealthFactor": 0.70794,
+        "vehicleType": "hoverbikekhaki",
+        "inventoryIcon": "/items/active/vehiclecontroller/hoverbikecontrollerkhaki.png:full",
+        "shortdescription": "Жигули |^green;L^black;F^reset;|",
+        "createdby": "Liron",
+        "vehicleImage": "/assetmissing.png?crop;0;0;1;1?setcolor=fff?replace;fff0=fff?border=1;fff;000?scale=1.15;1.12?crop;1;1;3;3?replace;fbfbfb=0000;eaeaea=59000000;e4e4e4=00001a00;6a6a6a=59001a00?scale=88.5;25.5?crop=0;0;89;26?replace;00000800=310;00000900=310;00000a00=310;00000b00=310;00000c00=310;00000d00=310;01000300=510;01000400=510;01000500=510;01000700=310;01000800=410;01000900=410;01000a00=410;01000b00=410;01000c00=410;01000d00=410;01000e00=310;02000200=510;02000300=510;02000400=510;02000500=710;02000600=510;02000700=410;02000800=410;02000900=410;02000a00=410;02000b00=410;02000c00=410;02000d00=410;02000e00=610;02000f00=310;03000200=510;03000300=510;03000400=510;03000500=810;03000600=510;03000700=410;03000800=410;03000900=410;03000a00=410;03000b00=410;03000c00=410;03000d00=410;03000e00=610;03000f00=310;04000200=510;04000300=510;04000400=710;04000500=810;04000600=510;04000700=410;04000800=410;04000900=410;04000a00=410;04000b00=410;04000c00=410;04000d00=410;04000e00=610;04000f00=310;05000200=510;05000300=710;05000400=910;05000500=910;05000600=510;05000700=410;05000800=410;05000900=410;05000a00=310;05000b00=310;05000c00=310;05000d00=310;05000e00=610;05000f00=310;06000200=510;06000300=810;06000400=910;06000500=910;06000600=710;06000700=410;06000800=410;06000900=410;06000a00=310;06000b00=410;06000c00=410;06000d00=410;06000e00=610;06000f00=310;06001000=510;07000100=310;07000200=410;07000300=510;07000400=510;07000500=710;07000600=410;07000700=410;07000800=410;07000900=410;07000a00=310;07000b00=310;07000c00=310;07000d00=310;07000e00=610;07000f00=310;07001000=710;07001100=510;08000100=310;08000200=410;08000300=410;08000400=410;08000500=410;08000600=410;08000700=410;08000800=410;08000900=410;08000a00=410;08000b00=310;08000c00=410;08000d00=310;08000e00=610;08000f00=310;08001000=710;08001100=810;08001200=510;09000000=310;09000100=310;09000200=410;09000300=410;09000400=410;09000500=410;09000600=410;09000700=410;09000800=410;09000900=410;09000a00=610;09000b00=610;09000c00=610;09000d00=610;09000e00=610;09000f00=310;09001000=510;09001100=810;09001200=510;0a000000=310;0a000100=310;0a000200=310;0a000300=310;0a000400=310;0a000500=310;0a000600=410;0a000700=410;0a000800=410;0a000900=410;0a000a00=410;0a000b00=410;0a000c00=410;0a000d00=410;0a000e00=610;0a000f00=310;0a001000=710;0a001100=510;0a001200=510;0b000000=310;0b000100=010;0b000200=010;0b000300=010;0b000400=010;0b000500=010;0b000600=310;0b000700=310;0b000800=410;0b000900=410;0b000a00=410;0b000b00=410;0b000c00=410;0b000d00=410;0b000e00=610;0b000f00=310;0b001000=510;0b001100=710;0b001200=510;0c000000=010;0c000100=010;0c000200=110;0c000300=010;0c000400=110;0c000500=010;0c000600=110;0c000700=010;0c000800=310;0c000900=410;0c000a00=410;0c000b00=410;0c000c00=410;0c000d00=410;0c000e00=610;0c000f00=310;0c001000=510;0c001100=510;0c001200=510;0d000000=010;0d000100=010;0d000200=555;0d000300=010;0d000400=555;0d000500=010;0d000600=555;0d000700=010;0d000800=010;0d000900=310;0d000a00=410;0d000b00=410;0d000c00=410;0d000d00=410;0d000e00=610;0d000f00=310;0d001000=710;0d001100=510;0d001200=510;0e000000=010;0e000100=010;0e000200=010;0e000300=010;0e000400=010;0e000500=010;0e000600=010;0e000700=010;0e000800=010;0e000900=310;0e000a00=410;0e000b00=410;0e000c00=410;0e000d00=410;0e000e00=610;0e000f00=310;0e001000=710;0e001100=810;0e001200=510;0f000000=010;0f000100=010;0f000200=010;0f000300=110;0f000400=110;0f000500=110;0f000600=010;0f000700=010;0f000800=010;0f000900=310;0f000a00=410;0f000b00=410;0f000c00=410;0f000d00=410;0f000e00=610;0f000f00=310;0f001000=310;0f001100=810;0f001200=510;10000000=010;10000100=010;10000200=110;10000300=110;10000400=110;10000500=110;10000600=110;10000700=010;10000800=010;10000900=310;10000a00=410;10000b00=410;10000c00=410;10000d00=410;10000e00=610;10000f00=310;10001000=410;10001100=310;10001200=310;1000=010;11000100=010;11000200=110;11000300=110;11000400=110;11000500=555;11000600=110;11000700=010;11000800=010;11000900=310;11000a00=410;11000b00=410;11000c00=410;11000d00=410;11000e00=610;11000f00=310;11001000=410;1010=410;11001200=410;11001300=310;11001400=310;12000000=010;12000100=010;12000200=110;12000300=110;12000400=555;12000500=555;12000600=110;12000700=010;12000800=010;12000900=310;12000a00=410;12000b00=410;12000c00=410;12000d00=410;12000e00=610;12000f00=310;12001000=410;12001100=410;12001200=410;12001300=410;12001400=410;12001500=310;12001600=310;13000000=010;13000100=010;13000200=010;13000300=110;13000400=110;13000500=110;13000600=010;13000700=010;13000800=010;13000900=310;13000a00=410;13000b00=310;13000c00=310;13000d00=310;13000e00=310;13000f00=310;13001000=410;13001100=410;13001200=410;13001300=410;13001400=410;13001500=410;13001600=410;13001700=310;14000000=010;14000100=010;14000200=010;14000300=010;14000400=010;14000500=010;14000600=010;14000700=010;14000800=010;14000900=310;14000a00=610;14000b00=410;14000c00=410;14000d00=410;14000e00=610;14000f00=310;14001000=310;14001100=310;14001200=310;14001300=310;14001400=410;14001500=410;14001600=410;14001700=410;14001800=310;15000000=010;15000100=010;15000200=110;15000300=010;15000400=110;15000500=010;15000600=110;15000700=010;15000800=010;15000900=410;15000a00=410;15000b00=610;15000c00=610;15000d00=410;15000e00=610;15000f00=310;15001000=210;15001100=a10;15001200=a10;15001300=a10;15001400=310;15001500=310;15001600=410;15001700=410;15001800=610;15001900=410;16000000=010;16000100=010;16000200=555;16000300=010;16000400=555;16000500=010;16000600=010;16000700=010;16000800=310;16000900=610;16000a00=410;16000b00=310;16000c00=310;16000d00=410;16000e00=610;16000f00=310;16001000=210;16001100=210;16001200=a10;16001300=a10;16001400=a10;16001500=a10;16001600=310;16001700=410;16001800=610;16001900=410;17000000=010;17000100=010;17000200=010;17000300=010;17000400=010;17000500=010;17000600=310;17000700=310;17000800=410;17000900=410;17000a00=410;17000b00=310;17000c00=310;17000d00=410;17000e00=610;17000f00=310;17001000=210;17001100=210;17001200=210;17001300=a10;17001400=a10;17001500=a10;17001600=a10;17001700=310;17001800=610;17001900=410;18000000=010;18000100=310;18000200=310;18000300=310;18000400=310;18000500=410;18000600=610;18000700=410;18000800=410;18000900=410;18000a00=410;18000b00=410;18000c00=310;18000d00=410;18000e00=610;18000f00=310;18001000=a10;18001100=210;18001200=210;18001300=210;18001400=a10;18001500=a10;18001600=a10;18001700=310;18001800=610;18001900=410;19000000=310;19000100=410;19000200=610;19000300=610;19000400=610;19000500=410;19000600=410;19000700=410;19000800=410;19000900=410;19000a00=410;19000b00=410;19000c00=410;19000d00=410;19000e00=610;19000f00=310;19001000=a10;19001100=a10;19001200=210;19001300=210;19001400=210;19001500=a10;19001600=a10;19001700=310;19001800=610;19001900=410;1a000000=310;1a000100=310;1a000200=410;1a000300=410;1a000400=410;1a000500=410;1a000600=410;1a000700=410;1a000800=410;1a000900=410;1a000a00=410;1a000b00=410;1a000c00=410;1a000d00=410;1a000e00=610;1a000f00=310;1a001000=a10;1a001100=a10;1a001200=a10;1a001300=210;1a001400=210;1a001500=210;1a001600=a10;1a001700=310;1a001800=610;1a001900=410;1b000000=310;1b000100=310;1b000200=410;1b000300=410;1b000400=410;1b000500=410;1b000600=410;1b000700=410;1b000800=410;1b000900=410;1b000a00=410;1b000b00=410;1b000c00=410;1b000d00=410;1b000e00=610;1b000f00=310;1b001000=210;1b001100=a10;1b001200=a10;1b001300=a10;1b001400=210;1b001500=210;1b001600=210;1b001700=310;1b001800=610;1b001900=410;1c000000=310;1c000100=310;1c000200=410;1c000300=410;1c000400=410;1c000500=410;1c000600=410;1c000700=410;1c000800=410;1c000900=410;1c000a00=410;1c000b00=410;1c000c00=410;1c000d00=410;1c000e00=610;1c000f00=310;1c001000=a10;1c001100=210;1c001200=a10;1c001300=a10;1c001400=a10;1c001500=210;1c001600=210;1c001700=310;1c001800=610;1c001900=410;1d000000=310;1d000100=310;1d000200=410;1d000300=410;1d000400=410;1d000500=410;1d000600=410;1d000700=410;1d000800=410;1d000900=410;1d000a00=410;1d000b00=410;1d000c00=410;1d000d00=410;1d000e00=610;1d000f00=310;1d001000=a10;1d001100=a10;1d001200=210;1d001300=a10;1d001400=a10;1d001500=a10;1d001600=210;1d001700=310;1d001800=610;1d001900=410;1e000000=310;1e000100=310;1e000200=410;1e000300=410;1e000400=410;1e000500=410;1e000600=410;1e000700=410;1e000800=410;1e000900=410;1e000a00=410;1e000b00=410;1e000c00=410;1e000d00=410;1e000e00=610;1e000f00=310;1e001000=a10;1e001100=a10;1e001200=a10;1e001300=210;1e001400=a10;1e001500=a10;1e001600=a10;1e001700=310;1e001800=610;1e001900=410;1f000000=310;1f000100=310;1f000200=410;1f000300=310;1f000400=310;1f000500=310;1f000600=310;1f000700=310;1f000800=310;1f000900=310;1f000a00=310;1f000b00=310;1f000c00=310;1f000d00=310;1f000e00=610;1f000f00=310;1f001000=310;1f001100=310;1f001200=310;1f001300=310;1f001400=310;1f001500=310;1f001600=310;1f001700=410;1f001800=610;1f001900=410;20000000=310;20000100=310;20000200=310;20000300=410;20000400=410;20000500=410;20000600=410;20000700=410;20000800=410;20000900=410;20000a00=410;20000b00=410;20000c00=410;20000d00=410;20000e00=310;20000f00=310;20001000=410;20001100=410;20001200=410;20001300=410;20001400=610;20001500=410;20001600=610;20001700=610;20001800=610;20001900=410;21000000=310;21000100=310;21000200=410;21000300=410;21000400=410;21000500=410;21000600=410;21000700=410;21000800=410;21000900=410;21000a00=410;21000b00=610;21000c00=610;21000d00=410;21000e00=610;21000f00=310;21001000=310;21001100=310;21001200=310;21001300=310;21001400=310;21001500=310;21001600=310;21001700=610;21001800=610;21001900=410;2000=310;22000100=310;22000200=410;22000300=410;22000400=410;22000500=410;22000600=410;22000700=410;22000800=410;22000900=410;22000a00=410;22000b00=310;22000c00=310;22000d00=410;22000e00=610;22000f00=310;22001000=a10;2010=210;22001200=210;22001300=a10;22001400=210;22001500=a10;22001600=a10;22001700=310;22001800=610;22001900=410;23000000=310;23000100=310;23000200=410;23000300=410;23000400=410;23000500=410;23000600=410;23000700=410;23000800=410;23000900=410;23000a00=410;23000b00=310;23000c00=310;23000d00=410;23000e00=610;23000f00=310;23001000=a10;23001100=a10;23001200=210;23001300=210;23001400=a10;23001500=210;23001600=a10;23001700=310;23001800=610;23001900=410;24000000=310;24000100=310;24000200=410;24000300=410;24000400=410;24000500=410;24000600=410;24000700=410;24000800=410;24000900=410;24000a00=410;24000b00=410;24000c00=310;24000d00=410;24000e00=610;24000f00=310;24001000=a10;24001100=a10;24001200=a10;24001300=210;24001400=210;24001500=a10;24001600=210;24001700=310;24001800=610;24001900=410;25000000=310;25000100=310;25000200=410;25000300=410;25000400=410;25000500=410;25000600=410;25000700=410;25000800=410;25000900=410;25000a00=410;25000b00=410;25000c00=410;25000d00=410;25000e00=610;25000f00=310;25001000=a10;25001100=a10;25001200=a10;25001300=a10;25001400=210;25001500=210;25001600=a10;25001700=310;25001800=610;25001900=410;26000000=310;26000100=310;26000200=410;26000300=410;26000400=410;26000500=410;26000600=410;26000700=410;26000800=410;26000900=410;26000a00=410;26000b00=410;26000c00=410;26000d00=410;26000e00=610;26000f00=310;26001000=a10;26001100=a10;26001200=a10;26001300=a10;26001400=a10;26001500=210;26001600=210;26001700=310;26001800=610;26001900=410;27000000=310;27000100=310;27000200=410;27000300=410;27000400=410;27000500=410;27000600=410;27000700=410;27000800=410;27000900=410;27000a00=410;27000b00=410;27000c00=410;27000d00=410;27000e00=610;27000f00=310;27001000=a10;27001100=a10;27001200=a10;27001300=a10;27001400=a10;27001500=a10;27001600=210;27001700=310;27001800=610;27001900=410;28000000=310;28000100=310;28000200=410;28000300=410;28000400=410;28000500=410;28000600=410;28000700=410;28000800=410;28000900=410;28000a00=410;28000b00=410;28000c00=410;28000d00=410;28000e00=610;28000f00=310;28001000=210;28001100=a10;28001200=a10;28001300=a10;28001400=a10;28001500=a10;28001600=a10;28001700=310;28001800=610;28001900=410;29000000=310;29000100=310;29000200=410;29000300=410;29000400=410;29000500=410;29000600=410;29000700=410;29000800=410;29000900=410;29000a00=410;29000b00=410;29000c00=410;29000d00=410;29000e00=610;29000f00=310;29001000=a10;29001100=210;29001200=a10;29001300=a10;29001400=a10;29001500=a10;29001600=a10;29001700=310;29001800=610;29001900=410;2a000000=310;2a000100=310;2a000200=410;2a000300=310;2a000400=310;2a000500=310;2a000600=310;2a000700=310;2a000800=310;2a000900=310;2a000a00=310;2a000b00=310;2a000c00=310;2a000d00=310;2a000e00=610;2a000f00=310;2a001000=a10;2a001100=a10;2a001200=210;2a001300=a10;2a001400=a10;2a001500=310;2a001600=310;2a001700=410;2a001800=610;2a001900=410;2b000000=310;2b000100=310;2b000200=310;2b000300=310;2b000400=310;2b000500=310;2b000600=310;2b000700=310;2b000800=310;2b000900=410;2b000a00=410;2b000b00=410;2b000c00=410;2b000d00=410;2b000e00=310;2b000f00=310;2b001000=a10;2b001100=a10;2b001200=310;2b001300=310;2b001400=310;2b001500=410;2b001600=410;2b001700=610;2b001800=610;2b001900=410;2c000000=310;2c000100=010;2c000200=010;2c000300=010;2c000400=010;2c000500=010;2c000600=010;2c000700=010;2c000800=410;2c000900=310;2c000a00=410;2c000b00=410;2c000c00=410;2c000d00=410;2c000e00=610;2c000f00=310;2c001000=310;2c001100=310;2c001200=610;2c001300=610;2c001400=610;2c001500=610;2c001600=610;2c001700=610;2c001800=610;2c001900=410;2d000000=010;2d000100=010;2d000200=110;2d000300=010;2d000400=110;2d000500=010;2d000600=110;2d000700=010;2d000800=010;2d000900=410;2d000a00=310;2d000b00=410;2d000c00=410;2d000d00=410;2d000e00=610;2d000f00=310;2d001000=610;2d001100=610;2d001200=310;2d001300=310;2d001400=310;2d001500=310;2d001600=310;2d001700=610;2d001800=610;2d001900=410;2e000000=010;2e000100=010;2e000200=555;2e000300=010;2e000400=555;2e000500=010;2e000600=555;2e000700=010;2e000800=110;2e000900=010;2e000a00=410;2e000b00=610;2e000c00=410;2e000d00=410;2e000e00=610;2e000f00=310;2e001000=310;2e001100=310;2e001200=a10;2e001300=a10;2e001400=a10;2e001500=a10;2e001600=a10;2e001700=310;2e001800=610;2e001900=410;2f000000=010;2f000100=010;2f000200=010;2f000300=010;2f000400=010;2f000500=010;2f000600=010;2f000700=010;2f000800=010;2f000900=010;2f000a00=410;2f000b00=610;2f000c00=410;2f000d00=410;2f000e00=610;2f000f00=310;2f001000=a10;2f001100=a10;2f001200=210;2f001300=a10;2f001400=a10;2f001500=a10;2f001600=a10;2f001700=310;2f001800=610;2f001900=410;30000000=010;30000100=010;30000200=010;30000300=110;30000400=110;30000500=110;30000600=010;30000700=010;30000800=010;30000900=010;30000a00=410;30000b00=610;30000c00=410;30000d00=410;30000e00=610;30000f00=310;30001000=a10;30001100=a10;30001200=a10;30001300=210;30001400=a10;30001500=a10;30001600=a10;30001700=310;30001800=610;30001900=410;31000000=010;31000100=010;31000200=110;31000300=110;31000400=110;31000500=110;31000600=110;31000700=010;31000800=010;31000900=010;31000a00=410;31000b00=610;31000c00=410;31000d00=410;31000e00=610;31000f00=310;31001000=a10;31001100=a10;31001200=a10;31001300=a10;31001400=210;31001500=a10;31001600=a10;31001700=310;31001800=610;31001900=410;32000000=010;32000100=010;32000200=110;32000300=110;32000400=110;32000500=555;32000600=110;32000700=010;32000800=010;32000900=010;32000a00=410;32000b00=610;32000c00=410;32000d00=410;32000e00=610;32000f00=310;32001000=a10;32001100=a10;32001200=a10;32001300=a10;32001400=a10;32001500=210;32001600=a10;32001700=310;32001800=610;32001900=410;3000=010;33000100=010;33000200=110;33000300=110;33000400=555;33000500=555;33000600=110;33000700=010;33000800=010;33000900=010;33000a00=410;33000b00=610;33000c00=410;33000d00=410;33000e00=610;33000f00=310;33001000=210;3010=a10;33001200=a10;33001300=a10;33001400=a10;33001500=a10;33001600=210;33001700=310;33001800=610;33001900=410;34000000=010;34000100=010;34000200=010;34000300=110;34000400=110;34000500=110;34000600=010;34000700=010;34000800=010;34000900=010;34000a00=410;34000b00=610;34000c00=410;34000d00=410;34000e00=610;34000f00=310;34001000=210;34001100=210;34001200=a10;34001300=a10;34001400=a10;34001500=a10;34001600=a10;34001700=310;34001800=610;34001900=410;35000000=010;35000100=010;35000200=010;35000300=010;35000400=010;35000500=010;35000600=010;35000700=010;35000800=010;35000900=010;35000a00=410;35000b00=610;35000c00=410;35000d00=410;35000e00=610;35000f00=310;35001000=a10;35001100=210;35001200=210;35001300=a10;35001400=a10;35001500=a10;35001600=a10;35001700=310;35001800=610;35001900=410;36000000=010;36000100=010;36000200=110;36000300=010;36000400=110;36000500=010;36000600=110;36000700=010;36000800=110;36000900=010;36000a00=410;36000b00=610;36000c00=410;36000d00=410;36000e00=610;36000f00=310;36001000=310;36001100=a10;36001200=210;36001300=210;36001400=a10;36001500=a10;36001600=a10;36001700=310;36001800=610;36001900=410;37000000=010;37000100=010;37000200=555;37000300=010;37000400=555;37000500=010;37000600=010;37000700=010;37000800=010;37000900=410;37000a00=610;37000b00=410;37000c00=410;37000d00=410;37000e00=610;37000f00=310;37001000=310;37001100=a10;37001200=a10;37001300=210;37001400=210;37001500=a10;37001600=a10;37001700=310;37001800=b10;37001900=410;38000000=010;38000100=010;38000200=010;38000300=510;38000400=510;38000500=510;38000600=410;38000700=410;38000800=410;38000900=610;38000a00=410;38000b00=c10;38000c00=410;38000d00=410;38000e00=610;38000f00=310;38001000=310;38001100=210;38001200=a10;38001300=a10;38001400=210;38001500=210;38001600=a10;38001700=310;38001800=610;38001900=410;39000000=010;39000100=010;39000200=510;39000300=510;39000400=710;39000500=510;39000600=610;39000700=610;39000800=610;39000900=410;39000a00=c10;39000b00=d10;39000c00=410;39000d00=410;39000e00=610;39000f00=310;39001000=310;39001100=210;39001200=210;39001300=a10;39001400=a10;39001500=210;39001600=210;39001700=310;39001800=610;39001900=410;3a000000=010;3a000100=310;3a000200=510;3a000300=710;3a000400=810;3a000500=510;3a000600=b10;3a000700=b10;3a000800=410;3a000900=410;3a000a00=d10;3a000b00=fecb02;3a000c00=410;3a000d00=410;3a000e00=610;3a000f00=310;3a001000=310;3a001100=210;3a001200=210;3a001300=210;3a001400=a10;3a001500=a10;3a001600=210;3a001700=310;3a001800=b10;3a001900=410;3b000000=010;3b000100=310;3b000200=510;3b000300=710;3b000400=810;3b000500=510;3b000600=610;3b000700=610;3b000800=b10;3b000900=b10;3b000a00=b10;3b000b00=410;3b000c00=410;3b000d00=410;3b000e00=b10;3b000f00=410;3b001000=310;3b001100=210;3b001200=210;3b001300=210;3b001400=210;3b001500=a10;3b001600=a10;3b001700=310;3b001800=b10;3b001900=410;3c000100=310;3c000200=710;3c000300=810;3c000400=910;3c000500=710;3c000600=310;3c000700=310;3c000800=610;3c000900=610;3c000a00=610;3c000b00=b10;3c000c00=b10;3c000d00=b10;3c000e00=610;3c000f00=410;3c001000=310;3c001100=a10;3c001200=210;3c001300=210;3c001400=210;3c001500=210;3c001600=a10;3c001700=310;3c001800=b10;3c001900=410;3d000100=310;3d000200=710;3d000300=810;3d000400=910;3d000500=710;3d000600=610;3d000700=610;3d000800=310;3d000900=510;3d000a00=510;3d000b00=510;3d000c00=610;3d000d00=b10;3d000e00=310;3d000f00=410;3d001000=310;3d001100=a10;3d001200=a10;3d001300=210;3d001400=210;3d001500=210;3d001600=210;3d001700=310;3d001800=b10;3d001900=410;3e000100=310;3e000200=710;3e000300=810;3e000400=910;3e000500=710;3e000600=610;3e000700=610;3e000800=510;3e000900=c10;3e000a00=c10;3e000b00=d10;3e000c00=510;3e000d00=410;3e000e00=610;3e000f00=410;3e001000=310;3e001100=a10;3e001200=a10;3e001300=a10;3e001400=210;3e001500=210;3e001600=210;3e001700=310;3e001800=b10;3e001900=410;3f000100=310;3f000200=710;3f000300=810;3f000400=910;3f000500=710;3f000600=610;3f000700=610;3f000800=510;3f000900=d10;3f000a00=d10;3f000b00=fecb02;3f000c00=510;3f000d00=b10;3f000e00=610;3f000f00=410;3f001000=310;3f001100=210;3f001200=a10;3f001300=a10;3f001400=a10;3f001500=210;3f001600=210;3f001700=310;3f001800=410;40000100=310;40000200=710;40000300=810;40000400=910;40000500=710;40000600=610;40000700=610;40000800=510;40000900=e10;40000a00=e10;40000b00=fff;40000c00=510;40000d00=b10;40000e00=610;40000f00=410;40001000=310;40001100=a10;40001200=210;40001300=a10;40001400=a10;40001500=a10;40001600=210;40001700=310;40001800=410;41000100=310;41000200=710;41000300=810;41000400=910;41000500=710;41000600=610;41000700=610;41000800=510;41000900=e10;41000a00=e10;41000b00=fff;41000c00=510;41000d00=b10;41000e00=610;41000f00=410;41001000=410;41001100=a10;41001200=a10;41001300=210;41001400=a10;41001500=a10;41001600=a10;41001700=310;42000000=010;42000100=310;42000200=710;42000300=810;42000400=910;42000500=710;42000600=610;42000700=610;42000800=510;42000900=e10;42000a00=fff;42000b00=fff;42000c00=510;42000d00=b10;42000e00=610;42000f00=410;42001000=310;42001100=a10;42001200=a10;42001300=a10;42001400=210;42001500=a10;42001600=310;43000000=010;43000100=310;43000200=710;43000300=810;43000400=910;43000500=710;43000600=310;43000700=610;43000800=510;43000900=fff;43000a00=fff;43000b00=fff;43000c00=510;43000d00=b10;43000e00=610;43000f00=410;43001000=410;43001100=a10;43001200=a10;43001300=a10;43001400=310;43001500=310;4000=010;44000100=310;44000200=710;44000300=810;44000400=910;44000500=710;44000600=610;44000700=510;44000800=510;44000900=510;44000a00=510;44000b00=510;44000c00=510;44000d00=b10;44000e00=410;44000f00=610;44001000=410;4010=310;44001200=310;44001300=310;45000000=010;45000100=310;45000200=710;45000300=810;45000400=910;45000500=710;45000600=610;45000700=710;45000800=710;45000900=510;45000a00=510;45000b00=510;45000c00=510;45000d00=410;45000e00=610;45000f00=610;45001000=410;46000000=010;46000100=310;46000200=710;46000300=810;46000400=910;46000500=710;46000600=610;46000700=710;46000800=510;46000900=710;46000a00=710;46000b00=710;46000c00=710;46000d00=510;46000e00=610;46000f00=610;46001000=410;47000000=010;47000100=310;47000200=710;47000300=810;47000400=910;47000500=710;47000600=610;47000700=710;47000800=510;47000900=710;47000a00=510;47000b00=710;47000c00=510;47000d00=710;47000e00=610;47000f00=610;47001000=410;48000000=010;48000100=310;48000200=710;48000300=810;48000400=910;48000500=710;48000600=610;48000700=710;48000800=510;48000900=710;48000a00=510;48000b00=710;48000c00=510;48000d00=710;48000e00=610;48000f00=610;48001000=410;49000000=010;49000100=310;49000200=710;49000300=810;49000400=910;49000500=710;49000600=610;49000700=710;49000800=510;49000900=710;49000a00=510;49000b00=710;49000c00=510;49000d00=710;49000e00=610;49000f00=610;49001000=410;4a000000=010;4a000100=310;4a000200=710;4a000300=810;4a000400=910;4a000500=710;4a000600=610;4a000700=710;4a000800=510;4a000900=710;4a000a00=510;4a000b00=710;4a000c00=510;4a000d00=710;4a000e00=610;4a000f00=610;4a001000=410;4b000000=010;4b000100=310;4b000200=710;4b000300=810;4b000400=910;4b000500=710;4b000600=610;4b000700=710;4b000800=510;4b000900=710;4b000a00=510;4b000b00=710;4b000c00=510;4b000d00=710;4b000e00=610;4b000f00=610;4b001000=410;4c000000=010;4c000100=310;4c000200=710;4c000300=810;4c000400=910;4c000500=710;4c000600=610;4c000700=710;4c000800=510;4c000900=710;4c000a00=510;4c000b00=710;4c000c00=510;4c000d00=710;4c000e00=610;4c000f00=610;4c001000=410;4d000000=010;4d000100=310;4d000200=710;4d000300=810;4d000400=910;4d000500=710;4d000600=610;4d000700=710;4d000800=510;4d000900=710;4d000a00=510;4d000b00=710;4d000c00=510;4d000d00=710;4d000e00=610;4d000f00=610;4d001000=410;4e000000=010;4e000100=310;4e000200=710;4e000300=810;4e000400=910;4e000500=710;4e000600=310;4e000700=710;4e000800=510;4e000900=710;4e000a00=510;4e000b00=710;4e000c00=510;4e000d00=710;4e000e00=610;4e000f00=b10;4e001000=410;4f000000=010;4f000100=310;4f000200=710;4f000300=810;4f000400=910;4f000500=710;4f000600=610;4f000700=710;4f000800=710;4f000900=510;4f000a00=510;4f000b00=510;4f000c00=510;4f000d00=710;4f000e00=b10;4f000f00=410;50000000=010;50000100=310;50000200=710;50000300=810;50000400=910;50000500=710;50000600=610;50000700=610;50000800=510;50000900=710;50000a00=710;50000b00=710;50000c00=710;50000d00=b10;50000e00=610;50000f00=410;51000000=010;51000100=310;51000200=710;51000300=810;51000400=910;51000500=710;51000600=610;51000700=610;51000800=510;51000900=e10;51000a00=e10;51000b00=fff;51000c00=510;51000d00=b10;51000e00=610;51000f00=410;52000000=010;52000100=310;52000200=710;52000300=810;52000400=910;52000500=710;52000600=610;52000700=610;52000800=510;52000900=e10;52000a00=fff;52000b00=fff;52000c00=510;52000d00=b10;52000e00=610;52000f00=410;53000100=310;53000200=710;53000300=810;53000400=910;53000500=710;53000600=610;53000700=610;53000800=510;53000900=fff;53000a00=fff;53000b00=fff;53000c00=510;53000d00=b10;53000e00=610;53000f00=410;54000100=310;54000200=710;54000300=810;54000400=910;54000500=710;54000600=610;54000700=610;54000800=510;54000900=d10;54000a00=d10;54000b00=fecb02;54000c00=510;54000d00=b10;54000e00=610;54000f00=410;55000200=710;55000300=810;55000400=910;55000500=710;55000600=310;55000700=310;55000800=510;55000900=c10;55000a00=c10;55000b00=d10;55000c00=510;55000d00=b10;55000e00=410;55000f00=410;56000200=710;56000300=810;56000400=910;56000500=710;56000600=410;56000700=410;56000800=310;56000900=510;56000a00=510;56000b00=510;56000c00=510;56000d00=310;56000e00=610;56000f00=410;57000200=710;57000300=910;57000400=910;57000500=710;57000800=410;57000900=410;57000a00=410;57000b00=610;57000c00=610;57000d00=b10;57000e00=410;58000300=710;58000400=710;58000b00=410;58000c00=410;58000d00=410?replace;010=151515;110=383838;210=425053;310=4f4f56;410=8c8c99;510=1e1f21;610=d5d3d8;710=585a60;810=8f939e;910=b8c0db;a10=1d282d;b10=e9f7fc;c10=b36500;d10=fb9100;e10=b2a039",
+        "filled": true
+    },
+    "count": 1,
+    "name": "hoverbikecontrollerkhaki"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Zhiguly", // Also like a ShapeShips name must be without Spaces
+  "subName": "LADA",
+  "icon": "/baseicons/car.png",
+  "previewScale": 2.5,
+  "colorCanChanging": true,
+  "vehiclePath": "/vehicles/cars/LADA_2107/Zhiguly.json"
+}
