@@ -935,7 +935,7 @@
     "maxAngle": 60,
     "maxDamageSoundInterval": 10,
     "maxGroundSearchDistance": 7,
-    "maxHealth": 1000,
+    "maxHealth": 100,
     "minDamageCollisionAccel": 45,
     "minDamageSoundInterval": 1,
     "minNotificationCollisionAccel": 15,
