@@ -1,0 +1,7 @@
+{
+  "name": "Porche", // Also like a ShapeShips name must be without Spaces
+  "subName": "Porche",
+  "previewScale": 2,
+  "colorCanChanging": false,
+  "vehiclePath": "/vehicles/cars/Porche/Porche.json"
+}
