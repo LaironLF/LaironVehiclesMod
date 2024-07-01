@@ -1,0 +1,139 @@
+{
+  "parameters": {
+    "muzzleOffset": [
+      2,
+      0.5
+    ],
+    "maxStack": 50,
+    "itemName": "ironassaultrifle",
+    "description": "Есть модуль взломщик",
+    "scripts": [
+      "/items/active/remotePad.lua"
+    ],
+    "interactData": "/interface/controlsgui/guipane.json",
+    "elementalType": "physical",
+    "price": 960,
+    "inventoryIcon": "/assetmissing.png?replace;00000000=ffffff;ffffff00=ffffff?setcolor=ffffff?scalenearest=1?crop=0;0;6;7?blendmult=/objects/outpost/customsign/signplaceholder.png;0;0?replace;01000101=0D0D0DFF;01000201=0D0D0DFF;01000301=00000000;01000401=00000000;01000501=00000000;01000601=0D0D0DFF;01000701=00000000;02000101=3D3D3DFF;02000201=736256FF;02000301=736256FF;02000401=0D0D0DFF;02000501=736256FF;02000601=736256FF;02000701=3D3D3DFF;03000101=252525FF;03000201=50CF40FF;03000301=252525FF;03000401=48ED3BFF;03000501=252525FF;03000601=50CF40FF;03000701=252525FF;04000101=2F2F2FC6;04000201=4DFF3FED;04000301=2F2F2FB6;04000401=2F2F2FEA;04000501=2F2F2FB6;04000601=4DFF3FED;04000701=2F2F2FB6;05000101=2F2F2FC6;05000201=2F2F2FEA;05000301=2F2F2FB6;05000401=4DFF3FED;05000501=2F2F2FB6;05000601=2F2F2FEA;05000701=2F2F2FB6;06000101=2F2F2FEA;06000201=4DFF3FBC;06000301=2F2F2FEA;06000401=4DFF3FBC;06000501=2F2F2FEA;06000601=4DFF3FBC;06000701=2F2F2FEA?replace;ffffffff=00000000",
+    "rarity": "Rare",
+    "shortdescription": "КПК",
+    "altAbilityType": "spray",
+    "twoHanded": true,
+    "altAbility": {
+      "fireTime": 1,
+      "baseDps": 0,
+      "inaccuracy": 0,
+      "energyUsage": 0,
+      "projectileType": "none"
+    },
+    "createdby": " ^red;Lairon Alive!",
+    "animationCustom": {
+      "sounds": {
+        "fire": {
+          "pitchMultiplier": 0.9,
+          "volume": 1.2,
+          "pool": [
+            "/sfx/interface/aichatter1.ogg",
+            "/sfx/interface/aichatter2.ogg",
+            "/sfx/interface/stationtransponder_stationpulse.ogg",
+            "/sfx/interface/stationtransponder_valid1.ogg",
+            "/sfx/interface/stationtransponder_valid2.ogg",
+            "/sfx/interface/ship_confirm1.ogg",
+            "/sfx/interface/relocator_scanning.ogg"
+          ]
+        }
+      },
+      "lights": {
+        "muzzleFlash": {
+          "color": [
+            0,
+            100,
+            50
+          ]
+        },
+        "glow": {
+          "beamLevel": 2,
+          "color": [
+            0,
+            80,
+            30
+          ]
+        }
+      }
+    },
+    "itemTags": [
+      "weapon",
+      "ranged",
+      "assaultrifle"
+    ],
+    "baseOffset": [
+      0.6,
+      0.15
+    ],
+    "level": 1,
+    "animation": "/items/active/weapons/ranged/gun.animation",
+    "animationParts": {
+      "muzzleFlash": "none",
+      "middle": "/assetmissing.png?replace;00000000=ffffff;ffffff00=ffffff?setcolor=ffffff?scalenearest=1?crop=0;0;6;7?blendmult=/objects/outpost/customsign/signplaceholder.png;0;0?replace;01000101=0D0D0DFF;01000201=0D0D0DFF;01000301=00000000;01000401=00000000;01000501=00000000;01000601=0D0D0DFF;01000701=00000000;02000101=3D3D3DFF;02000201=736256FF;02000301=736256FF;02000401=0D0D0DFF;02000501=736256FF;02000601=736256FF;02000701=3D3D3DFF;03000101=252525FF;03000201=50CF40FF;03000301=252525FF;03000401=48ED3BFF;03000501=252525FF;03000601=50CF40FF;03000701=252525FF;04000101=2F2F2FC6;04000201=4DFF3FED;04000301=2F2F2FB6;04000401=2F2F2FEA;04000501=2F2F2FB6;04000601=4DFF3FED;04000701=2F2F2FB6;05000101=2F2F2FC6;05000201=2F2F2FEA;05000301=2F2F2FB6;05000401=4DFF3FED;05000501=2F2F2FB6;05000601=2F2F2FEA;05000701=2F2F2FB6;06000101=2F2F2FEA;06000201=4DFF3FBC;06000301=2F2F2FEA;06000401=4DFF3FBC;06000501=2F2F2FEA;06000601=4DFF3FBC;06000701=2F2F2FEA?replace;ffffffff=00000000",
+      "barrel": "",
+      "butt": ""
+    },
+    "primaryAbility": {
+      "projectileParameters": {
+        "knockback": 5
+      },
+      "projectileCount": 1,
+      "baseDps": 0,
+      "inaccuracy": 0,
+      "fireType": "auto",
+      "scripts": [
+        "/items/active/weapons/ranged/gunfire.lua"
+      ],
+      "fireTime": 0.2,
+      "class": "GunFire",
+      "projectileType": "none",
+      "energyUsage": 0,
+      "stances": {
+        "cooldown": {
+          "allowFlip": false,
+          "allowRotate": false,
+          "weaponRotation": 0,
+          "armRotation": 0,
+          "weaponOffset": [
+            -0.4,
+            -0.1
+          ],
+          "twoHanded": false,
+          "duration": 0.11
+        },
+        "idle": {
+          "allowFlip": true,
+          "allowRotate": true,
+          "weaponRotation": 0,
+          "armRotation": 0,
+          "weaponOffset": [
+            -0.4,
+            -0.1
+          ],
+          "twoHanded": false
+        },
+        "fire": {
+          "allowFlip": false,
+          "allowRotate": false,
+          "weaponRotation": 0,
+          "armRotation": 0,
+          "weaponOffset": [
+            -0.4,
+            -0.1
+          ],
+          "twoHanded": false,
+          "duration": 0
+        }
+      }
+    },
+    "builder": "/items/buildscripts/buildunrandweapon.lua",
+    "tooltipKind": "base",
+    "category": "КПК"
+  },
+  "count": 1,
+  "name": "ironassaultrifle"
+}
