@@ -42,6 +42,9 @@ function init()
       end
     end
   end)
+  -- message.setHandler("lfvehicledata", function(a, b, params)
+  --   -- if params.speed ~= nil then sb.logInfo("LFSB: " .. params.speed) end
+  -- end)
 end
 function update(dt)
 end
