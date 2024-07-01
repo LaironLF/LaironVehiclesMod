@@ -110,13 +110,17 @@ function deploy()
   local vehicleBaseParams = root.assetJson(self.itemData.vehiclePath)
   local vehiclePaneConfig = root.assetJson(self.itemData.vehiclePaneConfig)
 
-  -- shipBaseParams.ownerUuid = world.entityUniqueId(player.id())
+  vehicleBaseParams.name = vehiclePaneConfig.name
+  vehicleBaseParams.ownerKey = world.entityUniqueId(player.id())
   vehicleBaseParams.animation.globalTagDefaults.bodyColor1 = "?multiply=" ..
                                                                  status.statusProperty(
           vehiclePaneConfig.name .. "_bodycolor1", "ffffff")
 
+  local vehicleType = vehiclePaneConfig.vehicleType or "hoverbikekhaki"
+
   local dropPos = world.entityPosition(player.id())
-  local ship = world.spawnVehicle("hoverbikekhaki", dropPos, vehicleBaseParams)
+  local ship = world.spawnVehicle(vehicleType, dropPos, vehicleBaseParams)
+  -- sb.logInfo("LFSB: Spawned Vehicle id" .. ship)
 
   world.sendEntityMessage(ship, "drop")
   pane.dismiss()
@@ -132,4 +136,8 @@ function edit()
   local editpane = root.assetJson("/interface/colorchange/editpane.json")
   editpane.vehicleParams = vehicleParams
   player.interact("ScriptPane", editpane)
+end
+
+function uninit()
+  -- sb.logInfo("deployPaneClosed")
 end
