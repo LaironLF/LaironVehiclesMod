@@ -1,0 +1,462 @@
+{
+  "shipConfig": {},
+  "gui": {
+    "panefeature": {
+      "type": "panefeature"
+    },
+    "background": {
+      "type": "background",
+      "fileHeader": "/interface/controlsgui/header.png"
+      // "fileBody": "/interface/controlsgui/body.png"
+      // "fileFooter": "/interface/controlsgui/footer.png"
+    },
+    "name": {
+      "type": "label",
+      "position": [
+        86,
+        256
+      ],
+      "fontSize": 14,
+      "hAnchor": "mid",
+      "width": 120,
+      "value": "name",
+      "color": [
+        255,
+        206,
+        222
+      ],
+      "mouseTransparent": true
+    },
+    "speed": {
+      "type": "label",
+      "position": [
+        69,
+        202
+      ],
+      "fontSize": 32,
+      "hAnchor": "left",
+      "width": 120,
+      "value": "0",
+      "color": [
+        255,
+        206,
+        222
+      ],
+      "mouseTransparent": true
+    },
+    "destination": {
+      "type": "label",
+      "position": [
+        89,
+        149
+      ],
+      "fontSize": 10,
+      "hAnchor": "mid",
+      "width": 120,
+      "value": "no destination",
+      "color": [
+        255,
+        206,
+        222
+      ],
+      "mouseTransparent": true
+    },
+    "btn_map": {
+      "type": "button",
+      "callback": "map",
+      "size": [
+        22,
+        23
+      ],
+      "position": [
+        77,
+        115
+      ],
+      "pressedOffset": [
+        0,
+        -1
+      ],
+      "fontColorDisabled": [
+        107,
+        107,
+        107
+      ],
+      "fontColor": [
+        178,
+        178,
+        178
+      ],
+      "disabled": true,
+      "caption": "",
+      "base": "/interface/controlsgui/map.png",
+      "hover": "/interface/controlsgui/map.png",
+      "pressed": "/interface/controlsgui/map.png",
+      "inactive": "/interface/controlsgui/map.png",
+      "zlevel": -1
+    },
+    "btn_warp": {
+      "type": "button",
+      "callback": "map",
+      "size": [
+        114,
+        35
+      ],
+      "position": [
+        31,
+        86
+      ],
+      "pressedOffset": [
+        0,
+        -1
+      ],
+      "fontColorDisabled": [
+        107,
+        107,
+        107
+      ],
+      "fontColor": [
+        178,
+        178,
+        178
+      ],
+      "disabled": true,
+      "caption": "",
+      "base": "/interface/controlsgui/btn_warp_charge.png",
+      "hover": "/interface/controlsgui/btn_warp_charge.png",
+      "pressed": "/interface/controlsgui/btn_warp_charge.png",
+      "inactive": "/interface/controlsgui/btn_warp_charge.png",
+      "zlevel": -1
+    },
+    "btn_remoteControl": {
+      "type": "button",
+      "callback": "remote",
+      "size": [
+        33,
+        36
+      ],
+      "position": [
+        178,
+        62
+      ],
+      "pressedOffset": [
+        0,
+        -1
+      ],
+      "fontColorDisabled": [
+        107,
+        107,
+        107
+      ],
+      "fontColor": [
+        178,
+        178,
+        178
+      ],
+      "disabled": false,
+      "caption": "",
+      "base": "/interface/controlsgui/btn_remoteEnebled.png",
+      "hover": "/interface/controlsgui/btn_remoteEnebled.png",
+      "pressed": "/interface/controlsgui/btn_remoteEnebled.png",
+      "inactive": "/interface/controlsgui/btn_remoteEnebled.png",
+      "zlevel": -1
+    },
+    "health": {
+      "zlevel": 10,
+      "type": "progress",
+      "position": [
+        80,
+        276
+      ],
+      "background": "/assetmissing.png",
+      "size": [
+        82,
+        3
+      ],
+      "progressSet": {
+        "inner": "/interface/controlsgui/health.png",
+        "type": "repeat"
+      },
+      "direction": "horizontal"
+    },
+    "btn_undrop": {
+      "type": "button",
+      "callback": "undrop",
+      "size": [
+        33,
+        36
+      ],
+      "position": [
+        178,
+        24
+      ],
+      "pressedOffset": [
+        0,
+        -1
+      ],
+      "fontColorDisabled": [
+        107,
+        107,
+        107
+      ],
+      "fontColor": [
+        178,
+        178,
+        178
+      ],
+      "disabled": false,
+      "caption": "",
+      "base": "/interface/controlsgui/btn_undrop.png",
+      "hover": "/interface/controlsgui/btn_undrop.png",
+      "pressed": "/interface/controlsgui/btn_undrop.png",
+      "inactive": "/interface/controlsgui/btn_undrop.png",
+      "zlevel": -1
+    },
+    "btn_hazard": {
+      "type": "button",
+      "callback": "hazard",
+      "size": [
+        32,
+        32
+      ],
+      "position": [
+        176,
+        234
+      ],
+      "pressedOffset": [
+        0,
+        -1
+      ],
+      "fontColorDisabled": [
+        107,
+        107,
+        107
+      ],
+      "fontColor": [
+        178,
+        178,
+        178
+      ],
+      "disabled": false,
+      "caption": "",
+      "base": "/interface/controlsgui/hazardoff.png",
+      "hover": "/interface/controlsgui/hazardoff.png",
+      "pressed": "/interface/controlsgui/hazardoff.png",
+      "inactive": "/interface/controlsgui/hazaroff.png",
+      "zlevel": -1
+    },
+    "btn_headlights": {
+      "type": "button",
+      "callback": "headlights",
+      "size": [
+        32,
+        32
+      ],
+      "position": [
+        176,
+        202
+      ],
+      "pressedOffset": [
+        0,
+        -1
+      ],
+      "fontColorDisabled": [
+        107,
+        107,
+        107
+      ],
+      "fontColor": [
+        178,
+        178,
+        178
+      ],
+      "disabled": false,
+      "caption": "",
+      "base": "/interface/controlsgui/headlightsoff.png",
+      "hover": "/interface/controlsgui/headlightsoff.png",
+      "pressed": "/interface/controlsgui/headlightsoff.png",
+      "inactive": "/interface/controlsgui/headlightsoff.png",
+      "zlevel": -1
+    },
+    "radio_title": {
+      "type": "label",
+      "position": [
+        88,
+        42
+      ],
+      "fontSize": 12,
+      "hAnchor": "mid",
+      "width": 120,
+      "value": "song title",
+      "color": [
+        255,
+        206,
+        222
+      ],
+      "mouseTransparent": true
+    },
+    "radio_size": {
+      "type": "label",
+      "position": [
+        34,
+        32
+      ],
+      "fontSize": 8,
+      "hAnchor": "mid",
+      "width": 120,
+      "value": "0/0",
+      "color": [
+        255,
+        206,
+        222
+      ],
+      "mouseTransparent": true
+    },
+    "radio_play": {
+      "type": "button",
+      "callback": "radioplay",
+      "size": [
+        12,
+        13
+      ],
+      "position": [
+        84,
+        22
+      ],
+      "pressedOffset": [
+        0,
+        -1
+      ],
+      "fontColorDisabled": [
+        107,
+        107,
+        107
+      ],
+      "fontColor": [
+        178,
+        178,
+        178
+      ],
+      "disabled": false,
+      "caption": "",
+      "base": "/interface/controlsgui/radio_play.png",
+      "hover": "/interface/controlsgui/radio_play.png",
+      "pressed": "/interface/controlsgui/radio_play.png",
+      "inactive": "/interface/controlsgui/radio_play.png",
+      "zlevel": -1
+    },
+    "radio_next": {
+      "type": "button",
+      "callback": "radionext",
+      "size": [
+        12,
+        13
+      ],
+      "position": [
+        117,
+        22
+      ],
+      "pressedOffset": [
+        0,
+        -1
+      ],
+      "fontColorDisabled": [
+        107,
+        107,
+        107
+      ],
+      "fontColor": [
+        178,
+        178,
+        178
+      ],
+      "disabled": false,
+      "caption": "",
+      "base": "/interface/controlsgui/radio_next.png",
+      "hover": "/interface/controlsgui/radio_next.png",
+      "pressed": "/interface/controlsgui/radio_next.png",
+      "inactive": "/interface/controlsgui/radio_next.png",
+      "zlevel": -1
+    },
+    "radio_previous": {
+      "type": "button",
+      "callback": "radioprev",
+      "size": [
+        12,
+        13
+      ],
+      "position": [
+        53,
+        22
+      ],
+      "pressedOffset": [
+        0,
+        -1
+      ],
+      "fontColorDisabled": [
+        107,
+        107,
+        107
+      ],
+      "fontColor": [
+        178,
+        178,
+        178
+      ],
+      "disabled": false,
+      "caption": "",
+      "base": "/interface/controlsgui/radio_previous.png",
+      "hover": "/interface/controlsgui/radio_previous.png",
+      "pressed": "/interface/controlsgui/radio_previous.png",
+      "inactive": "/interface/controlsgui/radio_previous.png",
+      "zlevel": -1
+    },
+    "radio_settings": {
+      "type": "button",
+      "callback": "radiosettings",
+      "size": [
+        18,
+        19
+      ],
+      "position": [
+        150,
+        19
+      ],
+      "pressedOffset": [
+        0,
+        -1
+      ],
+      "fontColorDisabled": [
+        107,
+        107,
+        107
+      ],
+      "fontColor": [
+        178,
+        178,
+        178
+      ],
+      "disabled": false,
+      "caption": "",
+      "base": "/interface/controlsgui/radio_settings.png",
+      "hover": "/interface/controlsgui/radio_settings.png",
+      "pressed": "/interface/controlsgui/radio_settings.png",
+      "inactive": "/interface/controlsgui/radio_settings.png",
+      "zlevel": -1
+    }
+  },
+  "scriptWidgetCallbacks": [
+    "radioplay",
+    "radionext",
+    "radioprev",
+    "radiosettings",
+    "hazard",
+    "headlights",
+    "undrop",
+    "map",
+    "remote"
+    // "setColor"
+  ],
+  "scripts": [
+    "/interface/controlsgui/guipane.lua"
+  ]
+}
