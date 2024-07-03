@@ -1,0 +1,8 @@
+{
+  "name": "spider", // Also like a ShapeShips name must be without Spaces
+  "subName": "spider",
+  "previewScale": 2,
+  "colorCanChanging": true,
+  "vehiclePath": "/vehicles/spider/test/TYTcv001.json",
+  "vehicleType": "modularmech"
+}

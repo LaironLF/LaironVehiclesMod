@@ -1,0 +1,296 @@
+{
+  "music": [
+    {
+      "title": "Katana Zero Club",
+      "path": "/music/Unicum/Katana_Zero_Club.ogg"
+    },
+    {
+      "title": "Hatsune Miku - Believe",
+      "path": "/music/Unicum/Believe_Miku.ogg"
+    },
+    {
+      "title": "accretion-disc",
+      "path": "/music/accretion-disc.ogg"
+    },
+    {
+      "title": "arctic-battle1-loop",
+      "path": "/music/arctic-battle1-loop.ogg"
+    },
+    {
+      "title": "arctic-battle2-loop",
+      "path": "/music/arctic-battle2-loop.ogg"
+    },
+    {
+      "title": "arctic-battle3-loop",
+      "path": "/music/arctic-battle3-loop.ogg"
+    },
+    {
+      "title": "arctic-constellation1",
+      "path": "/music/arctic-constellation1.ogg"
+    },
+    {
+      "title": "arctic-constellation2",
+      "path": "/music/arctic-constellation2.ogg"
+    },
+    {
+      "title": "arctic-exploration1",
+      "path": "/music/arctic-exploration1.ogg"
+    },
+    {
+      "title": "arctic-exploration2",
+      "path": "/music/arctic-exploration2.ogg"
+    },
+    {
+      "title": "atlas-8bit",
+      "path": "/music/atlas-8bit.ogg"
+    },
+    {
+      "title": "atlas",
+      "path": "/music/atlas.ogg"
+    },
+    {
+      "title": "blue-straggler",
+      "path": "/music/blue-straggler.ogg"
+    },
+    {
+      "title": "body-electric-loop",
+      "path": "/music/body-electric-loop.ogg"
+    },
+    {
+      "title": "casiopeia",
+      "path": "/music/casiopeia.ogg"
+    },
+    {
+      "title": "crystal-battle1-loop",
+      "path": "/music/crystal-battle1-loop.ogg"
+    },
+    {
+      "title": "crystal-exploration1",
+      "path": "/music/crystal-exploration1.ogg"
+    },
+    {
+      "title": "crystal-exploration2",
+      "path": "/music/crystal-exploration2.ogg"
+    },
+    {
+      "title": "cygnus-x1",
+      "path": "/music/cygnus-x1.ogg"
+    },
+    {
+      "title": "dead-or-alive",
+      "path": "/music/dead-or-alive.ogg"
+    },
+    {
+      "title": "desert-battle-2",
+      "path": "/music/desert-battle-2.ogg"
+    },
+    {
+      "title": "desert-exploration1",
+      "path": "/music/desert-exploration1.ogg"
+    },
+    {
+      "title": "desert-exploration2",
+      "path": "/music/desert-exploration2.ogg"
+    },
+    {
+      "title": "drosera",
+      "path": "/music/drosera.ogg"
+    },
+    {
+      "title": "epsilon-indi",
+      "path": "/music/epsilon-indi.ogg"
+    },
+    {
+      "title": "eridanus-supervoid",
+      "path": "/music/eridanus-supervoid.ogg"
+    },
+    {
+      "title": "error-0xbfaf000",
+      "path": "/music/error-0xbfaf000.ogg"
+    },
+    {
+      "title": "europa",
+      "path": "/music/europa.ogg"
+    },
+    {
+      "title": "event-horizon",
+      "path": "/music/event-horizon.ogg"
+    },
+    {
+      "title": "forest-battle2",
+      "path": "/music/forest-battle2.ogg"
+    },
+    {
+      "title": "forest-loop",
+      "path": "/music/forest-loop.ogg"
+    },
+    {
+      "title": "forsaken-grotto",
+      "path": "/music/forsaken-grotto.ogg"
+    },
+    {
+      "title": "gravitational-collapse-loop",
+      "path": "/music/gravitational-collapse-loop.ogg"
+    },
+    {
+      "title": "gravitational-collapse",
+      "path": "/music/gravitational-collapse.ogg"
+    },
+    {
+      "title": "haiku",
+      "path": "/music/haiku.ogg"
+    },
+    {
+      "title": "home-concept-loop",
+      "path": "/music/home-concept-loop.ogg"
+    },
+    {
+      "title": "horsehead-nebula",
+      "path": "/music/horsehead-nebula.ogg"
+    },
+    {
+      "title": "housecleaning",
+      "path": "/music/housecleaning.ogg"
+    },
+    {
+      "title": "hymn-to-the-stars",
+      "path": "/music/hymn-to-the-stars.ogg"
+    },
+    {
+      "title": "i-was-the-sun",
+      "path": "/music/i-was-the-sun.ogg"
+    },
+    {
+      "title": "impact-event",
+      "path": "/music/impact-event.ogg"
+    },
+    {
+      "title": "inviolate-loop",
+      "path": "/music/inviolate-loop.ogg"
+    },
+    {
+      "title": "jupiter",
+      "path": "/music/jupiter.ogg"
+    },
+    {
+      "title": "large-magellanic-cloud",
+      "path": "/music/large-magellanic-cloud.ogg"
+    },
+    {
+      "title": "lava-exploration1",
+      "path": "/music/lava-exploration1.ogg"
+    },
+    {
+      "title": "lava-exploration2",
+      "path": "/music/lava-exploration2.ogg"
+    },
+    {
+      "title": "M54",
+      "path": "/music/M54.ogg"
+    },
+    {
+      "title": "mercury",
+      "path": "/music/mercury.ogg"
+    },
+    {
+      "title": "mira",
+      "path": "/music/mira.ogg"
+    },
+    {
+      "title": "Nomads",
+      "path": "/music/Nomads.ogg"
+    },
+    {
+      "title": "ocean-battle1-loop",
+      "path": "/music/ocean-battle1-loop.ogg"
+    },
+    {
+      "title": "ocean-exploration2",
+      "path": "/music/ocean-exploration2.ogg"
+    },
+    {
+      "title": "on-the-beach-at-night",
+      "path": "/music/on-the-beach-at-night.ogg"
+    },
+    {
+      "title": "planetarium",
+      "path": "/music/planetarium.ogg"
+    },
+    {
+      "title": "procyon",
+      "path": "/music/procyon.ogg"
+    },
+    {
+      "title": "psyche",
+      "path": "/music/psyche.ogg"
+    },
+    {
+      "title": "scorian-flow",
+      "path": "/music/scorian-flow.ogg"
+    },
+    {
+      "title": "stellar-acclimation",
+      "path": "/music/stellar-acclimation.ogg"
+    },
+    {
+      "title": "stellarformation",
+      "path": "/music/stellarformation.ogg"
+    },
+    {
+      "title": "swansong",
+      "path": "/music/swansong.ogg"
+    },
+    {
+      "title": "temple-of-kluex",
+      "path": "/music/temple-of-kluex.ogg"
+    },
+    {
+      "title": "tentacle-battle1-loop",
+      "path": "/music/tentacle-battle1-loop.ogg"
+    },
+    {
+      "title": "tentacle-exploration1",
+      "path": "/music/tentacle-exploration1.ogg"
+    },
+    {
+      "title": "the-apex",
+      "path": "/music/the-apex.ogg"
+    },
+    {
+      "title": "the-deep",
+      "path": "/music/the-deep.ogg"
+    },
+    {
+      "title": "the-eternal-tide",
+      "path": "/music/the-eternal-tide.ogg"
+    },
+    {
+      "title": "the-peacekeepers",
+      "path": "/music/the-peacekeepers.ogg"
+    },
+    {
+      "title": "title-menu-music",
+      "path": "/music/title-menu-music.ogg"
+    },
+    {
+      "title": "title-theme-concept-old",
+      "path": "/music/title-theme-concept-old.ogg"
+    },
+    {
+      "title": "tranquility-base",
+      "path": "/music/tranquility-base.ogg"
+    },
+    {
+      "title": "ultramarine-loop",
+      "path": "/music/ultramarine-loop.ogg"
+    },
+    {
+      "title": "ultramarine",
+      "path": "/music/ultramarine.ogg"
+    },
+    {
+      "title": "vast-immortal-suns",
+      "path": "/music/vast-immortal-suns.ogg"
+    }
+  ]
+}

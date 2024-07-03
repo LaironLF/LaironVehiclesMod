@@ -1,0 +1,8 @@
+{
+  "name": "CyberVan-001", // Also like a ShapeShips name must be without Spaces
+  "subName": "TOYOTA",
+  "icon": "/baseicons/car.png",
+  "previewScale": 2,
+  "colorCanChanging": true,
+  "vehiclePath": "/vehicles/cars/TOYOTA_CV002/TYTcv001.json"
+}

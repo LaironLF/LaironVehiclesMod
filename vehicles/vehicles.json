@@ -1,5 +1,7 @@
 {
   "list": [
+    "/vehicles/cars/TOYOTA_CV002/ConfigPane.json",
+    "/vehicles/spider/test/ConfigPane.json",
     "/vehicles/cars/TOYOTA_CV001/ConfigPane.json",
     "/vehicles/moto/Dientes/ConfigPane.json",
     "/vehicles/moto/Carbon/ConfigPane.json",

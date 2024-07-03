@@ -57,6 +57,7 @@ function init()
   self.damageStatePassengerDances = config.getParameter("damageStatePassengerDances")
   self.damageStatePassengerEmotes = config.getParameter("damageStatePassengerEmotes")
   self.damageStateDriverEmotes = config.getParameter("damageStateDriverEmotes")
+  self.name = config.getParameter("name")
 
   self.loopPlaying = nil;
   self.enginePitch = self.engineRevPitch;
@@ -299,7 +300,16 @@ function init()
   end)
 
   updateVisualEffects(storage.health, 0, false)
-  -- sb.logInfo(sb.printJson(self.movementSettings))
+  -- sb.logInfo("LFSB: vehicle " .. entity.id() .. " is spawned")
+end
+
+function getVehicleData()
+  local data = {
+    speed = math.abs(mcontroller.xVelocity())
+  }
+  data.isGUIOpen = self.isGUIOpen
+  data.titlemusic = self.musicList["music"][self.musicCurrentId]
+  return data
 end
 
 function update()
@@ -358,6 +368,7 @@ function update()
     end
     self.driver = driverThisFrame
   end
+
 end
 
 function localanimator(func, args)
@@ -394,6 +405,12 @@ function controls()
   if self.controls.special2 and not self.controls.alt then
     if self.isGUIOpenCanToggle then
       self.isGUIOpen = not self.isGUIOpen
+      -- if self.isGUIOpen then
+      --   self.editpane = root.assetJson("/interface/controlsgui/guipane.json")
+      --   self.editpane.vehicleId = entity.id()
+      --   self.editpane.vehicleName = self.name
+      --   world.sendEntityMessage(self.driver, "interact", "ScriptPane", self.editpane)
+      -- end
       self.isGUIOpenCanToggle = false
     end
   else
@@ -437,15 +454,56 @@ function controls()
   end
 
   if self.controls.special3 then
-    if not self.hornPlaying then
-      animator.playSound("hornLoop", -1)
-      self.hornPlaying = true;
-    end
+    if not self.hornPlaying then animator.playSound("hornLoop", -1) end
+    self.hornPlaying = true;
   else
     if self.hornPlaying then
       animator.stopAllSounds("hornLoop")
       self.hornPlaying = false;
     end
+  end
+  -- localanimator("lfvehicledata", {{
+  --   speed = mcontroller.xVelocity()
+  -- }})
+  if self.driver then
+
+    -- localanimator("clearDrawables", {})
+    -- localanimator("addDrawable", {{
+    --   image = "/interface/controlsgui/body.png",
+    --   position = {0, 0},
+    --   fullbright = true
+    -- }, "ForegroundTile-50"})
+    -- localanimator("addDrawable", {{
+    --   poly = {{100, -100}, {100, 100}, {-100, 100}, {-100, -100}},
+    --   position = {0, 0},
+    --   color = {10, 10, 10, math.min(255, 255 * (math.abs(mcontroller.xVelocity() - 30) / 60))},
+    --   fullbright = true
+    -- }, "BackgroundTile-99"})
+    -- localanimator("addDrawable", {{
+    --   image = "/cinematics/starfield0.png",
+    --   color = {255, 255, 255, math.min(255, 255 * (math.abs(mcontroller.xVelocity() - 30) / 100))},
+    --   position = {math.sin(os.clock() / 2) * 20, 0},
+    --   rotation = -math.sin(os.clock() / 4),
+    --   fullbright = true
+    -- }, "BackgroundTile-97"})
+    -- for i = 1, 3 do
+    --   localanimator("addDrawable", {{
+    --     image = "/cinematics/glitters.png?hueshift=" .. 100,
+    --     color = {255, 255, 255, math.min(255, 255 * (math.abs(mcontroller.xVelocity() - 30) / 200))},
+    --     position = {math.sin(os.clock() / i) * (50 / i), math.cos(os.clock() / i) * 0},
+    --     rotation = math.sin(os.clock() / -i) * 2,
+    --     fullbright = true
+    --   }, "BackgroundTile-97"})
+    -- end
+    -- if mcontroller.xVelocity() > 30 then
+    --   localanimator("clearLightSources")
+
+    --   localanimator("addLightSource", {{
+    --     position = mcontroller.position(),
+    --     color = {math.random(255), math.random(255), math.random(255)},
+    --     beamAmbiance = 10
+    --   }})
+    -- end
   end
 
   if self.controls.up and self.controls.special1 then
@@ -1001,7 +1059,19 @@ end
 -- Draw and handle GUI
 
 function drawGUI()
+  -- local pos = mcontroller.position()
+  -- localanimator("spawnParticle", {{
+  --   type = "text",
+  --   text = "{ " .. math.ceil(pos[1]) .. ", " .. math.ceil(pos[2])  .. " }",
+  --   fullbright = true,
+  --   position = {0, 4},
+  --   size = 0.5,
+  --   layer = "front",
+  --   color = {255, 150, 0, 255},
+  --   timeToLive = 0
+  -- }, mcontroller.position()})
   if self.isGUIOpen then
+    -- if false then
     local speed = math.ceil(mcontroller.xVelocity() * self.facingDirection)
     if not self.isActivated then speed = "^shadow;^red;off" end
     if self.guiButtons["radio"].enabled then drawRadioGUI() end
@@ -1219,6 +1289,7 @@ function updateDamage()
     animator.playSound("explode")
     animator.stopAllSounds("engineLoop")
     animator.stopAllSounds("engineLoopDamaged")
+    self.isGUIOpen = false
 
     local projectileConfig = {
       damageTeam = {
